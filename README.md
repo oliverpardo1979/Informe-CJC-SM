@@ -8,6 +8,8 @@ El argumento propone un ajuste del mínimo de 2027 cercano a la inflación de 20
 
 Compilar `main.tex` en Overleaf o con `tectonic main.tex`. Se conserva la portada, el logo, las márgenes, la tipografía y los encabezados del informe CJC sobre propuestas para el PND.
 
+La cursiva se reserva para usos que aporten información, como distinguir títulos de obras en las referencias y la notación matemática convencional. La portada, los encabezados y la nota de uso de IA se presentan en letra redonda.
+
 ## Cálculos
 
 `data/series_2021_2025.csv` contiene los insumos y los índices sin redondear. `data/fuentes.json` identifica los anexos públicos del DANE, sus huellas SHA-256 y el alcance. El salario mínimo excluye auxilio de transporte. La figura histórica usa IPC promedio anual. El escenario de 2026 usa IPC de diciembre.
