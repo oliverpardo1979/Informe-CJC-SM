@@ -1,0 +1,49 @@
+% Formato de la serie Informes sobre la Productividad en Colombia del CJC.
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{mdframed}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\setstretch{1.15}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt}
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+  [\vspace{2pt}\hrule\vspace{4pt}]
+\titlespacing{\section}{0pt}{18pt}{8pt}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.5em}{}
+\titlespacing{\subsection}{0pt}{16pt}{8pt}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection.}{0.5em}{}
+\titlespacing{\subsubsection}{0pt}{12pt}{6pt}
+\setcounter{secnumdepth}{2}
+\hypersetup{colorlinks=true,linkcolor=blue!60!black,citecolor=blue!60!black,urlcolor=blue!60!black,
+  pdftitle={Productividad y salario mínimo},pdfauthor={Oliver Pardo}}
+\graphicspath{{Paper/figures/}}
+\newcommand{\reportseries}{Informes sobre la Productividad en Colombia}
+\newcommand{\reportseriesdesc}{Evidencia para entender y fomentar la productividad}
+% Etiqueta de edición. Sustituir cuando se asigne un número a la publicación.
+\newcommand{\reportnumber}{Primer borrador}
+\newcommand{\reporttitle}{Productividad y salario mínimo}
+\newcommand{\reportsubtitle}{Una propuesta para el ajuste de 2027}
+\newcommand{\reportauthor}{Oliver Pardo}
+\newcommand{\reportaffiliation}{Centro Javeriano de Competitividad\\Pontificia Universidad Javeriana}
+\newcommand{\reportdate}{29 de octubre de 2026}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize \textit{Centro Javeriano de Competitividad}}
+\fancyhead[R]{\footnotesize \reportnumber}
+\cfoot{\thepage}
+\setlength{\headheight}{14pt}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\refname}{Referencias}
+
+\usepackage{booktabs,tabularx,array,amsmath,float,caption}
+\captionsetup{font=small,labelfont=bf}
+\renewcommand{\tablename}{Cuadro}
+\newcommand{\fuente}[1]{\par{\footnotesize #1\par}}

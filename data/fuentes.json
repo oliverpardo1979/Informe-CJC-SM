@@ -1,0 +1,17 @@
+{
+  "fecha_corte": "2026-10-29",
+  "base_indices": 2021,
+  "salario": "Mensual legal, sin auxilio de transporte",
+  "ipc": "Nacional, base diciembre de 2018 = 100. Índices publicados redondeados a dos decimales",
+  "productividad": "Enfoque de valor agregado. Cuadros 1 y 2, publicación 31-03-2026. 2024 provisional, 2025 preliminar",
+  "fuentes": [
+    {
+      "url": "https://www.dane.gov.co/files/operaciones/IPC/dic2025/anex-IPC-Indices-dic2025.xlsx",
+      "sha256": "0cff703dc825d28d0114bb013c676ca12d882008a67010465f2b998499bd4c40"
+    },
+    {
+      "url": "https://www.dane.gov.co/files/operaciones/PTF/anex-PTF-ProductividadLaboral-2025.xlsx",
+      "sha256": "b621fcb020a2c7b0dad1adb7f30e31ed5d3b1950a4a3b3fe86cdd090fc2027e3"
+    }
+  ]
+}
