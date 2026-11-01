@@ -44,6 +44,5 @@ for key,color,label,sub in series:
     c.setFont('Helvetica',12);c.drawString(right+13,yy(end)-9,label)
     if sub:c.drawString(right+13,yy(end)-24,sub)
 c.setDash();c.setFont('Helvetica',9);c.setFillColor(HexColor('#384858'))
-c.drawString(left,18,'Fuente: DANE y montos legales del salario mínimo. Cálculos del CJC. 2025 preliminar.')
 c.showPage();c.save()
 print(json.dumps({'figura':str(target),'aumento_real_2026_pi_6_9':100*(1.23/1.069-1),'minimo_2027_7_por_ciento':1750905*1.07},indent=2))

@@ -1,19 +1,37 @@
 \appendix
-\section{Medición y alcance}
+\section{Fuentes y criterios de medición}
 
-\textbf{Revisión bibliográfica y comparación internacional.} Se retoma el marco de Orozco (2026a). El cuadro presenta seis casos seleccionados con sus fuentes oficiales y distingue metodologías, decisiones y ámbitos de cobertura. No estima la frecuencia de los mecanismos en el continente ni sus efectos causales.
+El análisis utiliza el salario mínimo básico mensual, sin auxilio de transporte, el IPC nacional y la productividad laboral del DANE con enfoque de valor agregado. El corte macroeconómico es el 29 de octubre de 2026. La productividad de 2024 es provisional y la de 2025, preliminar.\cite{ipc,productividad,salarios,decreto2026}
 
-\textbf{Salario mínimo.} Se utiliza el salario básico mensual legal sin auxilio de transporte. Los valores son \$908.526 en 2021, \$1.000.000 en 2022, \$1.160.000 en 2023, \$1.300.000 en 2024, \$1.423.500 en 2025 y \$1.750.905 en 2026. No se interpretan como ingreso laboral total, salario medio o costo completo del empleador.
+El salario real histórico se calcula con el IPC promedio anual; los escenarios de cierre utilizan el IPC de diciembre. Los índices tienen base 2021 igual a 100 y acumulan las variaciones de 2022 a 2025 mediante factores de crecimiento. La variación real se obtiene como $(1+g)/(1+\pi)-1$, donde $g$ es el aumento nominal y $\pi$ la inflación del mismo periodo. Así, el aumento de 23\% de 2026 equivale a una mejora real de 15,1\% si la inflación cierra en 6,9\%.
 
-\textbf{Precios.} Se utiliza la serie nacional empalmada del IPC del DANE, base diciembre de 2018 igual a 100, descargada de la publicación de diciembre de 2025. El deflactor del salario real promedio es la media aritmética de los doce índices mensuales de cada año. El deflactor del salario real de diciembre es el índice de ese mes. Los índices publicados tienen dos decimales, lo que limita la precisión del cálculo.
+\begin{table}[H]
+\centering\small
+\caption{Cambios anuales del salario mínimo y la productividad (\%)}
+\label{tab:anual}
+\begin{tabular}{lrrrrr}
+\toprule
+& Mínimo & \multicolumn{2}{c}{Mínimo real} & \multicolumn{2}{c}{Productividad}\\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+Año & nominal & Promedio & Diciembre & Por hora & Por persona\\
+\midrule
+2022 & 10,07 & -0,10 & -2,70 & -0,28 & -2,20 \\
+2023 & 16,00 & 3,82 & 6,15 & -1,10 & -2,49 \\
+2024 & 12,07 & 5,12 & 6,53 & 2,23 & 0,55 \\
+2025 & 9,50 & 4,14 & 4,19 & 0,40 & -0,56 \\
+\bottomrule
+\end{tabular}
+\fuente{Fuente: DANE y normativa salarial. Cálculos del Centro Javeriano de Competitividad.}
+\end{table}
 
-\textbf{Productividad.} Las tasas de productividad laboral por hora y por persona empleada provienen de los cuadros 1 y 2 del anexo del DANE publicado el 31 de marzo de 2026. Se utiliza el enfoque de valor agregado y se encadenan las tasas desde 2022 para construir índices con base 2021 igual a 100. No se suman tasas anuales ni se sustituye productividad laboral por productividad total de los factores. Las cifras de 2024 son provisionales y las de 2025 preliminares.
+La distribución por edad utiliza GEIH 2025, con ponderadores de expansión, para asalariados de 15 años o más con ingreso positivo del empleo principal. Se comparan los grupos de 15--24 años y 25 años o más; el subconjunto de jornadas habituales de al menos 40 horas no identifica formalidad. Las curvas se estiman con un kernel gaussiano sobre el logaritmo del salario y ancho de banda de 0,09.\cite{orozcoGEIH}
 
-\textbf{Fórmulas.} Para cada deflactor $P_t$, el salario real es $SM_t/P_t$. El crecimiento acumulado entre 2021 y 2025 es $(SM_{2025}/SM_{2021})/(P_{2025}/P_{2021})-1$. La productividad acumulada se calcula como $\prod_{t=2022}^{2025}(1+g_t)-1$. Todas las tasas $g_t$ entran en proporciones. Las tasas se mantienen sin redondear hasta obtener el resultado final.
+La banda alrededor del mínimo comprende $\pm3\%$ del valor legal. Las categorías del Cuadro \ref{tab:edad} se superponen y no deben sumarse. Los resultados son descriptivos; no estiman efectos causales ni permiten identificar incumplimiento a partir del ingreso mensual.
 
-\textbf{Escenario de 2026.} La ganancia real de cierre es $1,23/(1+\pi_{2026})-1$. Se muestran supuestos de inflación entre 6,7\% y 7,0\%. Ninguno constituye una observación del IPC de diciembre de 2026. No se agrega una proyección de productividad anual, ni se trata una simulación de enero a septiembre como un resultado de todo el año.
+La serie nominal de 2014--2026 se construye con los montos legales. Para 2027 se aplica un ajuste de 7\% al salario básico de 2026; el resultado se redondea al peso. El Cuadro \ref{tab:escenarios} presenta los escenarios alternativos.\cite{salarioHistorico,salarios,decreto2026}
 
-\textbf{Interpretación de la propuesta.} El 7\% es un techo provisional compatible con las proyecciones consultadas y con la decisión de evitar otra ganancia real importante. La comparación agregada no identifica efectos causales, productividad individual, costos laborales unitarios o el nivel adecuado del mínimo. El porcentaje recomendado debe revisarse si cambia la inflación esperada o se conoce nueva evidencia que modifique el diagnóstico.
+\input{Paper/sections/CuadroEscenarios}
 
-\textbf{Fecha de corte.} La información se consultó hasta el 29 de octubre de 2026. Los cálculos y la figura se acompañan de una serie reproducible en el repositorio del informe.
-\clearpage
+\input{Paper/sections/CuadroEdad}
+
+\input{Paper/sections/Criterios}

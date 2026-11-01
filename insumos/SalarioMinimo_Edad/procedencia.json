@@ -1,0 +1,46 @@
+{
+  "origen": "C:\\Users\\jorge\\Documents\\Trabajo-Profesional\\Javeriana\\SalarioMinimo_Edad",
+  "fecha_copia": "2026-11-01",
+  "archivos": [
+    {
+      "archivo": "Boletin_2027/Boletin_salario_minimo_2027.docx",
+      "bytes": 406960,
+      "sha256": "45ec2a39104d0be7bd1a2dbce61f07e83eaa03d9758a547f2a5f2b944f03f7cc"
+    },
+    {
+      "archivo": "Boletin_2027/crear_boletin.py",
+      "bytes": 24137,
+      "sha256": "dceb139525b4f244ed47633401157f8532c36f594c669591a257aef83598ab22"
+    },
+    {
+      "archivo": "Boletin_2027/figura_1.png",
+      "bytes": 49579,
+      "sha256": "38236d4587344c9106c768c54fcf53f186793626301aec6da929400458348c1d"
+    },
+    {
+      "archivo": "Boletin_2027/figura_3.png",
+      "bytes": 40860,
+      "sha256": "335eeb16ec1f2c1b298b3ff5b71140639c6e0e421af5d7dfa89781706d7b11b6"
+    },
+    {
+      "archivo": "Code/01_kernel_salarios_por_edad.py",
+      "bytes": 12237,
+      "sha256": "8618bd13f55f7e954ed33140095721743e12ae4066a2b7c3570850c6f5178090"
+    },
+    {
+      "archivo": "Outputs/Figures/fig_kernel_salario_edad_2025.png",
+      "bytes": 303886,
+      "sha256": "ddb7b0b7af2126f946f9a153db0ace715a958323ff27ed63e56e4c9b6bea0616"
+    },
+    {
+      "archivo": "Outputs/Figures/fig_kernel_salario_edad_multiplos_2022_2026.png",
+      "bytes": 242817,
+      "sha256": "99f0e7cae37420cae90c469b483d2a08e234f1dade6174484ec88c3ce32f23ac"
+    },
+    {
+      "archivo": "Outputs/tables/estadisticas_salario_por_edad.csv",
+      "bytes": 2609,
+      "sha256": "d4204b4f3dd8213c49d03d99488cec0057f8ebc00875f993043d22d77e28a525"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "origen": "C:\\Users\\jorge\\Documents\\Trabajo-Profesional\\Javeriana\\PTF",
+  "archivos": [
+    {
+      "archivo": "Code/17_Figuras_series_simulacion_2026.py",
+      "sha256": "024c4868f7c3bfbcd3474ff6d059e09f6689e50c5ff7fa1e8e6db0717726c554"
+    },
+    {
+      "archivo": "Outputs/tables/indice_salario_minimo_real_productividad_2010_2025.csv",
+      "sha256": "ccc62e192a7f2a17ef85a86fc59217ddc585058892c94100bba4516b4216ce6f"
+    },
+    {
+      "archivo": "Outputs/Figures/fig_serie_salario_minimo_2027.png",
+      "sha256": "53fe73313a4728651fd021b374f678860a570fbe7c370c1214b3b4ec9099c3a0"
+    },
+    {
+      "archivo": "Outputs/Figures/fig_serie_salario_minimo_pesos_2027.png",
+      "sha256": "d5250561b7f7dc43a6e7013facc2fc2517cf66f81fc619024517d7560876a56e"
+    }
+  ],
+  "uso": "Antecedentes de las series. Los supuestos de simulación y propuestas de terceros no se usan en la nueva figura."
+}

@@ -1,0 +1,29 @@
+{
+  "anio": 2025,
+  "salario_minimo": 1423500,
+  "ancho_banda_log": 0.09,
+  "normalizacion": "Masa dentro de rejilla 150.000 a 9.000.000; mismo método del gráfico original.",
+  "fuente": "DANE, GEIH 2025. Cálculos del Centro Javeriano de Competitividad.",
+  "grupos": {
+    "todos_joven": {
+      "muestra": 25070,
+      "mediana": 1423500.0,
+      "alrededor_minimo": 30.17223347848141
+    },
+    "todos_mayor": {
+      "muestra": 163358,
+      "mediana": 1500000.0,
+      "alrededor_minimo": 26.222407330596866
+    },
+    "40h_joven": {
+      "muestra": 21266,
+      "mediana": 1423500.0,
+      "alrededor_minimo": 34.78785003018383
+    },
+    "40h_mayor": {
+      "muestra": 148967,
+      "mediana": 1500000.0,
+      "alrededor_minimo": 28.27947416919604
+    }
+  }
+}

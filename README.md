@@ -1,5 +1,9 @@
 # Productividad y salario mínimo
 
+## Revisión del 1 de noviembre de 2026
+
+Ver `REVISION_CRITICA.md` para hallazgos, cambios y verificaciones pendientes. Se incorporó un cuadro de distribución salarial por edad con GEIH 2025 y sus límites de interpretación. Los ocho insumos originales de Javeriana están en `insumos/SalarioMinimo_Edad`, con manifiesto SHA-256 y dependencias documentadas. `python scripts/integrar_revision.py` reproduce el cuadro a partir del CSV importado; no reestima microdatos. El corte macroeconómico del cuerpo sigue siendo el 29 de octubre.
+
 Primer borrador del Centro Javeriano de Competitividad, con corte al 29 de octubre de 2026.
 
 El argumento propone un ajuste del mínimo de 2027 cercano a la inflación de 2026, con un techo provisional de 7% bajo las proyecciones disponibles. Distingue resultados históricos, escenarios y recomendaciones.
@@ -11,6 +15,10 @@ Compilar `main.tex` en Overleaf o con `tectonic main.tex`. Se conserva la portad
 La cursiva se reserva para usos que aporten información, como distinguir títulos de obras en las referencias y la notación matemática convencional. La portada, los encabezados y la nota de uso de IA se presentan en letra redonda.
 
 ## Cálculos
+
+`python scripts/figura_serie_minimo.py` reproduce la figura de salario nominal y variaciones anuales con el escenario de 7% para 2027. Los antecedentes de Javeriana están en `insumos/PTF_series` y la serie resultante en `data/serie_nominal_2014_2027.csv`. El script usa los archivos locales importados después de la primera copia. Genera PDF vectorial y PNG en `Paper/figures`; no utiliza los supuestos de simulación ni las propuestas de terceros de los gráficos originales.
+
+La figura de distribución salarial por edad se genera con `python scripts/figura_edad.py`. Incluye una caché agregada de densidades, sin microdatos personales. Para recalcular desde GEIH 2025 en la base local, usar `python scripts/figura_edad.py --recalcular`; `--microdatos` permite indicar otra ruta al archivo consolidado. Requiere numpy, pandas, matplotlib y pyreadstat. Genera PDF vectorial y PNG de 300 ppp en `Paper/figures`. El método de suavizado reproduce el original; la normalización corresponde a la masa dentro del rango de estimación. Las medianas, los tamaños de muestra y las proporciones alrededor del mínimo se contrastan con el CSV de Javeriana al recalcular.
 
 `data/series_2021_2025.csv` contiene los insumos y los índices sin redondear. `data/fuentes.json` identifica los anexos públicos del DANE, sus huellas SHA-256 y el alcance. El salario mínimo excluye auxilio de transporte. La figura histórica usa IPC promedio anual. El escenario de 2026 usa IPC de diciembre.
 
