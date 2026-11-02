@@ -1,0 +1,243 @@
+[
+  {
+    "anio": 2021,
+    "archivo": "GEIH_2021_total.dta",
+    "bytes": 4203090540,
+    "registros_archivo": 942977,
+    "etiqueta_archivo": null,
+    "variables": {
+      "MES": "mes",
+      "P6500": "ingreso",
+      "P6800": "horas",
+      "FEX_C18": "peso",
+      "P6040": "edad",
+      "P6430": "posicion",
+      "OCI": "ocupado"
+    },
+    "variables_compatibles_marco_2018": [
+      "P3042",
+      "P3043",
+      "P3038",
+      "P3039",
+      "FEX_C18",
+      "OFICIO_C8",
+      "OFICIO_C8_2D"
+    ],
+    "meses_presentes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "missing_user_values": {},
+    "missing_ranges": {}
+  },
+  {
+    "anio": 2022,
+    "archivo": "GEIH_2022_total.dta",
+    "bytes": 1505794534,
+    "registros_archivo": 919459,
+    "etiqueta_archivo": null,
+    "variables": {
+      "MES": "mes",
+      "P6500": "ingreso",
+      "P6800": "horas",
+      "FEX_C18": "peso",
+      "EDAD": "edad",
+      "P6430": "posicion",
+      "OCI": "ocupado"
+    },
+    "variables_compatibles_marco_2018": [
+      "FEX_C18",
+      "P3043",
+      "P3038",
+      "P3039",
+      "OFICIO_C8",
+      "OFICIO_C8_2D"
+    ],
+    "meses_presentes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "missing_user_values": {},
+    "missing_ranges": {}
+  },
+  {
+    "anio": 2023,
+    "archivo": "GEIH_2023_total.dta",
+    "bytes": 3384902099,
+    "registros_archivo": 860802,
+    "etiqueta_archivo": null,
+    "variables": {
+      "MES": "mes",
+      "P6500": "ingreso",
+      "P6800": "horas",
+      "FEX_C18": "peso",
+      "P6040": "edad",
+      "P6430": "posicion",
+      "OCI": "ocupado"
+    },
+    "variables_compatibles_marco_2018": [
+      "FEX_C18",
+      "P3042",
+      "P3043",
+      "P3038",
+      "P3039",
+      "OFICIO_C8",
+      "OFICIO_C8_2D"
+    ],
+    "meses_presentes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "missing_user_values": {},
+    "missing_ranges": {}
+  },
+  {
+    "anio": 2024,
+    "archivo": "GEIH_2024_total.dta",
+    "bytes": 2573900181,
+    "registros_archivo": 829683,
+    "etiqueta_archivo": null,
+    "variables": {
+      "MES": "mes",
+      "P6500": "ingreso",
+      "P6800": "horas",
+      "FEX_C18": "peso",
+      "P6040": "edad",
+      "P6430": "posicion",
+      "OCI": "ocupado"
+    },
+    "variables_compatibles_marco_2018": [
+      "FEX_C18",
+      "P3042",
+      "P3043",
+      "P3038",
+      "P3039",
+      "OFICIO_C8",
+      "OFICIO_C8_2D"
+    ],
+    "meses_presentes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "missing_user_values": {},
+    "missing_ranges": {}
+  },
+  {
+    "anio": 2025,
+    "archivo": "GEIH_2025_total.dta",
+    "bytes": 2533803925,
+    "registros_archivo": 817550,
+    "etiqueta_archivo": null,
+    "variables": {
+      "MES": "mes",
+      "P6500": "ingreso",
+      "P6800": "horas",
+      "FEX_C18": "peso",
+      "P6040": "edad",
+      "P6430": "posicion",
+      "OCI": "ocupado"
+    },
+    "variables_compatibles_marco_2018": [
+      "FEX_C18",
+      "P3042",
+      "P3043",
+      "P3038",
+      "P3039",
+      "OFICIO_C8",
+      "OFICIO_C8_2D"
+    ],
+    "meses_presentes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "missing_user_values": {},
+    "missing_ranges": {}
+  },
+  {
+    "anio": 2026,
+    "archivo": "GEIH_2026_total.dta",
+    "bytes": 1836669570,
+    "registros_archivo": 533851,
+    "etiqueta_archivo": "GEIH 2026 enero-agosto: Caracteristicas + No ocupados + Fuerza de trabajo + Ocup",
+    "variables": {
+      "MES": "mes",
+      "P6500": "ingreso",
+      "P6800": "horas",
+      "FEX_C18": "peso",
+      "P6040": "edad",
+      "P6430": "posicion",
+      "OCI": "ocupado"
+    },
+    "variables_compatibles_marco_2018": [
+      "FEX_C18",
+      "P3042",
+      "P3043",
+      "P3038",
+      "P3039",
+      "OFICIO_C8",
+      "OFICIO_C8_2D"
+    ],
+    "meses_presentes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "missing_user_values": {},
+    "missing_ranges": {}
+  }
+]
