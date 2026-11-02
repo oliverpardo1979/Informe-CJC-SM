@@ -1,11 +1,10 @@
-\appendix
 \section{Fuentes y criterios de medición}
 
 El análisis utiliza el salario mínimo básico mensual, sin auxilio de transporte, el IPC nacional y la productividad laboral del DANE con enfoque de valor agregado. Esta edición incorpora consultas normativas y el comunicado monetario disponibles al 2 de noviembre de 2026. Los pronósticos se identifican por entidad y fecha. La productividad de 2024 es provisional y la de 2025, preliminar.\cite{ipc,productividad,salarios,decreto1469,juntaOctubre}
 
 \subsection{Salario medio y selección de observaciones}
 
-El Cuadro \ref{tab:minimo-media} utiliza tabulados del CJC de 2022--2026. El código selecciona ocupados de 15 años o más, con ponderador positivo, P6430 igual a 1, 2, 3 o 7 e ingreso P6500 positivo. P6500 mide el salario monetario mensual del empleo principal antes de descuentos, con propinas y comisiones, sin subsidios, viáticos ni pagos en especie. Es distinto del ingreso laboral total, que incluye otros conceptos.\cite{geihSalario,geihTabulados}
+El cuadro de salario mínimo y salario medio del informe utiliza tabulados del CJC de 2022--2026. El código selecciona ocupados de 15 años o más, con ponderador positivo, P6430 igual a 1, 2, 3 o 7 e ingreso P6500 positivo. P6500 mide el salario monetario mensual del empleo principal antes de descuentos, con propinas y comisiones, sin subsidios, viáticos ni pagos en especie. Es distinto del ingreso laboral total, que incluye otros conceptos.\cite{geihSalario,geihTabulados}
 
 La media se obtiene ponderando las medias por edad por sus poblaciones expandidas, no por los tamaños de muestra. El CSV redondea esas poblaciones a 0,01 millones. Su efecto sobre la media es inferior a mil pesos por celda y se publican aproximaciones a 0,01 millones de pesos. El repositorio conserva los cálculos y los límites por redondeo, que no son intervalos de confianza.
 
@@ -15,7 +14,9 @@ Las cifras son provisionales. El filtro positivo de origen no excluye explícita
 
 No se imputa 2021. Su incorporación requiere identificar el marco muestral de ese año de transición. Para comparar 2026 deben recalcularse enero--agosto de los años previos. Los cambios de la media también reflejan composición de los asalariados y no identifican productividad individual ni efectos causales.
 
-El salario real histórico se calcula con el IPC promedio anual; los escenarios de cierre utilizan el IPC de diciembre. Los índices tienen base 2021 igual a 100 y acumulan las variaciones de 2022 a 2025 mediante factores de crecimiento. La variación real se obtiene como $(1+g)/(1+\pi)-1$, donde $g$ es el aumento nominal y $\pi$ la inflación del mismo periodo. Así, el aumento de 23\% de 2026 equivale a una mejora real de 15,1\% si la inflación cierra en 6,9\%.
+\subsection{Salario real y productividad}
+
+El salario real histórico se calcula con el IPC promedio anual. Los escenarios de cierre utilizan el IPC de diciembre. Los índices tienen base 2021 igual a 100 y acumulan las variaciones de 2022 a 2025 mediante factores de crecimiento. La variación real se obtiene como $(1+g)/(1+\pi)-1$, donde $g$ es el aumento nominal y $\pi$ la inflación del mismo periodo. Así, el aumento de 23\% de 2026 equivale a una mejora real de 15,1\% si la inflación cierra en 6,9\%.
 
 \begin{table}[H]
 \centering\small
@@ -36,14 +37,25 @@ Año & nominal & Promedio & Diciembre & Por hora & Por persona\\
 \fuente{Fuente: DANE y normativa salarial. Cálculos del Centro Javeriano de Competitividad.}
 \end{table}
 
-La distribución por edad utiliza GEIH 2025, con ponderadores de expansión, para asalariados de 15 años o más con ingreso positivo del empleo principal. Se comparan los grupos de 15--24 años y 25 años o más; el subconjunto de jornadas habituales de al menos 40 horas no identifica formalidad. Las curvas se estiman con un kernel gaussiano sobre el logaritmo del salario y ancho de banda de 0,09.\cite{orozcoGEIH}
+\subsection{Distribución salarial por edad}
 
-La banda alrededor del mínimo comprende $\pm3\%$ del valor legal. Las categorías del Cuadro \ref{tab:edad} se superponen y no deben sumarse. Los resultados son descriptivos; no estiman efectos causales ni permiten identificar incumplimiento a partir del ingreso mensual.
+La distribución por edad utiliza GEIH 2025, con ponderadores de expansión, para asalariados de 15 años o más con ingreso positivo del empleo principal. Se comparan los grupos de 15--24 años y 25 años o más. El subconjunto de jornadas habituales de al menos 40 horas no identifica formalidad. Las curvas se estiman con un kernel gaussiano sobre el logaritmo del salario y ancho de banda de 0,09.\cite{orozcoGEIH}
 
-La serie nominal de 2014--2026 se construye con los montos legales. Para 2027 se aplica un ajuste de 7\% al salario básico de 2026; el resultado se redondea al peso. El Cuadro \ref{tab:escenarios} presenta los escenarios alternativos.\cite{salarioHistorico,salarios,decreto2026}
-
-\input{Paper/sections/CuadroEscenarios}
+La banda alrededor del mínimo comprende $\pm3\%$ del valor legal. Las categorías del Cuadro \ref{tab:edad} se superponen y no deben sumarse. Los resultados son descriptivos. No estiman efectos causales ni permiten identificar incumplimiento a partir del ingreso mensual.
 
 \input{Paper/sections/CuadroEdad}
 
-\input{Paper/sections/Criterios}
+\subsection{Escenarios nominales}
+
+La serie nominal de 2014--2026 se construye con los montos legales. Para 2027 se aplica un ajuste de 7\% al salario básico de 2026. El resultado se redondea al peso. El Cuadro \ref{tab:escenarios} presenta los escenarios alternativos.\cite{salarioHistorico,salarios,decreto2026}
+
+
+\input{Paper/sections/CuadroEscenarios}
+
+
+
+\subsection{Alcance de las cifras fiscales}
+
+El Cuadro de canales fiscales del informe conserva el año, el escenario de comparación y el carácter preliminar de las estimaciones del CARF. No se suman esas cifras a los requerimientos de financiación del MFMP, que corresponden a proyecciones y escenarios distintos. La simulación de un punto adicional de crecimiento anual del mínimo no estima el efecto de un aumento aislado en 2027. Tampoco se divide el costo estimado del aumento de 2026 por sus puntos de incremento para obtener una elasticidad fiscal.\cite{carf22,mfmp2026}
+
+Las cifras sobre Colpensiones provienen de las páginas 60--61 y 164--166 del MFMP. Su escenario de referencia incorpora un deslizamiento del mínimo de 2,46\%, definido como el crecimiento por encima del IPC y documentado en la página 125. Las proyecciones mantienen los supuestos del documento de junio. No constituyen una actualización actuarial propia del CJC.
