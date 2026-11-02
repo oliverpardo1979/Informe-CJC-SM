@@ -1,7 +1,19 @@
 \appendix
 \section{Fuentes y criterios de medición}
 
-El análisis utiliza el salario mínimo básico mensual, sin auxilio de transporte, el IPC nacional y la productividad laboral del DANE con enfoque de valor agregado. El corte macroeconómico es el 29 de octubre de 2026. La productividad de 2024 es provisional y la de 2025, preliminar.\cite{ipc,productividad,salarios,decreto2026}
+El análisis utiliza el salario mínimo básico mensual, sin auxilio de transporte, el IPC nacional y la productividad laboral del DANE con enfoque de valor agregado. Esta edición incorpora consultas normativas y el comunicado monetario disponibles al 2 de noviembre de 2026. Los pronósticos se identifican por entidad y fecha. La productividad de 2024 es provisional y la de 2025, preliminar.\cite{ipc,productividad,salarios,decreto1469,juntaOctubre}
+
+\subsection{Salario medio y selección de observaciones}
+
+El Cuadro \ref{tab:minimo-media} utiliza tabulados del CJC de 2022--2026. El código selecciona ocupados de 15 años o más, con ponderador positivo, P6430 igual a 1, 2, 3 o 7 e ingreso P6500 positivo. P6500 mide el salario monetario mensual del empleo principal antes de descuentos, con propinas y comisiones, sin subsidios, viáticos ni pagos en especie. Es distinto del ingreso laboral total, que incluye otros conceptos.\cite{geihSalario,geihTabulados}
+
+La media se obtiene ponderando las medias por edad por sus poblaciones expandidas, no por los tamaños de muestra. El CSV redondea esas poblaciones a 0,01 millones. Su efecto sobre la media es inferior a mil pesos por celda y se publican aproximaciones a 0,01 millones de pesos. El repositorio conserva los cálculos y los límites por redondeo, que no son intervalos de confianza.
+
+La referencia mantiene todas las jornadas y a los asalariados formales e informales. Excluir ingresos inferiores al mínimo seleccionaría la muestra con el propio indicador que se compara. La media alternativa aplica el umbral habitual de 40 horas del insumo juvenil. Ese umbral no sigue las reducciones legales de jornada ni equivale a una comparación por hora.
+
+Las cifras son provisionales. El filtro positivo de origen no excluye explícitamente las respuestas especiales 98 y 99 de P6500. Antes de cerrar el cuadro deben verificarse esos códigos, los faltantes, los extremos y los pesos mensuales en los microdatos. La estimación principal conservará salarios válidos inferiores al mínimo y documentará la sensibilidad a extremos, sin recortes arbitrarios.
+
+No se imputa 2021. Su incorporación requiere identificar el marco muestral de ese año de transición. Para comparar 2026 deben recalcularse enero--agosto de los años previos. Los cambios de la media también reflejan composición de los asalariados y no identifican productividad individual ni efectos causales.
 
 El salario real histórico se calcula con el IPC promedio anual; los escenarios de cierre utilizan el IPC de diciembre. Los índices tienen base 2021 igual a 100 y acumulan las variaciones de 2022 a 2025 mediante factores de crecimiento. La variación real se obtiene como $(1+g)/(1+\pi)-1$, donde $g$ es el aumento nominal y $\pi$ la inflación del mismo periodo. Así, el aumento de 23\% de 2026 equivale a una mejora real de 15,1\% si la inflación cierra en 6,9\%.
 

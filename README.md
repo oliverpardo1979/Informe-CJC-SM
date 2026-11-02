@@ -4,7 +4,7 @@
 
 Ver `REVISION_CRITICA.md` para hallazgos, cambios y verificaciones pendientes. Se incorporó un cuadro de distribución salarial por edad con GEIH 2025 y sus límites de interpretación. Los ocho insumos originales de Javeriana están en `insumos/SalarioMinimo_Edad`, con manifiesto SHA-256 y dependencias documentadas. `python scripts/integrar_revision.py` reproduce el cuadro a partir del CSV importado; no reestima microdatos. El corte macroeconómico del cuerpo sigue siendo el 29 de octubre.
 
-Primer borrador del Centro Javeriano de Competitividad, con corte al 29 de octubre de 2026.
+Primer borrador del Centro Javeriano de Competitividad. Edición del 2 de noviembre de 2026, con pronósticos identificados por fecha y actualización normativa y monetaria hasta esa fecha.
 
 El argumento propone un ajuste del mínimo de 2027 cercano a la inflación de 2026, con un techo provisional de 7% bajo las proyecciones disponibles. Distingue resultados históricos, escenarios y recomendaciones.
 
@@ -15,6 +15,8 @@ Compilar `main.tex` en Overleaf o con `tectonic main.tex`. Se conserva la portad
 La cursiva se reserva para usos que aporten información, como distinguir títulos de obras en las referencias y la notación matemática convencional. La portada, los encabezados y la nota de uso de IA se presentan en letra redonda.
 
 ## Cálculos
+
+`python scripts/cuadro_salarios_medios.py` reproduce el cuadro introductorio de SMLMV y salario medio desde el CSV de Jorge por edad. Usa poblaciones expandidas, no tamaños muestrales. Deposita `data/smlmv_salario_medio_geih.csv`, sus límites de redondeo y `data/smlmv_salario_medio_procedencia.json`. Es una aproximación a partir de tabulados, no una nueva estimación de microdatos. Falta 2021 y 2026 cubre enero–agosto. Las cifras quedan provisionales hasta revisar no respuesta y completar ventanas equivalentes con los microdatos. La segunda media conserva el filtro de jornada habitual ≥40 horas como sensibilidad.
 
 `python scripts/figura_serie_minimo.py` reproduce la figura de salario nominal y variaciones anuales con el escenario de 7% para 2027. Los antecedentes de Javeriana están en `insumos/PTF_series` y la serie resultante en `data/serie_nominal_2014_2027.csv`. El script usa los archivos locales importados después de la primera copia. Genera PDF vectorial y PNG en `Paper/figures`; no utiliza los supuestos de simulación ni las propuestas de terceros de los gráficos originales.
 

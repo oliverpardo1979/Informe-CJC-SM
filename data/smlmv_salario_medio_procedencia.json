@@ -1,0 +1,15 @@
+{
+  "fuente": "insumos\\SalarioMinimo_Edad\\Outputs\\tables\\estadisticas_salario_por_edad.csv",
+  "sha256": "63b6bb3b2f1648cb13d40a7bf18f787cdf97d7425ac6bcc5b6446b38f3d26f57",
+  "formula": "sum(media_grupo * poblacion_expandida_grupo) / sum(poblacion_expandida_grupo)",
+  "precision_fuente_poblacion_millones": 0.01,
+  "precision_publicada_media_millones_pesos": 0.01,
+  "comprobacion": "La desviación máxima por redondeo de los pesos es inferior a 1.000 pesos en cada celda. Se publica una aproximación a decenas de miles de pesos.",
+  "limites": [
+    "No es una reestimación de los microdatos.",
+    "Sin 2021.",
+    "2026 enero-agosto, sin ventana equivalente previa.",
+    "El insumo filtra P6500>0, sin exclusión explícita de códigos 98 y 99.",
+    "Los límites por redondeo no son intervalos de confianza."
+  ]
+}

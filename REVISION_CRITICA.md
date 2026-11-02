@@ -1,5 +1,13 @@
 # Revisión crítica del boletín para la discusión del mínimo de 2027
 
+## Edición del 2 de noviembre de 2026
+
+Se revisó e incorporó el commit 0294f97 antes de editar. Se conservan sus figuras, evidencia juvenil, autoría y reorganización. La introducción ahora explica el artículo 8 de la Ley 278, la Sentencia C-815 de 1999 y las negociaciones desde diciembre de 2021. Distingue inflación del año que termina, meta del siguiente y pronóstico. Se contrastó el antecedente de 2024, que utiliza un pronóstico de cierre de 2023. Se incorporó el comunicado monetario del 30 de octubre y la revocatoria de la suspensión provisional del mínimo de 2026 informada por el Consejo de Estado en julio.
+
+El nuevo cuadro de SMLMV y salario medio agrega las medias por edad del CSV fuente con poblaciones expandidas. No es una nueva estimación de microdatos. El redondeo de esas poblaciones implica un error de aproximación menor a mil pesos por celda. Las diez medias se cotejaron mediante aritmética Decimal y las muestras se reconciliaron con los grupos originales. El cuadro es provisional, carece de 2021 y separa enero–agosto de 2026. Se solicitó a Jorge por WhatsApp una tabla sin redondeo, con 2021, meses equivalentes y exclusión explícita de 98/99 y otros códigos no válidos. No se atribuye una nueva validación integral a los resultados juveniles anteriores.
+
+La propuesta se formula como compensación de inflación 2026 sin puntos adicionales. Esa decisión no equivale a garantizar un salario real constante durante 2027 ni a estimar un nivel salarial óptimo. Se compiló y revisó visualmente el documento, incluidas introducción, nuevo cuadro, figuras conservadas, anexo y referencias. La paginación final evita una hoja aislada para el cuadro juvenil.
+
 ## Registro de la edición de fluidez y consistencia
 
 Actualización de la figura juvenil: se recalculó GEIH 2025 con el script `scripts/figura_edad.py`, que conserva los filtros y el método de suavizado originales. Se confirmó la cobertura de los doce meses y la coincidencia de tamaños de muestra, medianas y porcentajes alrededor del mínimo con las cuatro filas de 2025 del CSV de Javeriana. Esto actualiza el alcance de las notas anteriores sobre ausencia de reejecución: se reejecutó el cálculo de la figura de 2025, sin extenderlo a 2022–2026 ni completar una auditoría general de microdatos. Se depositan las densidades agregadas y las estadísticas de la figura en `data/`; el gráfico se publica como PDF vectorial y PNG de 300 ppp. El cuadro detallado pasa al anexo A.
