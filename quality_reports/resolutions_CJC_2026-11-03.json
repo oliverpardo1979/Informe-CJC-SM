@@ -1,0 +1,22 @@
+[
+  {
+    "locus": "convergencia_minimo_productividad",
+    "status": "corregido",
+    "verification": "Cotejo de fuente, cálculo o fixture documentado. No se modificaron muestras ni la recomendación de política."
+  },
+  {
+    "locus": "manifiesto_insumos_sin_carpeta_original",
+    "status": "corregido",
+    "verification": "Cotejo de fuente, cálculo o fixture documentado. No se modificaron muestras ni la recomendación de política."
+  },
+  {
+    "locus": "redondeo_movilidad_antioquia",
+    "status": "corregido",
+    "verification": "Cotejo de fuente, cálculo o fixture documentado. No se modificaron muestras ni la recomendación de política."
+  },
+  {
+    "locus": "comparador_fiscal_por_componente",
+    "status": "corregido",
+    "verification": "Cotejo de fuente, cálculo o fixture documentado. No se modificaron muestras ni la recomendación de política."
+  }
+]

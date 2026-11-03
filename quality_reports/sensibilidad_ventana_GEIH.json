@@ -1,0 +1,38 @@
+[
+  {
+    "anio": 2021,
+    "ventana_entrevistas": "febrero-agosto",
+    "media": 1540246.750483526,
+    "smlmv_sobre_media_pct": 58.98574366183786
+  },
+  {
+    "anio": 2022,
+    "ventana_entrevistas": "febrero-agosto",
+    "media": 1654554.0991921846,
+    "smlmv_sobre_media_pct": 60.43924465741178
+  },
+  {
+    "anio": 2023,
+    "ventana_entrevistas": "febrero-agosto",
+    "media": 1870032.2642514165,
+    "smlmv_sobre_media_pct": 62.03101530252762
+  },
+  {
+    "anio": 2024,
+    "ventana_entrevistas": "febrero-agosto",
+    "media": 2008560.9672334946,
+    "smlmv_sobre_media_pct": 64.72295445383288
+  },
+  {
+    "anio": 2025,
+    "ventana_entrevistas": "febrero-agosto",
+    "media": 2157506.528093934,
+    "smlmv_sobre_media_pct": 65.97894288911385
+  },
+  {
+    "anio": 2026,
+    "ventana_entrevistas": "febrero-agosto",
+    "media": 2580975.8451269637,
+    "smlmv_sobre_media_pct": 67.83887587734745
+  }
+]

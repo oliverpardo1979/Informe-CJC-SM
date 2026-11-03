@@ -1,0 +1,10 @@
+{
+  "commit": "6eebcf8e9e1eb92010d8c17a403ee8466dcaa4d3",
+  "files": {
+    "Paper/sections/ResumenEjecutivo.tex": "70c89b23ca4981d6e33d3fed1e6760062c85f1857c16d4e997ddb70c93b490ed",
+    "Paper/sections/Cuerpo.tex": "a1cf44b8cacfbe689bab1441f650c8c12e4ca6801d0f080ea8e2bda0395f8467",
+    "Paper/sections/Conclusiones.tex": "7baed4064f33e87cda6fbb68757060c8e781ebb31dc87dc4fa6d1248fea285ae",
+    "Paper/sections/Fiscal.tex": "08ac4a85856d5ebf44702b9a2b46ab346d3aec282ab348e7e3473707f5102a0d",
+    "scripts/integrar_revision.py": "3cab8f090ce9693ebae1e4b02f1ac4813eda99bd21f00ef5374a8b86261eeef7"
+  }
+}

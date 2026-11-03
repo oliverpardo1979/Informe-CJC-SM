@@ -1,0 +1,17 @@
+{
+  "baseline_bug": {
+    "exit": 0,
+    "manifest_before": 8,
+    "manifest_after": 0
+  },
+  "valid_imported_inputs": {
+    "exit": 0,
+    "stdout": "Se conserva el manifiesto de 8 insumos importados.\n0 insumos copiados; cuadro 2025 generado desde CSV.\n"
+  },
+  "corrupted_input": {
+    "exit": 1,
+    "message": "El insumo importado no coincide con el manifiesto"
+  },
+  "manifest_preserved": true,
+  "line_endings": "LF/CRLF admitidos únicamente en extensiones de texto documentadas"
+}

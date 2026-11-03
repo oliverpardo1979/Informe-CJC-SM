@@ -21,8 +21,29 @@ for source in sorted(SOURCE.rglob('*')):
     shutil.copy2(source, target)
     manifest.append({'archivo': relative.as_posix(), 'bytes': target.stat().st_size,
                      'sha256': hashlib.sha256(target.read_bytes()).hexdigest()})
-(DEST / 'procedencia.json').write_text(json.dumps({'origen': str(SOURCE),
-    'fecha_copia': '2026-11-01', 'archivos': manifest}, ensure_ascii=False, indent=2), encoding='utf-8')
+manifest_path = DEST / 'procedencia.json'
+if manifest:
+    manifest_path.write_text(json.dumps({'origen': str(SOURCE),
+        'fecha_copia': '2026-11-01', 'archivos': manifest}, ensure_ascii=False, indent=2), encoding='utf-8')
+else:
+    if not manifest_path.is_file():
+        raise FileNotFoundError('No existe la carpeta original ni el manifiesto de los insumos importados.')
+    saved = json.loads(manifest_path.read_text(encoding='utf-8'))
+    if not saved.get('archivos'):
+        raise ValueError('El manifiesto de insumos importados está vacío.')
+    for item in saved['archivos']:
+        local = DEST / item['archivo']
+        if not local.is_file():
+            raise FileNotFoundError(f'Falta un insumo importado: {local}')
+        content = local.read_bytes()
+        candidates = {hashlib.sha256(content).hexdigest()}
+        if local.suffix.lower() in {'.py', '.csv', '.json', '.md', '.tex', '.r', '.do'}:
+            # Git puede convertir LF/CRLF al clonar. Solo se admite esa equivalencia.
+            lf = content.replace(b'\r\n', b'\n')
+            candidates.update(hashlib.sha256(b).hexdigest() for b in [lf, lf.replace(b'\n', b'\r\n')])
+        if item['sha256'] not in candidates:
+            raise ValueError(f'El insumo importado no coincide con el manifiesto: {local}')
+    print(f"Se conserva el manifiesto de {len(saved['archivos'])} insumos importados.")
 with (DEST / 'Outputs/tables/estadisticas_salario_por_edad.csv').open(encoding='utf-8-sig') as f:
     rows = [r for r in csv.DictReader(f) if r['anio'] == '2025' and r['poblacion'] == 'tiempo completo (>= 40 h)']
 assert len(rows) == 2

@@ -2,7 +2,7 @@
 
 ## Revisión del 1 de noviembre de 2026
 
-Ver `REVISION_CRITICA.md` para hallazgos, cambios y verificaciones pendientes. Se incorporó un cuadro de distribución salarial por edad con GEIH 2025 y sus límites de interpretación. Los ocho insumos originales de Javeriana están en `insumos/SalarioMinimo_Edad`, con manifiesto SHA-256 y dependencias documentadas. `python scripts/integrar_revision.py` reproduce el cuadro a partir del CSV importado; no reestima microdatos. El informe incorpora la actualización normativa y monetaria del 2 de noviembre y fuentes fiscales identificadas por fecha.
+Ver `REVISION_CRITICA.md` para hallazgos, cambios y verificaciones pendientes. Se incorporó un cuadro de distribución salarial por edad con GEIH 2025 y sus límites de interpretación. Los ocho insumos originales de Javeriana están en `insumos/SalarioMinimo_Edad`, con manifiesto SHA-256 y dependencias documentadas. `python scripts/integrar_revision.py` reproduce el cuadro a partir del CSV importado y conserva su manifiesto de procedencia si no existe la carpeta original. No reestima microdatos. El informe incorpora la actualización normativa y monetaria del 2 de noviembre y fuentes fiscales identificadas por fecha.
 
 Primer borrador del Centro Javeriano de Competitividad. Edición del 2 de noviembre de 2026, con pronósticos identificados por fecha y actualización normativa y monetaria hasta esa fecha.
 
@@ -43,3 +43,7 @@ Se incorpora una referencia breve al estudio de Patiño, Chaparro y coautores (E
 El informe sigue seis secciones: introducción, salarios y productividad, creación de empleo y compresión salarial, costos fiscales, propuesta para 2027 y conclusiones. La introducción presenta el problema, el objetivo y la recomendación, y después explica la fijación del mínimo y la negociación reciente. Las conclusiones cierran el argumento antes de las referencias. El resumen ejecutivo reúne cinco mensajes. El informe principal no tiene apéndices. La nota técnica conserva los procedimientos, los cuadros de cambios anuales, distribución por edad y escenarios alternativos, y las definiciones y limitaciones del salario medio GEIH.
 
 La sección fiscal utiliza el MFMP 2026, páginas 60–61, 125 y 164–166, y el Comunicado 22 del CARF. Distingue la estimación preliminar del aumento de 2026 frente al 7,1% presupuestado del ejercicio del MFMP que incrementa un punto adicional cada año sobre su senda base. No se suman ambas estimaciones ni se presentan como ahorro de un ajuste de 7% en 2027. La cobertura de rentas vitalicias y los contratos de vigilancia y aseo se identifican sin imputar un costo total no observado. Los pagos históricos de deslizamiento se atribuyen a Hacienda y no al aumento de 2026.
+
+## Revisión del 3 de noviembre de 2026
+
+Se aplicó Meta Skill Review Oliver con una revisión sustantiva single-pass y una auditoría acotada de cifras propias. La condición de convergencia exige que la productividad crezca más rápido que el mínimo real. Se precisaron el comparador fiscal por componente, el redondeo de movilidad de Antioquia y la referencia temporal del ingreso GEIH. El script juvenil conserva y comprueba los insumos importados cuando falta la carpeta original, admitiendo únicamente diferencias LF/CRLF en los archivos de texto indicados. Los registros de auditoría y sus límites están en `quality_reports/`.

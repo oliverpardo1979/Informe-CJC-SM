@@ -1,0 +1,98 @@
+[
+  {
+    "figure": "salario_productividad_2021_2025.pdf",
+    "label": "mínimo real",
+    "expected": "113,5",
+    "found": true
+  },
+  {
+    "figure": "salario_productividad_2021_2025.pdf",
+    "label": "productividad hora",
+    "expected": "101,2",
+    "found": true
+  },
+  {
+    "figure": "salario_productividad_2021_2025.pdf",
+    "label": "productividad persona",
+    "expected": "95,4",
+    "found": true
+  },
+  {
+    "figure": "distribucion_salarios_edad_2025.pdf",
+    "label": "todos_joven_mediana",
+    "expected": "$1.423.500",
+    "found": true
+  },
+  {
+    "figure": "distribucion_salarios_edad_2025.pdf",
+    "label": "todos_joven_alrededor_minimo",
+    "expected": "30,2%",
+    "found": true
+  },
+  {
+    "figure": "distribucion_salarios_edad_2025.pdf",
+    "label": "todos_mayor_mediana",
+    "expected": "$1.500.000",
+    "found": true
+  },
+  {
+    "figure": "distribucion_salarios_edad_2025.pdf",
+    "label": "todos_mayor_alrededor_minimo",
+    "expected": "26,2%",
+    "found": true
+  },
+  {
+    "figure": "distribucion_salarios_edad_2025.pdf",
+    "label": "40h_joven_mediana",
+    "expected": "$1.423.500",
+    "found": true
+  },
+  {
+    "figure": "distribucion_salarios_edad_2025.pdf",
+    "label": "40h_joven_alrededor_minimo",
+    "expected": "34,8%",
+    "found": true
+  },
+  {
+    "figure": "distribucion_salarios_edad_2025.pdf",
+    "label": "40h_mayor_mediana",
+    "expected": "$1.500.000",
+    "found": true
+  },
+  {
+    "figure": "distribucion_salarios_edad_2025.pdf",
+    "label": "40h_mayor_alrededor_minimo",
+    "expected": "28,3%",
+    "found": true
+  },
+  {
+    "figure": "serie_salario_minimo_2027_7pct.pdf",
+    "label": "2014",
+    "expected": "$616.000",
+    "found": true
+  },
+  {
+    "figure": "serie_salario_minimo_2027_7pct.pdf",
+    "label": "2021",
+    "expected": "$908.526",
+    "found": true
+  },
+  {
+    "figure": "serie_salario_minimo_2027_7pct.pdf",
+    "label": "2023",
+    "expected": "$1.160.000",
+    "found": true
+  },
+  {
+    "figure": "serie_salario_minimo_2027_7pct.pdf",
+    "label": "2026",
+    "expected": "$1.750.905",
+    "found": true
+  },
+  {
+    "figure": "serie_salario_minimo_2027_7pct.pdf",
+    "label": "2027",
+    "expected": "$1.873.468",
+    "found": true
+  }
+]
