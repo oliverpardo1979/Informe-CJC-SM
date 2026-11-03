@@ -108,3 +108,7 @@ Se hizo explícito en la nota técnica que la densidad juvenil se normaliza dent
 Scorecard: 7/10. Es un diagnóstico editorial del borrador, no una probabilidad de aceptación ni una certificación de causalidad.
 
 Los cuatro hallazgos se conservan en un JSON validado, con evidencia, caso que falla y reparación. La instantánea anterior permite comprobar las citas después de las correcciones.
+
+## Actualización posterior por instrucción de Oliver
+
+Oliver autorizó reincorporar la cuantificación y reescalarla a Colombia con caveats. La decisión que figuraba como pendiente queda resuelta. Se añadieron las cifras exactas de la tabla C.1 y un ejercicio ilustrativo del CJC, que multiplica por 5,5286585 usando afiliados dependientes a cajas de marzo de 2025. El resultado nacional redondeado es 274 mil puestos menos en el saldo anual por un aumento real de 1%, con 246 mil de menor creación y 28 mil de mayor destrucción. Se documentan los supuestos de validez y transferencia, las diferencias de cobertura y la ausencia de replicación del modelo. La advertencia contra atribuir una pérdida observada nacional se mantiene.

@@ -36,7 +36,7 @@ El cuadro internacional no es un censo de los 35 países. La cifra de 12 de 35 d
 
 Antes de cerrar la versión para publicación deben actualizarse los pronósticos de inflación y la productividad disponible para la concertación, y revisarse las decisiones judiciales que puedan afectar el marco de fijación. El 7% no se presenta como una obligación jurídica ni como un óptimo estimado.
 
-Se incorpora una referencia breve al estudio de Patiño, Chaparro y coautores (EAFIT, agosto de 2026). Se distinguen empleos que dejan de crearse, destrucción de puestos y compresión salarial. Los resultados se atribuyen a sus autores y se mantienen en su ámbito de Antioquia. No se extrapolan a Colombia ni se multiplican por el aumento de 2026. El periodo de la regresión es enero de 2022 a febrero de 2026, distinto del periodo de la base descrito en el resumen del estudio.
+Se incorpora una referencia breve al estudio de Patiño, Chaparro y coautores (EAFIT, agosto de 2026). Se distinguen empleos que dejan de crearse, destrucción de puestos y compresión salarial. Los resultados se atribuyen a sus autores y se mantienen en su ámbito de Antioquia. Por solicitud de Oliver se añade un reescalamiento ilustrativo a Colombia, documentado con sus supuestos de transferencia. No se multiplica por el aumento de 2026. El periodo de la regresión es enero de 2022 a febrero de 2026, distinto del periodo de la base descrito en el resumen del estudio.
 
 ## Estructura y revisión fiscal del 2 de noviembre de 2026
 
@@ -47,3 +47,9 @@ La sección fiscal utiliza el MFMP 2026, páginas 60–61, 125 y 164–166, y el
 ## Revisión del 3 de noviembre de 2026
 
 Se aplicó Meta Skill Review Oliver con una revisión sustantiva single-pass y una auditoría acotada de cifras propias. La condición de convergencia exige que la productividad crezca más rápido que el mínimo real. Se precisaron el comparador fiscal por componente, el redondeo de movilidad de Antioquia y la referencia temporal del ingreso GEIH. El script juvenil conserva y comprueba los insumos importados cuando falta la carpeta original, admitiendo únicamente diferencias LF/CRLF en los archivos de texto indicados. Los registros de auditoría y sus límites están en `quality_reports/`.
+
+## Reescalamiento ilustrativo de Chaparro a Colombia
+
+`python scripts/extrapolar_chaparro.py` toma la fila C de la tabla C.1 del estudio regional y la reescala por afiliados dependientes a cajas de marzo de 2025. La extracción oficial contiene 42 cajas distintas. El factor es 9.704.786 / 1.755.360 = 5,5286585. El resultado ilustrativo es aproximadamente 246 mil puestos de menor creación, 28 mil de mayor destrucción y 274 mil menos en el saldo anual de empleo dependiente afiliado a cajas por un aumento real de 1% del mínimo, bajo transferencia proporcional del efecto regional.
+
+La base CCF no coincide exactamente con las empresas privadas del modelo, y las respuestas al mínimo pueden diferir entre regiones. Es una ilustración condicionada del CJC, con confianza Low en su interpretación como efecto causal nacional. No replica el estudio, no mide una pérdida observada en Colombia y no se multiplica por el 23% nominal ni por el aumento real de 2026. La fuente oficial, su consulta y huella, la aritmética y los límites están en `data/extrapolacion_chaparro/`. El cuadro detallado se encuentra en la nota técnica.

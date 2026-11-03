@@ -104,6 +104,35 @@ a=next(r for r in audit if r['anio']=='2021' and r['periodo']=='enero_agosto')
 b=next(r for r in audit if r['anio']=='2026' and r['periodo']=='enero_agosto')
 for token,v in [('10.560',int(a['p6500_98'])+int(a['p6500_99'])),('2.223',int(a['p6500_faltante_no_finito'])),('303',int(b['p6500_faltante_no_finito']))]:
     add('EXCLUSION_'+token,'Paper/sections/Metodologia.tex',token,num(token),v,0,'auditoria_filtros.csv enero_agosto','count','registros')
+# New illustrative scaling: recompute with exact integer fractions, independently of the generator.
+scale_file=ROOT/'data/extrapolacion_chaparro/ssf_dependientes_marzo_2025.csv'
+if scale_file.exists():
+    from fractions import Fraction
+    rr=readcsv('data/extrapolacion_chaparro/ssf_dependientes_marzo_2025.csv')
+    assert len(rr)==len({r['ccf'] for r in rr})==42
+    assert all(r['a_o']=='2025' and r['mes']=='3' for r in rr)
+    nc=sum(int(r['trabajadores_empleados_dependientes']) for r in rr)
+    na=sum(int(r['trabajadores_empleados_dependientes']) for r in rr if 'ANTIOQUIA' in r['ccf'].upper())
+    factor=Fraction(nc,na)
+    body='Paper/sections/Cuerpo.tex'
+    add('ESCALA_NACIONAL_CCF',body,'9.704.786',9704786,nc,0,'sum(42 cajas marzo 2025 trabajadores dependientes)','count','afiliados')
+    add('ESCALA_ANTIOQUIA_CCF',body,'1.755.360',1755360,na,0,'sum(Comfama y Comfenalco Antioquia marzo 2025)','count','afiliados')
+    add('FACTOR_CCF',body,'5,53',5.53,float(factor),.005,'Fraction(total nacional, dos cajas Antioquia)','point_estimate','factor')
+    claims[-1]['display_precision']=2
+    add('FACTOR_CCF_NOTA','Paper/sections/Metodologia.tex','5,5286585',5.5286585,float(factor),.00000005,'Fraction(total nacional, dos cajas Antioquia)','point_estimate','factor')
+    claims[-1]['display_precision']=7
+    for label,original,shown in [('Menor creación de puestos',44557,246),('Mayor destrucción de puestos',5015,28),('Reducción del saldo neto',49572,274)]:
+        amount=Fraction(original*nc,na)
+        rounded_count=((2*amount.numerator+1000*amount.denominator)//(2000*amount.denominator))*1000
+        path='Paper/sections/CuadroChaparro.tex'
+        line=next(l for l in text(path).splitlines() if l.startswith(label+' &'))
+        cells=line.rstrip()[:-2].split('&')
+        assert num(cells[1])==original
+        add('COLOMBIA_TABLA_'+str(original),path,label,num(cells[2]),rounded_count,0,f'ROUND_HALF_UP(Fraction({original}*{nc},{na}), millar)','count','puestos ilustrativos')
+        add('COLOMBIA_CUERPO_'+str(original),body,str(shown)+' mil',shown,rounded_count/1000,0,'reescalamiento exacto, redondeado al millar y expresado en miles','count','miles de puestos ilustrativos')
+    add('PARTICIPACION_MENOR_CREACION',body,r'90\%',90,100*44557/49572,.5,'100*44557/49572, aproximación al entero','percentage','%')
+    claims[-1]['display_precision']=0
+
 # Figures: the rendered PDF is read, not inferred solely from the drawing code.
 figures={name:pdftext('Paper/figures/'+name) for name in ['salario_productividad_2021_2025.pdf','distribucion_salarios_edad_2025.pdf','serie_salario_minimo_2027_7pct.pdf']}
 fig_checks=[]
@@ -121,9 +150,9 @@ for y in [2014,2021,2023,2026,2027]:
 # Horizontal agreement for each own claim wherever repeated in main / note PDFs.
 main_pdf=pdftext('main.pdf');note_pdf=pdftext('nota_tecnica.pdf')
 for c in claims:
-    c['display_token']=fmt(c['reported_value'], 2 if c['claim_id'].startswith(('MEDIA_','AUMENTO_','ANUAL_')) else (0 if c['kind']=='count' else 1))
+    c['display_token']=fmt(c['reported_value'], c.get('display_precision', 2 if c['claim_id'].startswith(('MEDIA_','AUMENTO_','ANUAL_')) else (0 if c['kind']=='count' else 1)))
     # Not a manuscript-wide search certification. All claims have their LaTeX display located.
-    c['horizontal_status']='CHECKED: LaTeX and corresponding compiled PDF' if c['display_token'] in (note_pdf if c['location'].startswith(('Paper/sections/Metodologia','Paper/sections/CuadroEdad','Paper/sections/CuadroEscenarios')) else main_pdf) else 'FAIL: token missing in compiled PDF'
+    c['horizontal_status']='CHECKED: LaTeX and corresponding compiled PDF' if c['display_token'] in (note_pdf if c['location'].startswith(('Paper/sections/Metodologia','Paper/sections/CuadroEdad','Paper/sections/CuadroEscenarios','Paper/sections/CuadroChaparro')) else main_pdf) else 'FAIL: token missing in compiled PDF'
 # Disclose sensitivity; the official table remains unchanged.
 sensitivity=[]
 for y in range(2021,2027):

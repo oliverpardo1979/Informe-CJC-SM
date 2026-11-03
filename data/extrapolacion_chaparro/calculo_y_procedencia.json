@@ -1,0 +1,73 @@
+{
+  "naturaleza": "Extrapolación mecánica ilustrativa del CJC. No estimación causal nacional.",
+  "choque": "Aumento real de 1% en el salario mínimo, según interpretación de los autores regionales.",
+  "horizonte": "Efecto anual regional estimado. No pérdida observada en 2026 ni pronóstico de 2027.",
+  "fuente_efectos": {
+    "autor": "Patiño, Chaparro y coautores (2026)",
+    "tabla": "C.1, fila C, pp. 33–34",
+    "muestra": "Empresas privadas de Antioquia con más de un trabajador y más de un periodo, enero 2022–febrero 2026.",
+    "url": "https://universidadeafit.widen.net/s/pk5kd8xjpm/efectos_del_incremento_del_salario_minimo_en_el_mercado_laboral_formal_de_antioquia"
+  },
+  "fuente_escala": {
+    "entidad": "Superintendencia del Subsidio Familiar",
+    "dataset": "Población Sistema del Subsidio Familiar",
+    "id": "gim6-e69u",
+    "landing": "https://www.datos.gov.co/d/gim6-e69u",
+    "periodo": "Marzo de 2025",
+    "fecha_consulta": "2026-11-03",
+    "consulta": "https://www.datos.gov.co/resource/gim6-e69u.csv?$select=a_o,mes,ccf,trabajadores_empleados_dependientes&$where=a_o=%272025%27%20AND%20mes=3&$order=ccf&$limit=1000",
+    "archivo": "data\\extrapolacion_chaparro\\ssf_dependientes_marzo_2025.csv",
+    "sha256": "59ec07ee876b82921a94030471b49d295183378bc645c37f0391d3adefa9108c",
+    "registros": 42,
+    "variable": "trabajadores_empleados_dependientes",
+    "nacional": 9704786,
+    "dos_cajas_antioquia": 1755360,
+    "componentes_antioquia": [
+      {
+        "a_o": "2025",
+        "mes": "3",
+        "ccf": "Caja de Compensación Familiar COMFENALCO ANTIOQUIA",
+        "trabajadores_empleados_dependientes": "434661"
+      },
+      {
+        "a_o": "2025",
+        "mes": "3",
+        "ccf": "Caja de Compensación Familiar de Antioquia: COMFAMA",
+        "trabajadores_empleados_dependientes": "1320699"
+      }
+    ]
+  },
+  "factor_exacto": "5.528658508795916507155227418",
+  "formula": "E_col_ilustrativo = E_ant_tablaC1 * N_CCF_nacional_mar2025 / N_CCF_dos_cajas_antioquia_mar2025",
+  "resultados": {
+    "menor_creacion": {
+      "antioquia_tabla_C1": 44557,
+      "colombia_ilustrativo": "246340.4371764196518093154681",
+      "colombia_redondeado_millar": 246000
+    },
+    "mayor_destruccion": {
+      "antioquia_tabla_C1": 5015,
+      "colombia_ilustrativo": "27726.22242161152128338346550",
+      "colombia_redondeado_millar": 28000
+    },
+    "menor_saldo_neto": {
+      "antioquia_tabla_C1": 49572,
+      "colombia_ilustrativo": "274066.6595980311730926989336",
+      "colombia_redondeado_millar": 274000
+    }
+  },
+  "confianza_externa": "Low",
+  "supuestos": [
+    "Mismo efecto por afiliado y exposición al mínimo comparables entre Antioquia y el país.",
+    "La razón de afiliados totales aproxima la razón entre las poblaciones privadas relevantes de la regresión.",
+    "El tamaño de marzo de 2025 permite reescalar un efecto regional estimado con información de 2022–2026."
+  ],
+  "limites": [
+    "El modelo regional no fue replicado por el CJC.",
+    "Los registros por caja no reproducen exactamente el universo de empresas privadas con más de un trabajador.",
+    "La afiliación por caja puede diferir de la ubicación del puesto de trabajo. No son todas las formas de empleo formal.",
+    "No corrige diferencias regionales de sectores, tamaños de empresa, informalidad o distribución salarial.",
+    "No se construye intervalo de confianza nacional a partir de errores estándar regionales.",
+    "No se multiplica por el aumento nominal de 23% ni por el aumento real de 2026. No se extrapola linealmente a choques grandes."
+  ]
+}
