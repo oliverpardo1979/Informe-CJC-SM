@@ -61,7 +61,7 @@ for label, key in [('Hasta 1,25 mínimos (\\%)', 'pct_hasta_1,25_minimos'),
                    ('Menos de 0,97 mínimos (\\%)', 'pct_bajo_el_minimo')]:
     lines.append(f'{label} & {pct(young, key)} & {pct(older, key)} ' + r'\\')
 lines += [r'\bottomrule', r'\end{tabular}',
-    r'\fuente{Fuente: DANE, GEIH 2025. Cálculos del Centro Javeriano de Competitividad.}',
+    r'\fuente{Fuente: DANE, GEIH 2025. Cálculos del Centro Javeriano de Competitividad \citep{orozcoGEIH}.}',
     r'\end{table}']
 (ROOT / 'Paper/sections/CuadroEdad.tex').write_text('\n'.join(lines)+'\n', encoding='utf-8')
 print(f'{len(manifest)} insumos copiados; cuadro 2025 generado desde CSV.')

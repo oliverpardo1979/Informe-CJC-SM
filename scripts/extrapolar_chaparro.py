@@ -68,6 +68,6 @@ lines=[r'\begin{table}[H]',r'\centering\small',
 for label,key in [('Menor creación de puestos','menor_creacion'),('Mayor destrucción de puestos','mayor_destruccion'),('Reducción del saldo neto','menor_saldo_neto')]:
     rr=result[key];lines.append(f"{label} & {fmt(rr['antioquia_tabla_C1'])} & {fmt(rr['colombia_redondeado_millar'])}"+r' \\')
 lines += [r'\bottomrule',r'\end{tabularx}',
- r'\fuente{Fuente: Patiño, Chaparro y coautores, tabla C.1. Cálculo ilustrativo del CJC con afiliados dependientes a cajas de la SSF de marzo de 2025. Los valores nacionales aproximan empleo dependiente afiliado a cajas, se redondean al millar y representan diferencias respecto del escenario sin el aumento. La extrapolación mantiene proporcionalmente los efectos regionales y no constituye una estimación causal para Colombia.}',r'\end{table}']
+ r'\fuente{Fuente: \citet[tabla~C.1]{chaparro}. Cálculo ilustrativo del CJC con afiliados dependientes a cajas de marzo de 2025 \citep{ssfAfiliados}. Los valores nacionales aproximan empleo dependiente afiliado a cajas, se redondean al millar y representan diferencias respecto del escenario sin el aumento. La extrapolación mantiene proporcionalmente los efectos regionales y no constituye una estimación causal para Colombia.}',r'\end{table}']
 (ROOT/'Paper/sections/CuadroChaparro.tex').write_text('\n'.join(lines)+'\n',encoding='utf-8')
 print(json.dumps({'nacional':n_col,'antioquia':n_ant,'factor':str(factor),'resultados':result},ensure_ascii=False,indent=2))

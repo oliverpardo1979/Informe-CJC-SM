@@ -60,7 +60,7 @@ for r in output:
     table.append(f"{r['anio']} & {fmt(r['smlmv_pesos'],0)} & {fmt(r['aumento_nominal_pct'])} & "
                  f"{fmt(r['todos_media_pesos']/1e6)} & {fmt(r['40h_media_pesos']/1e6)}"+r' \\')
 table += [r'\bottomrule', r'\end{tabular}',
-          r'\fuente{Fuente: normativa salarial y tabulados del CJC con GEIH. Enero--agosto de entrevistas en todos los años, con salario referido al mes anterior. Medias de P6500 para asalariados de 15 años o más, ponderadas por FEX\_C18, con salario válido positivo y exclusión de códigos 98/99. Se incluyen formales e informales y salarios inferiores al mínimo. La nota técnica documenta la identificación del marco de 2021 y las diferencias de no respuesta.}',
+          r'\fuente{Fuente: normativa salarial \citep{decreto1785,salarioHistorico,decreto2613,decreto2024,decreto2025,decreto1469} y tabulados del CJC con GEIH \citep{geihTabulados}. Enero--agosto de entrevistas en todos los años, con salario referido al mes anterior. Medias de P6500 para asalariados de 15 años o más, ponderadas por FEX\_C18, con salario válido positivo y exclusión de códigos 98/99. Se incluyen formales e informales y salarios inferiores al mínimo. La nota técnica documenta la identificación del marco de 2021 y las diferencias de no respuesta.}',
           r'\end{table}']
 (ROOT/'Paper/sections/CuadroSalariosMedios.tex').write_text('\n'.join(table)+'\n', encoding='utf-8')
 provenance = {'fuentes': [{'archivo': str(x.relative_to(ROOT)),

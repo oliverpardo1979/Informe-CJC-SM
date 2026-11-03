@@ -10,7 +10,9 @@ El argumento propone un ajuste del mínimo de 2027 cercano a la inflación de 20
 
 ## Documento
 
-Compilar `main.tex` en Overleaf o con `tectonic main.tex`. `nota_tecnica.tex` genera el documento complementario de fuentes y medición. Se conserva la portada, el logo, las márgenes, la tipografía y los encabezados del informe CJC sobre propuestas para el PND.
+Compilar `main.tex` en Overleaf o con `tectonic main.tex`. `nota_tecnica.tex` genera el documento complementario de fuentes y medición. Ambos documentos usan citas autor–año enlazadas y la base compartida `Paper/referencias.bib`. Tectonic ejecuta BibTeX durante la compilación. Se conserva la portada, el logo, las márgenes, la tipografía y los encabezados del informe CJC sobre propuestas para el PND.
+
+Después de compilar ambos documentos, `python scripts/verificar_referencias.py` comprueba citas, entradas, años y enlaces en los PDF. Requiere `pypdf`. No sustituye la lectura de los trabajos citados ni la verificación de sus metadatos contra las fuentes.
 
 La cursiva se reserva para usos que aporten información, como distinguir títulos de obras en las referencias y la notación matemática convencional. La portada, los encabezados y la nota de uso de IA se presentan en letra redonda.
 
