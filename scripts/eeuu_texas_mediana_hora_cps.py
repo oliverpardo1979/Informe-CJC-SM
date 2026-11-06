@@ -35,11 +35,10 @@ growth = (last.mediana_salarial_usd_hora / first.mediana_salarial_usd_hora - 1) 
 navy, orange, gray = '#193451', '#E67438', '#647687'
 plt.rcParams.update({'font.family': 'DejaVu Sans', 'font.size': 11, 'svg.fonttype': 'none'})
 fig, ax = plt.subplots(figsize=(11, 6.3), facecolor='white')
-fig.subplots_adjust(left=.09, right=.95, top=.70, bottom=.22)
-fig.text(.09, .93, 'Texas: salario mínimo y salario mediano por hora', fontsize=19, weight='bold', color=navy)
-fig.text(.09, .865, 'Asalariados de los sectores público y privado · Dólares corrientes por hora · 2010–2025', fontsize=11, color=gray)
-fig.text(.09, .775, 'Mínimo: US$7,25 durante todo el período', fontsize=12, color=orange, weight='bold')
-fig.text(.58, .775, f'Mediana: +{growth:.1f}% nominal'.replace('.', ','), fontsize=12, color=navy, weight='bold')
+fig.subplots_adjust(left=.09, right=.95, top=.74, bottom=.22)
+fig.text(.09, .94, 'Evolución del salario mínimo e ingreso mediano por hora nominal\nen el estado de Texas.',
+         fontsize=18, weight='bold', color=navy, va='top', linespacing=1.3)
+fig.text(.09, .79, 'Asalariados de los sectores público y privado · Dólares corrientes por hora · 2010–2025', fontsize=11, color=gray)
 ax.set_axisbelow(True)
 ax.grid(axis='y', color='#E4EAF0', lw=.8)
 for side in ['top', 'right', 'left']:
