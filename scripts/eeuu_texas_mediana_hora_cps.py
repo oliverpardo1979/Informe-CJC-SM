@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter
 
 ROOT = Path(__file__).resolve().parents[1] / 'analisis/eeuu_minimo_mediana'
+(ROOT / 'graficos').mkdir(parents=True, exist_ok=True)
 source = ROOT / 'fuentes/epi_hourly_wage_median.csv'
 raw = pd.read_csv(source)
 data = raw.loc[(raw.geo_type == 'state') & (raw.geo_code == 48)
