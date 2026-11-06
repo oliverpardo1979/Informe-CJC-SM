@@ -1,0 +1,817 @@
+﻿anio,fips,abreviatura,estado,tipo_jurisdiccion,minimo_referencia_usd_hora,tasa_publicada_DOL_FRED_usd_hora,minimo_federal_usd_hora,tratamiento_minimo,mediana_ingreso_laboral_anual_usd,margen_error_mediana_90_usd,estado_mediana,advertencia_tasas_multiples,indice_minimo_2010_100,indice_mediana_2010_100
+2010,01,AL,Alabama,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,25530.0,276.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,01,AL,Alabama,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,26270.0,305.0,ACS_1year_B20002_total,False,100.0,102.89855072463769
+2012,01,AL,Alabama,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,26574.0,310.0,ACS_1year_B20002_total,False,100.0,104.08930669800235
+2013,01,AL,Alabama,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,26791.0,255.0,ACS_1year_B20002_total,False,100.0,104.93928711320015
+2014,01,AL,Alabama,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,26934.0,288.0,ACS_1year_B20002_total,False,100.0,105.49941245593419
+2015,01,AL,Alabama,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,28262.0,722.0,ACS_1year_B20002_total,False,100.0,110.70113591852723
+2016,01,AL,Alabama,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,29164.0,651.0,ACS_1year_B20002_total,False,100.0,114.23423423423424
+2017,01,AL,Alabama,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,30528.0,263.0,ACS_1year_B20002_total,False,100.0,119.57696827262045
+2018,01,AL,Alabama,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,31190.0,247.0,ACS_1year_B20002_total,False,100.0,122.16999608303956
+2019,01,AL,Alabama,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,31962.0,248.0,ACS_1year_B20002_total,False,100.0,125.19388954171563
+2020,01,AL,Alabama,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,,,no_publicacion_ACS_estandar,False,100.0,
+2021,01,AL,Alabama,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,34925.0,529.0,ACS_1year_B20002_total,False,100.0,136.79984332158244
+2022,01,AL,Alabama,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,36953.0,435.0,ACS_1year_B20002_total,False,100.0,144.74343909126517
+2023,01,AL,Alabama,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,40170.0,299.0,ACS_1year_B20002_total,False,100.0,157.34430082256168
+2024,01,AL,Alabama,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,41871.0,270.0,ACS_1year_B20002_total,False,100.0,164.00705052878965
+2025,01,AL,Alabama,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,41895.0,390.0,ACS_1year_B20002_total,False,100.0,164.10105757931845
+2010,02,AK,Alaska,estado,7.75,7.75,7.25,referencia_DOL_FRED,32140.0,769.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,02,AK,Alaska,estado,7.75,7.75,7.25,referencia_DOL_FRED,34313.0,1839.0,ACS_1year_B20002_total,False,100.0,106.76104542626011
+2012,02,AK,Alaska,estado,7.75,7.75,7.25,referencia_DOL_FRED,34405.0,1764.0,ACS_1year_B20002_total,False,100.0,107.04729309271936
+2013,02,AK,Alaska,estado,7.75,7.75,7.25,referencia_DOL_FRED,36106.0,739.0,ACS_1year_B20002_total,False,100.0,112.3397635345364
+2014,02,AK,Alaska,estado,7.75,7.75,7.25,referencia_DOL_FRED,36843.0,743.0,ACS_1year_B20002_total,False,100.0,114.63285625388923
+2015,02,AK,Alaska,estado,8.75,8.75,7.25,referencia_DOL_FRED,35552.0,770.0,ACS_1year_B20002_total,False,112.90322580645162,110.61605476042315
+2016,02,AK,Alaska,estado,9.75,9.75,7.25,referencia_DOL_FRED,36209.0,684.0,ACS_1year_B20002_total,False,125.80645161290323,112.6602364654636
+2017,02,AK,Alaska,estado,9.8,9.8,7.25,referencia_DOL_FRED,37326.0,1165.0,ACS_1year_B20002_total,False,126.45161290322582,116.13565650280024
+2018,02,AK,Alaska,estado,9.84,9.84,7.25,referencia_DOL_FRED,40146.0,1185.0,ACS_1year_B20002_total,False,126.96774193548387,124.90976975731176
+2019,02,AK,Alaska,estado,9.89,9.89,7.25,referencia_DOL_FRED,40334.0,939.0,ACS_1year_B20002_total,False,127.61290322580645,125.49471064094587
+2020,02,AK,Alaska,estado,10.19,10.19,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,131.48387096774192,
+2021,02,AK,Alaska,estado,10.34,10.34,7.25,referencia_DOL_FRED,41962.0,706.0,ACS_1year_B20002_total,False,133.41935483870967,130.56004978220287
+2022,02,AK,Alaska,estado,10.34,10.34,7.25,referencia_DOL_FRED,47357.0,1505.0,ACS_1year_B20002_total,False,133.41935483870967,147.34598630989422
+2023,02,AK,Alaska,estado,10.85,10.85,7.25,referencia_DOL_FRED,46996.0,1146.0,ACS_1year_B20002_total,False,140.0,146.22277535780958
+2024,02,AK,Alaska,estado,11.73,11.73,7.25,referencia_DOL_FRED,50872.0,641.0,ACS_1year_B20002_total,False,151.3548387096774,158.28251400124455
+2025,02,AK,Alaska,estado,11.91,11.91,7.25,referencia_DOL_FRED,50219.0,1176.0,ACS_1year_B20002_total,False,153.67741935483872,156.25077784691973
+2010,04,AZ,Arizona,estado,7.25,7.25,7.25,referencia_DOL_FRED,27813.0,528.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,04,AZ,Arizona,estado,7.35,7.35,7.25,referencia_DOL_FRED,27800.0,546.0,ACS_1year_B20002_total,False,101.37931034482759,99.95325926724912
+2012,04,AZ,Arizona,estado,7.65,7.65,7.25,referencia_DOL_FRED,28645.0,519.0,ACS_1year_B20002_total,False,105.51724137931035,102.9914068960558
+2013,04,AZ,Arizona,estado,7.8,7.8,7.25,referencia_DOL_FRED,28756.0,534.0,ACS_1year_B20002_total,False,107.58620689655173,103.39050084492862
+2014,04,AZ,Arizona,estado,7.9,7.9,7.25,referencia_DOL_FRED,29737.0,499.0,ACS_1year_B20002_total,False,108.96551724137932,106.91762844712905
+2015,04,AZ,Arizona,estado,8.05,8.05,7.25,referencia_DOL_FRED,30110.0,246.0,ACS_1year_B20002_total,False,111.03448275862071,108.25872793298097
+2016,04,AZ,Arizona,estado,8.05,8.05,7.25,referencia_DOL_FRED,30675.0,201.0,ACS_1year_B20002_total,False,111.03448275862071,110.29015208715349
+2017,04,AZ,Arizona,estado,10.0,10.0,7.25,referencia_DOL_FRED,31651.0,213.0,ACS_1year_B20002_total,False,137.93103448275863,113.79930248444971
+2018,04,AZ,Arizona,estado,10.5,10.5,7.25,referencia_DOL_FRED,32419.0,256.0,ACS_1year_B20002_total,False,144.82758620689654,116.560601157732
+2019,04,AZ,Arizona,estado,11.0,11.0,7.25,referencia_DOL_FRED,34397.0,696.0,ACS_1year_B20002_total,False,151.72413793103448,123.6723834178262
+2020,04,AZ,Arizona,estado,12.0,12.0,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,165.51724137931035,
+2021,04,AZ,Arizona,estado,12.15,12.15,7.25,referencia_DOL_FRED,39023.0,468.0,ACS_1year_B20002_total,False,167.58620689655172,140.30489339517493
+2022,04,AZ,Arizona,estado,12.8,12.8,7.25,referencia_DOL_FRED,42346.0,257.0,ACS_1year_B20002_total,False,176.55172413793105,152.25254377449394
+2023,04,AZ,Arizona,estado,13.85,13.85,7.25,referencia_DOL_FRED,44626.0,690.0,ACS_1year_B20002_total,False,191.0344827586207,160.4501492108007
+2024,04,AZ,Arizona,estado,14.35,14.35,7.25,referencia_DOL_FRED,46251.0,457.0,ACS_1year_B20002_total,False,197.93103448275863,166.2927408046597
+2025,04,AZ,Arizona,estado,14.7,14.7,7.25,referencia_DOL_FRED,47456.0,634.0,ACS_1year_B20002_total,False,202.75862068965517,170.62524718656744
+2010,05,AR,Arkansas,estado,7.25,6.25,7.25,referencia_estatal_inferior_piso_federal_FLSA,23992.0,483.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,05,AR,Arkansas,estado,7.25,6.25,7.25,referencia_estatal_inferior_piso_federal_FLSA,24667.0,418.0,ACS_1year_B20002_total,False,100.0,102.8134378126042
+2012,05,AR,Arkansas,estado,7.25,6.25,7.25,referencia_estatal_inferior_piso_federal_FLSA,25737.0,336.0,ACS_1year_B20002_total,False,100.0,107.2732577525842
+2013,05,AR,Arkansas,estado,7.25,6.25,7.25,referencia_estatal_inferior_piso_federal_FLSA,26043.0,349.0,ACS_1year_B20002_total,False,100.0,108.5486828942981
+2014,05,AR,Arkansas,estado,7.25,6.25,7.25,referencia_estatal_inferior_piso_federal_FLSA,26367.0,345.0,ACS_1year_B20002_total,False,100.0,109.89913304434812
+2015,05,AR,Arkansas,estado,7.5,7.5,7.25,referencia_DOL_FRED,26798.0,321.0,ACS_1year_B20002_total,False,103.44827586206897,111.69556518839613
+2016,05,AR,Arkansas,estado,8.0,8.0,7.25,referencia_DOL_FRED,27687.0,624.0,ACS_1year_B20002_total,False,110.34482758620689,115.40096698899633
+2017,05,AR,Arkansas,estado,8.5,8.5,7.25,referencia_DOL_FRED,30050.0,405.0,ACS_1year_B20002_total,False,117.24137931034483,125.25008336112037
+2018,05,AR,Arkansas,estado,8.5,8.5,7.25,referencia_DOL_FRED,30744.0,323.0,ACS_1year_B20002_total,False,117.24137931034483,128.14271423807935
+2019,05,AR,Arkansas,estado,9.25,9.25,7.25,referencia_DOL_FRED,30818.0,280.0,ACS_1year_B20002_total,False,127.58620689655173,128.45115038346114
+2020,05,AR,Arkansas,estado,10.0,10.0,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,137.93103448275863,
+2021,05,AR,Arkansas,estado,11.0,11.0,7.25,referencia_DOL_FRED,33869.0,882.0,ACS_1year_B20002_total,False,151.72413793103448,141.16788929643215
+2022,05,AR,Arkansas,estado,11.0,11.0,7.25,referencia_DOL_FRED,36761.0,393.0,ACS_1year_B20002_total,False,151.72413793103448,153.22190730243415
+2023,05,AR,Arkansas,estado,11.0,11.0,7.25,referencia_DOL_FRED,38579.0,710.0,ACS_1year_B20002_total,False,151.72413793103448,160.79943314438145
+2024,05,AR,Arkansas,estado,11.0,11.0,7.25,referencia_DOL_FRED,40734.0,392.0,ACS_1year_B20002_total,False,151.72413793103448,169.78159386462153
+2025,05,AR,Arkansas,estado,11.0,11.0,7.25,referencia_DOL_FRED,41450.0,431.0,ACS_1year_B20002_total,False,151.72413793103448,172.76592197399134
+2010,06,CA,California,estado,8.0,8.0,7.25,referencia_DOL_FRED,30356.0,102.0,ACS_1year_B20002_total,True,100.0,100.0
+2011,06,CA,California,estado,8.0,8.0,7.25,referencia_DOL_FRED,30255.0,109.0,ACS_1year_B20002_total,True,100.0,99.66728159177757
+2012,06,CA,California,estado,8.0,8.0,7.25,referencia_DOL_FRED,30502.0,104.0,ACS_1year_B20002_total,True,100.0,100.48095928317301
+2013,06,CA,California,estado,8.0,8.0,7.25,referencia_DOL_FRED,30769.0,86.0,ACS_1year_B20002_total,True,100.0,101.36052180787982
+2014,06,CA,California,estado,9.0,9.0,7.25,referencia_DOL_FRED,31232.0,97.0,ACS_1year_B20002_total,True,112.5,102.88575569903809
+2015,06,CA,California,estado,9.0,9.0,7.25,referencia_DOL_FRED,31733.0,79.0,ACS_1year_B20002_total,True,112.5,104.53617077348794
+2016,06,CA,California,estado,10.0,10.0,7.25,referencia_DOL_FRED,32499.0,285.0,ACS_1year_B20002_total,True,125.0,107.05955988931348
+2017,06,CA,California,estado,10.5,10.5,7.25,referencia_DOL_FRED,35544.0,124.0,ACS_1year_B20002_total,True,131.25,117.09052576096983
+2018,06,CA,California,estado,11.0,11.0,7.25,referencia_DOL_FRED,36730.0,126.0,ACS_1year_B20002_total,True,137.5,120.99749637633417
+2019,06,CA,California,estado,12.0,12.0,7.25,referencia_DOL_FRED,39549.0,346.0,ACS_1year_B20002_total,True,150.0,130.28396363157202
+2020,06,CA,California,estado,12.0,12.0,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,True,150.0,
+2021,06,CA,California,estado,13.0,13.0,7.25,referencia_DOL_FRED,41891.0,127.0,ACS_1year_B20002_total,True,162.5,137.99907761233365
+2022,06,CA,California,estado,14.0,14.0,7.25,referencia_DOL_FRED,45575.0,252.0,ACS_1year_B20002_total,True,175.0,150.13506390828832
+2023,06,CA,California,estado,15.5,15.5,7.25,referencia_DOL_FRED,47975.0,390.0,ACS_1year_B20002_total,True,193.75,158.04124390565292
+2024,06,CA,California,estado,16.0,16.0,7.25,referencia_DOL_FRED,50460.0,151.0,ACS_1year_B20002_total,True,200.0,166.22743444459084
+2025,06,CA,California,estado,16.5,16.5,7.25,referencia_DOL_FRED,51548.0,142.0,ACS_1year_B20002_total,True,206.25,169.81156937672947
+2010,08,CO,Colorado,estado,7.25,7.24,7.25,referencia_estatal_inferior_piso_federal_FLSA,30440.0,222.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,08,CO,Colorado,estado,7.36,7.36,7.25,referencia_DOL_FRED,31166.0,263.0,ACS_1year_B20002_total,False,101.51724137931035,102.3850197109067
+2012,08,CO,Colorado,estado,7.64,7.64,7.25,referencia_DOL_FRED,31326.0,227.0,ACS_1year_B20002_total,False,105.37931034482759,102.91064388961892
+2013,08,CO,Colorado,estado,7.78,7.78,7.25,referencia_DOL_FRED,31574.0,212.0,ACS_1year_B20002_total,False,107.3103448275862,103.72536136662286
+2014,08,CO,Colorado,estado,8.0,8.0,7.25,referencia_DOL_FRED,32379.0,218.0,ACS_1year_B20002_total,False,110.34482758620689,106.36990801576873
+2015,08,CO,Colorado,estado,8.23,8.23,7.25,referencia_DOL_FRED,33462.0,685.0,ACS_1year_B20002_total,False,113.51724137931035,109.92772667542707
+2016,08,CO,Colorado,estado,8.31,8.31,7.25,referencia_DOL_FRED,35274.0,231.0,ACS_1year_B20002_total,False,114.62068965517241,115.88042049934297
+2017,08,CO,Colorado,estado,9.3,9.3,7.25,referencia_DOL_FRED,36804.0,237.0,ACS_1year_B20002_total,False,128.27586206896552,120.90670170827858
+2018,08,CO,Colorado,estado,10.2,10.2,7.25,referencia_DOL_FRED,38295.0,629.0,ACS_1year_B20002_total,False,140.68965517241378,125.80486202365309
+2019,08,CO,Colorado,estado,11.1,11.1,7.25,referencia_DOL_FRED,40646.0,256.0,ACS_1year_B20002_total,False,153.10344827586206,133.52825229960578
+2020,08,CO,Colorado,estado,12.0,12.0,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,165.51724137931035,
+2021,08,CO,Colorado,estado,12.32,12.32,7.25,referencia_DOL_FRED,44818.0,595.0,ACS_1year_B20002_total,False,169.93103448275863,147.23390275952693
+2022,08,CO,Colorado,estado,12.56,12.56,7.25,referencia_DOL_FRED,49195.0,696.0,ACS_1year_B20002_total,False,173.24137931034483,161.61300919842313
+2023,08,CO,Colorado,estado,13.65,13.65,7.25,referencia_DOL_FRED,51336.0,305.0,ACS_1year_B20002_total,False,188.27586206896552,168.64651773981603
+2024,08,CO,Colorado,estado,14.42,14.42,7.25,referencia_DOL_FRED,54163.0,1149.0,ACS_1year_B20002_total,False,198.89655172413794,177.93363994743757
+2025,08,CO,Colorado,estado,14.81,14.81,7.25,referencia_DOL_FRED,56223.0,617.0,ACS_1year_B20002_total,False,204.27586206896552,184.70105124835743
+2010,09,CT,Connecticut,estado,8.25,8.25,7.25,referencia_DOL_FRED,35926.0,441.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,09,CT,Connecticut,estado,8.25,8.25,7.25,referencia_DOL_FRED,36496.0,430.0,ACS_1year_B20002_total,False,100.0,101.58659466681512
+2012,09,CT,Connecticut,estado,8.25,8.25,7.25,referencia_DOL_FRED,36914.0,388.0,ACS_1year_B20002_total,False,100.0,102.75009742247954
+2013,09,CT,Connecticut,estado,8.25,8.25,7.25,referencia_DOL_FRED,36709.0,400.0,ACS_1year_B20002_total,False,100.0,102.1794800423092
+2014,09,CT,Connecticut,estado,8.7,8.7,7.25,referencia_DOL_FRED,38443.0,922.0,ACS_1year_B20002_total,False,105.45454545454544,107.00606802872571
+2015,09,CT,Connecticut,estado,9.15,9.15,7.25,referencia_DOL_FRED,40009.0,695.0,ACS_1year_B20002_total,False,110.9090909090909,111.3650281133441
+2016,09,CT,Connecticut,estado,9.6,9.6,7.25,referencia_DOL_FRED,40323.0,363.0,ACS_1year_B20002_total,False,116.36363636363636,112.23904692980014
+2017,09,CT,Connecticut,estado,10.1,10.1,7.25,referencia_DOL_FRED,41053.0,412.0,ACS_1year_B20002_total,False,122.42424242424242,114.27100150308968
+2018,09,CT,Connecticut,estado,10.1,10.1,7.25,referencia_DOL_FRED,41548.0,378.0,ACS_1year_B20002_total,False,122.42424242424242,115.64883371374492
+2019,09,CT,Connecticut,estado,11.0,11.0,7.25,referencia_DOL_FRED,42196.0,386.0,ACS_1year_B20002_total,False,133.33333333333334,117.45254133496633
+2020,09,CT,Connecticut,estado,12.0,12.0,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,145.45454545454547,
+2021,09,CT,Connecticut,estado,13.0,13.0,7.25,referencia_DOL_FRED,45511.0,728.0,ACS_1year_B20002_total,False,157.57575757575756,126.6798418972332
+2022,09,CT,Connecticut,estado,14.0,14.0,7.25,referencia_DOL_FRED,50183.0,609.0,ACS_1year_B20002_total,False,169.6969696969697,139.68435116628626
+2023,09,CT,Connecticut,estado,14.0,14.0,7.25,referencia_DOL_FRED,51091.0,450.0,ACS_1year_B20002_total,False,169.6969696969697,142.21176863552859
+2024,09,CT,Connecticut,estado,15.69,15.69,7.25,referencia_DOL_FRED,52631.0,847.0,ACS_1year_B20002_total,False,190.1818181818182,146.49835773534488
+2025,09,CT,Connecticut,estado,16.35,16.35,7.25,referencia_DOL_FRED,55211.0,839.0,ACS_1year_B20002_total,False,198.18181818181822,153.6797862272449
+2010,10,DE,Delaware,estado,7.25,7.25,7.25,referencia_DOL_FRED,31435.0,483.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,10,DE,Delaware,estado,7.25,7.25,7.25,referencia_DOL_FRED,32908.0,1188.0,ACS_1year_B20002_total,False,100.0,104.68585971051375
+2012,10,DE,Delaware,estado,7.25,7.25,7.25,referencia_DOL_FRED,31770.0,621.0,ACS_1year_B20002_total,False,100.0,101.06569110863687
+2013,10,DE,Delaware,estado,7.25,7.25,7.25,referencia_DOL_FRED,31422.0,459.0,ACS_1year_B20002_total,False,100.0,99.95864482264992
+2014,10,DE,Delaware,estado,7.75,7.75,7.25,referencia_DOL_FRED,32825.0,1493.0,ACS_1year_B20002_total,False,106.89655172413794,104.42182280897089
+2015,10,DE,Delaware,estado,8.25,8.25,7.25,referencia_DOL_FRED,35139.0,1035.0,ACS_1year_B20002_total,False,113.79310344827586,111.78304437728646
+2016,10,DE,Delaware,estado,8.25,8.25,7.25,referencia_DOL_FRED,35408.0,698.0,ACS_1year_B20002_total,False,113.79310344827586,112.63877843168443
+2017,10,DE,Delaware,estado,8.25,8.25,7.25,referencia_DOL_FRED,36315.0,918.0,ACS_1year_B20002_total,False,113.79310344827586,115.52409734372515
+2018,10,DE,Delaware,estado,8.25,8.25,7.25,referencia_DOL_FRED,34899.0,1046.0,ACS_1year_B20002_total,False,113.79310344827586,111.01956418005408
+2019,10,DE,Delaware,estado,9.25,9.25,7.25,referencia_DOL_FRED,37430.0,1147.0,ACS_1year_B20002_total,False,127.58620689655173,119.07109909336727
+2020,10,DE,Delaware,estado,9.25,9.25,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,127.58620689655173,
+2021,10,DE,Delaware,estado,9.25,9.25,7.25,referencia_DOL_FRED,41374.0,863.0,ACS_1year_B20002_total,False,127.58620689655173,131.6176236678861
+2022,10,DE,Delaware,estado,10.5,10.5,7.25,referencia_DOL_FRED,43181.0,1531.0,ACS_1year_B20002_total,False,144.82758620689654,137.36599331954827
+2023,10,DE,Delaware,estado,11.75,11.75,7.25,referencia_DOL_FRED,42639.0,1280.0,ACS_1year_B20002_total,False,162.06896551724137,135.64180054079847
+2024,10,DE,Delaware,estado,13.25,13.25,7.25,referencia_DOL_FRED,46579.0,1416.0,ACS_1year_B20002_total,False,182.75862068965517,148.17560044536344
+2025,10,DE,Delaware,estado,15.0,15.0,7.25,referencia_DOL_FRED,51401.0,981.0,ACS_1year_B20002_total,False,206.89655172413794,163.51519007475744
+2010,11,DC,District of Columbia,distrito_federal,8.25,8.25,7.25,referencia_DOL_FRED,42058.0,1049.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,11,DC,District of Columbia,distrito_federal,8.25,8.25,7.25,referencia_DOL_FRED,46112.0,1314.0,ACS_1year_B20002_total,False,100.0,109.63906985591326
+2012,11,DC,District of Columbia,distrito_federal,8.25,8.25,7.25,referencia_DOL_FRED,44980.0,2362.0,ACS_1year_B20002_total,False,100.0,106.94754862332968
+2013,11,DC,District of Columbia,distrito_federal,8.25,8.25,7.25,referencia_DOL_FRED,46401.0,1278.0,ACS_1year_B20002_total,False,100.0,110.32621617765942
+2014,11,DC,District of Columbia,distrito_federal,9.5,9.5,7.25,referencia_DOL_FRED,46000.0,1356.0,ACS_1year_B20002_total,False,115.15151515151516,109.37277093537496
+2015,11,DC,District of Columbia,distrito_federal,10.5,10.5,7.25,referencia_DOL_FRED,49891.0,1904.0,ACS_1year_B20002_total,False,127.27272727272727,118.62428075514765
+2016,11,DC,District of Columbia,distrito_federal,11.5,11.5,7.25,referencia_DOL_FRED,50364.0,1289.0,ACS_1year_B20002_total,False,139.3939393939394,119.74891816063531
+2017,11,DC,District of Columbia,distrito_federal,12.5,12.5,7.25,referencia_DOL_FRED,54604.0,1720.0,ACS_1year_B20002_total,False,151.5151515151515,129.83023443815682
+2018,11,DC,District of Columbia,distrito_federal,13.25,13.25,7.25,referencia_DOL_FRED,57851.0,2816.0,ACS_1year_B20002_total,False,160.6060606060606,137.55052546483427
+2019,11,DC,District of Columbia,distrito_federal,14.0,14.0,7.25,referencia_DOL_FRED,61960.0,1743.0,ACS_1year_B20002_total,False,169.6969696969697,147.32036711208332
+2020,11,DC,District of Columbia,distrito_federal,15.0,15.0,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,181.8181818181818,
+2021,11,DC,District of Columbia,distrito_federal,15.2,15.2,7.25,referencia_DOL_FRED,72457.0,2280.0,ACS_1year_B20002_total,False,184.24242424242425,172.27875790574922
+2022,11,DC,District of Columbia,distrito_federal,16.1,16.1,7.25,referencia_DOL_FRED,74436.0,2228.0,ACS_1year_B20002_total,False,195.15151515151518,176.9841647249037
+2023,11,DC,District of Columbia,distrito_federal,16.5,16.5,7.25,referencia_DOL_FRED,81274.0,2314.0,ACS_1year_B20002_total,False,200.0,193.24266489134052
+2024,11,DC,District of Columbia,distrito_federal,17.5,17.5,7.25,referencia_DOL_FRED,80645.0,1524.0,ACS_1year_B20002_total,False,212.12121212121212,191.74711113224595
+2025,11,DC,District of Columbia,distrito_federal,17.5,17.5,7.25,referencia_DOL_FRED,81276.0,1920.0,ACS_1year_B20002_total,False,212.12121212121212,193.24742022920728
+2010,12,FL,Florida,estado,7.25,7.25,7.25,referencia_DOL_FRED,26045.0,136.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,12,FL,Florida,estado,7.25,7.25,7.25,referencia_DOL_FRED,26577.0,183.0,ACS_1year_B20002_total,False,100.0,102.04261854482627
+2012,12,FL,Florida,estado,7.67,7.67,7.25,referencia_DOL_FRED,26604.0,152.0,ACS_1year_B20002_total,False,105.79310344827586,102.14628527548474
+2013,12,FL,Florida,estado,7.79,7.79,7.25,referencia_DOL_FRED,26873.0,151.0,ACS_1year_B20002_total,False,107.44827586206897,103.1791130735266
+2014,12,FL,Florida,estado,7.93,7.93,7.25,referencia_DOL_FRED,27250.0,135.0,ACS_1year_B20002_total,False,109.37931034482759,104.62660779420234
+2015,12,FL,Florida,estado,8.05,8.05,7.25,referencia_DOL_FRED,28381.0,319.0,ACS_1year_B20002_total,False,111.03448275862071,108.9690919562296
+2016,12,FL,Florida,estado,8.05,8.05,7.25,referencia_DOL_FRED,29550.0,349.0,ACS_1year_B20002_total,False,111.03448275862071,113.45747744288731
+2017,12,FL,Florida,estado,8.1,8.1,7.25,referencia_DOL_FRED,30471.0,140.0,ACS_1year_B20002_total,False,111.72413793103448,116.9936648109042
+2018,12,FL,Florida,estado,8.25,8.25,7.25,referencia_DOL_FRED,31322.0,137.0,ACS_1year_B20002_total,False,113.79310344827586,120.26108658091765
+2019,12,FL,Florida,estado,8.46,8.46,7.25,referencia_DOL_FRED,31876.0,121.0,ACS_1year_B20002_total,False,116.68965517241381,122.38817431368784
+2020,12,FL,Florida,estado,8.56,8.56,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,118.06896551724138,
+2021,12,FL,Florida,estado,10.0,10.0,7.25,referencia_DOL_FRED,35997.0,219.0,ACS_1year_B20002_total,False,137.93103448275863,138.21078901900557
+2022,12,FL,Florida,estado,10.0,10.0,7.25,referencia_DOL_FRED,39920.0,287.0,ACS_1year_B20002_total,False,137.93103448275863,153.2731810328278
+2023,12,FL,Florida,estado,11.0,11.0,7.25,referencia_DOL_FRED,41459.0,144.0,ACS_1year_B20002_total,False,151.72413793103448,159.1821846803609
+2024,12,FL,Florida,estado,12.0,12.0,7.25,referencia_DOL_FRED,42321.0,154.0,ACS_1year_B20002_total,False,165.51724137931035,162.49184104434633
+2025,12,FL,Florida,estado,13.0,13.0,7.25,referencia_DOL_FRED,45514.0,251.0,ACS_1year_B20002_total,False,179.31034482758622,174.7513918218468
+2010,13,GA,Georgia,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,27288.0,202.0,ACS_1year_B20002_total,True,100.0,100.0
+2011,13,GA,Georgia,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,27648.0,431.0,ACS_1year_B20002_total,True,100.0,101.31926121372031
+2012,13,GA,Georgia,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,28282.0,406.0,ACS_1year_B20002_total,True,100.0,103.6426267956611
+2013,13,GA,Georgia,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,28634.0,427.0,ACS_1year_B20002_total,True,100.0,104.93257109352096
+2014,13,GA,Georgia,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,29939.0,373.0,ACS_1year_B20002_total,True,100.0,109.71489299325711
+2015,13,GA,Georgia,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,30284.0,153.0,ACS_1year_B20002_total,True,100.0,110.97918498973908
+2016,13,GA,Georgia,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,31026.0,174.0,ACS_1year_B20002_total,True,100.0,113.69832893579596
+2017,13,GA,Georgia,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,32010.0,193.0,ACS_1year_B20002_total,True,100.0,117.30430958663149
+2018,13,GA,Georgia,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,32936.0,478.0,ACS_1year_B20002_total,True,100.0,120.69774259747875
+2019,13,GA,Georgia,estado,7.25,7.25,7.25,referencia_DOL_FRED,35019.0,407.0,ACS_1year_B20002_total,True,100.0,128.3311345646438
+2020,13,GA,Georgia,estado,7.25,7.25,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,True,100.0,
+2021,13,GA,Georgia,estado,7.25,7.25,7.25,referencia_DOL_FRED,37512.0,484.0,ACS_1year_B20002_total,True,100.0,137.467018469657
+2022,13,GA,Georgia,estado,7.25,7.25,7.25,referencia_DOL_FRED,41046.0,251.0,ACS_1year_B20002_total,True,100.0,150.41776605101143
+2023,13,GA,Georgia,estado,7.25,7.25,7.25,referencia_DOL_FRED,42002.0,226.0,ACS_1year_B20002_total,True,100.0,153.92113749633538
+2024,13,GA,Georgia,estado,7.25,,7.25,serie_estatal_sin_dato_piso_federal_FLSA,45204.0,419.0,ACS_1year_B20002_total,True,100.0,165.65523306948108
+2025,13,GA,Georgia,estado,7.25,,7.25,serie_estatal_sin_dato_piso_federal_FLSA,46676.0,341.0,ACS_1year_B20002_total,True,100.0,171.04954558780418
+2010,15,HI,Hawaii,estado,7.25,7.25,7.25,referencia_DOL_FRED,31119.0,393.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,15,HI,Hawaii,estado,7.25,7.25,7.25,referencia_DOL_FRED,31730.0,367.0,ACS_1year_B20002_total,False,100.0,101.96343070150068
+2012,15,HI,Hawaii,estado,7.25,7.25,7.25,referencia_DOL_FRED,31475.0,359.0,ACS_1year_B20002_total,False,100.0,101.14399562967962
+2013,15,HI,Hawaii,estado,7.25,7.25,7.25,referencia_DOL_FRED,32317.0,560.0,ACS_1year_B20002_total,False,100.0,103.8497381021241
+2014,15,HI,Hawaii,estado,7.25,7.25,7.25,referencia_DOL_FRED,33473.0,1138.0,ACS_1year_B20002_total,False,100.0,107.56451042771297
+2015,15,HI,Hawaii,estado,7.75,7.75,7.25,referencia_DOL_FRED,34730.0,1020.0,ACS_1year_B20002_total,False,106.89655172413794,111.60384331116039
+2016,15,HI,Hawaii,estado,8.5,8.5,7.25,referencia_DOL_FRED,35514.0,493.0,ACS_1year_B20002_total,False,117.24137931034483,114.12320447315145
+2017,15,HI,Hawaii,estado,9.25,9.25,7.25,referencia_DOL_FRED,37247.0,637.0,ACS_1year_B20002_total,False,127.58620689655173,119.69214949066486
+2018,15,HI,Hawaii,estado,10.1,10.1,7.25,referencia_DOL_FRED,36936.0,608.0,ACS_1year_B20002_total,False,139.31034482758622,118.69276005013015
+2019,15,HI,Hawaii,estado,10.1,10.1,7.25,referencia_DOL_FRED,40240.0,713.0,ACS_1year_B20002_total,False,139.31034482758622,129.31006780423536
+2020,15,HI,Hawaii,estado,10.1,10.1,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,139.31034482758622,
+2021,15,HI,Hawaii,estado,10.1,10.1,7.25,referencia_DOL_FRED,40595.0,562.0,ACS_1year_B20002_total,False,139.31034482758622,130.45084996304507
+2022,15,HI,Hawaii,estado,12.0,12.0,7.25,referencia_DOL_FRED,45043.0,887.0,ACS_1year_B20002_total,False,165.51724137931035,144.74436839230052
+2023,15,HI,Hawaii,estado,12.0,12.0,7.25,referencia_DOL_FRED,46446.0,967.0,ACS_1year_B20002_total,False,165.51724137931035,149.2528680227514
+2024,15,HI,Hawaii,estado,14.0,14.0,7.25,referencia_DOL_FRED,49652.0,1595.0,ACS_1year_B20002_total,False,193.10344827586206,159.5552556316077
+2025,15,HI,Hawaii,estado,14.0,14.0,7.25,referencia_DOL_FRED,51312.0,483.0,ACS_1year_B20002_total,False,193.10344827586206,164.8896172756194
+2010,16,ID,Idaho,estado,7.25,7.25,7.25,referencia_DOL_FRED,23109.0,576.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,16,ID,Idaho,estado,7.25,7.25,7.25,referencia_DOL_FRED,23192.0,561.0,ACS_1year_B20002_total,False,100.0,100.35916742394738
+2012,16,ID,Idaho,estado,7.25,7.25,7.25,referencia_DOL_FRED,23730.0,659.0,ACS_1year_B20002_total,False,100.0,102.68726470206413
+2013,16,ID,Idaho,estado,7.25,7.25,7.25,referencia_DOL_FRED,25138.0,513.0,ACS_1year_B20002_total,False,100.0,108.78012895408715
+2014,16,ID,Idaho,estado,7.25,7.25,7.25,referencia_DOL_FRED,25145.0,563.0,ACS_1year_B20002_total,False,100.0,108.81042018261283
+2015,16,ID,Idaho,estado,7.25,7.25,7.25,referencia_DOL_FRED,25680.0,510.0,ACS_1year_B20002_total,False,100.0,111.12553550564715
+2016,16,ID,Idaho,estado,7.25,7.25,7.25,referencia_DOL_FRED,26998.0,446.0,ACS_1year_B20002_total,False,100.0,116.8289411051971
+2017,16,ID,Idaho,estado,7.25,7.25,7.25,referencia_DOL_FRED,27589.0,855.0,ACS_1year_B20002_total,False,100.0,119.3863862564369
+2018,16,ID,Idaho,estado,7.25,7.25,7.25,referencia_DOL_FRED,30419.0,498.0,ACS_1year_B20002_total,False,100.0,131.6326972175343
+2019,16,ID,Idaho,estado,7.25,7.25,7.25,referencia_DOL_FRED,31111.0,384.0,ACS_1year_B20002_total,False,100.0,134.62720152321606
+2020,16,ID,Idaho,estado,7.25,7.25,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,100.0,
+2021,16,ID,Idaho,estado,7.25,7.25,7.25,referencia_DOL_FRED,34941.0,1067.0,ACS_1year_B20002_total,False,100.0,151.20083084512527
+2022,16,ID,Idaho,estado,7.25,7.25,7.25,referencia_DOL_FRED,37395.0,634.0,ACS_1year_B20002_total,False,100.0,161.82007010255745
+2023,16,ID,Idaho,estado,7.25,7.25,7.25,referencia_DOL_FRED,40098.0,610.0,ACS_1year_B20002_total,False,100.0,173.51681163183176
+2024,16,ID,Idaho,estado,7.25,7.25,7.25,referencia_DOL_FRED,41563.0,484.0,ACS_1year_B20002_total,False,100.0,179.85633303042104
+2025,16,ID,Idaho,estado,7.25,7.25,7.25,referencia_DOL_FRED,43390.0,1035.0,ACS_1year_B20002_total,False,100.0,187.7623436756242
+2010,17,IL,Illinois,estado,8.0,8.0,7.25,referencia_DOL_FRED,30462.0,149.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,17,IL,Illinois,estado,8.25,8.25,7.25,referencia_DOL_FRED,30794.0,154.0,ACS_1year_B20002_total,False,103.125,101.08988247652813
+2012,17,IL,Illinois,estado,8.25,8.25,7.25,referencia_DOL_FRED,31329.0,153.0,ACS_1year_B20002_total,False,103.125,102.84616899743943
+2013,17,IL,Illinois,estado,8.25,8.25,7.25,referencia_DOL_FRED,31655.0,146.0,ACS_1year_B20002_total,False,103.125,103.91635480270502
+2014,17,IL,Illinois,estado,8.25,8.25,7.25,referencia_DOL_FRED,31994.0,147.0,ACS_1year_B20002_total,False,103.125,105.02921672903946
+2015,17,IL,Illinois,estado,8.25,8.25,7.25,referencia_DOL_FRED,32904.0,535.0,ACS_1year_B20002_total,False,103.125,108.01654520386055
+2016,17,IL,Illinois,estado,8.25,8.25,7.25,referencia_DOL_FRED,34774.0,493.0,ACS_1year_B20002_total,False,103.125,114.15534108069069
+2017,17,IL,Illinois,estado,8.25,8.25,7.25,referencia_DOL_FRED,35868.0,224.0,ACS_1year_B20002_total,False,103.125,117.74670080756353
+2018,17,IL,Illinois,estado,8.25,8.25,7.25,referencia_DOL_FRED,37032.0,232.0,ACS_1year_B20002_total,False,103.125,121.56785503249951
+2019,17,IL,Illinois,estado,8.25,8.25,7.25,referencia_DOL_FRED,39055.0,484.0,ACS_1year_B20002_total,False,103.125,128.20891602652486
+2020,17,IL,Illinois,estado,10.0,10.0,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,125.0,
+2021,17,IL,Illinois,estado,11.0,11.0,7.25,referencia_DOL_FRED,41504.0,183.0,ACS_1year_B20002_total,False,137.5,136.24844068019172
+2022,17,IL,Illinois,estado,12.0,12.0,7.25,referencia_DOL_FRED,44765.0,395.0,ACS_1year_B20002_total,False,150.0,146.95358151139123
+2023,17,IL,Illinois,estado,13.0,13.0,7.25,referencia_DOL_FRED,47015.0,325.0,ACS_1year_B20002_total,False,162.5,154.33983323484998
+2024,17,IL,Illinois,estado,14.0,14.0,7.25,referencia_DOL_FRED,49650.0,707.0,ACS_1year_B20002_total,False,175.0,162.9899546976561
+2025,17,IL,Illinois,estado,15.0,15.0,7.25,referencia_DOL_FRED,50701.0,249.0,ACS_1year_B20002_total,False,187.5,166.44015494714728
+2010,18,IN,Indiana,estado,7.25,7.25,7.25,referencia_DOL_FRED,26708.0,220.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,18,IN,Indiana,estado,7.25,7.25,7.25,referencia_DOL_FRED,27618.0,323.0,ACS_1year_B20002_total,False,100.0,103.40721881084319
+2012,18,IN,Indiana,estado,7.25,7.25,7.25,referencia_DOL_FRED,27386.0,235.0,ACS_1year_B20002_total,False,100.0,102.53856522390295
+2013,18,IN,Indiana,estado,7.25,7.25,7.25,referencia_DOL_FRED,28148.0,441.0,ACS_1year_B20002_total,False,100.0,105.39164295342219
+2014,18,IN,Indiana,estado,7.25,7.25,7.25,referencia_DOL_FRED,28977.0,409.0,ACS_1year_B20002_total,False,100.0,108.49558184813539
+2015,18,IN,Indiana,estado,7.25,7.25,7.25,referencia_DOL_FRED,30229.0,167.0,ACS_1year_B20002_total,False,100.0,113.18331586041636
+2016,18,IN,Indiana,estado,7.25,7.25,7.25,referencia_DOL_FRED,30906.0,153.0,ACS_1year_B20002_total,False,100.0,115.71813688782387
+2017,18,IN,Indiana,estado,7.25,7.25,7.25,referencia_DOL_FRED,32069.0,220.0,ACS_1year_B20002_total,False,100.0,120.07263741201139
+2018,18,IN,Indiana,estado,7.25,7.25,7.25,referencia_DOL_FRED,32846.0,469.0,ACS_1year_B20002_total,False,100.0,122.9818780889621
+2019,18,IN,Indiana,estado,7.25,7.25,7.25,referencia_DOL_FRED,33756.0,566.0,ACS_1year_B20002_total,False,100.0,126.3890968998053
+2020,18,IN,Indiana,estado,7.25,7.25,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,100.0,
+2021,18,IN,Indiana,estado,7.25,7.25,7.25,referencia_DOL_FRED,37998.0,476.0,ACS_1year_B20002_total,False,100.0,142.2719784334282
+2022,18,IN,Indiana,estado,7.25,7.25,7.25,referencia_DOL_FRED,40900.0,199.0,ACS_1year_B20002_total,False,100.0,153.1376366631721
+2023,18,IN,Indiana,estado,7.25,7.25,7.25,referencia_DOL_FRED,41829.0,240.0,ACS_1year_B20002_total,False,100.0,156.61599520742848
+2024,18,IN,Indiana,estado,7.25,7.25,7.25,referencia_DOL_FRED,44095.0,605.0,ACS_1year_B20002_total,False,100.0,165.1003444660776
+2025,18,IN,Indiana,estado,7.25,7.25,7.25,referencia_DOL_FRED,45275.0,391.0,ACS_1year_B20002_total,False,100.0,169.51849633068744
+2010,19,IA,Iowa,estado,7.25,7.25,7.25,referencia_DOL_FRED,27001.0,261.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,19,IA,Iowa,estado,7.25,7.25,7.25,referencia_DOL_FRED,28438.0,488.0,ACS_1year_B20002_total,False,100.0,105.3220251101811
+2012,19,IA,Iowa,estado,7.25,7.25,7.25,referencia_DOL_FRED,29546.0,514.0,ACS_1year_B20002_total,False,100.0,109.42557683048776
+2013,19,IA,Iowa,estado,7.25,7.25,7.25,referencia_DOL_FRED,30335.0,213.0,ACS_1year_B20002_total,False,100.0,112.34769082626569
+2014,19,IA,Iowa,estado,7.25,7.25,7.25,referencia_DOL_FRED,30846.0,249.0,ACS_1year_B20002_total,False,100.0,114.24021332543239
+2015,19,IA,Iowa,estado,7.25,7.25,7.25,referencia_DOL_FRED,30916.0,260.0,ACS_1year_B20002_total,False,100.0,114.49946298285249
+2016,19,IA,Iowa,estado,7.25,7.25,7.25,referencia_DOL_FRED,31717.0,267.0,ACS_1year_B20002_total,False,100.0,117.46601977704529
+2017,19,IA,Iowa,estado,7.25,7.25,7.25,referencia_DOL_FRED,33349.0,645.0,ACS_1year_B20002_total,False,100.0,123.51024036146809
+2018,19,IA,Iowa,estado,7.25,7.25,7.25,referencia_DOL_FRED,34583.0,543.0,ACS_1year_B20002_total,False,100.0,128.08044146513092
+2019,19,IA,Iowa,estado,7.25,7.25,7.25,referencia_DOL_FRED,35837.0,388.0,ACS_1year_B20002_total,False,100.0,132.7247138994852
+2020,19,IA,Iowa,estado,7.25,7.25,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,100.0,
+2021,19,IA,Iowa,estado,7.25,7.25,7.25,referencia_DOL_FRED,39068.0,647.0,ACS_1year_B20002_total,False,100.0,144.6909373726899
+2022,19,IA,Iowa,estado,7.25,7.25,7.25,referencia_DOL_FRED,41625.0,346.0,ACS_1year_B20002_total,False,100.0,154.16095700159252
+2023,19,IA,Iowa,estado,7.25,7.25,7.25,referencia_DOL_FRED,42156.0,390.0,ACS_1year_B20002_total,False,100.0,156.1275508314507
+2024,19,IA,Iowa,estado,7.25,7.25,7.25,referencia_DOL_FRED,44656.0,729.0,ACS_1year_B20002_total,False,100.0,165.38646716788267
+2025,19,IA,Iowa,estado,7.25,7.25,7.25,referencia_DOL_FRED,45877.0,540.0,ACS_1year_B20002_total,False,100.0,169.90852190659606
+2010,20,KS,Kansas,estado,7.25,7.25,7.25,referencia_DOL_FRED,27025.0,353.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,20,KS,Kansas,estado,7.25,7.25,7.25,referencia_DOL_FRED,27718.0,490.0,ACS_1year_B20002_total,False,100.0,102.56429232192414
+2012,20,KS,Kansas,estado,7.25,7.25,7.25,referencia_DOL_FRED,28554.0,502.0,ACS_1year_B20002_total,False,100.0,105.6577243293247
+2013,20,KS,Kansas,estado,7.25,7.25,7.25,referencia_DOL_FRED,29614.0,568.0,ACS_1year_B20002_total,False,100.0,109.5800185013876
+2014,20,KS,Kansas,estado,7.25,7.25,7.25,referencia_DOL_FRED,30384.0,228.0,ACS_1year_B20002_total,False,100.0,112.42923219241443
+2015,20,KS,Kansas,estado,7.25,7.25,7.25,referencia_DOL_FRED,31014.0,272.0,ACS_1year_B20002_total,False,100.0,114.76040703052729
+2016,20,KS,Kansas,estado,7.25,7.25,7.25,referencia_DOL_FRED,31098.0,265.0,ACS_1year_B20002_total,False,100.0,115.07123034227567
+2017,20,KS,Kansas,estado,7.25,7.25,7.25,referencia_DOL_FRED,31839.0,262.0,ACS_1year_B20002_total,False,100.0,117.81313598519888
+2018,20,KS,Kansas,estado,7.25,7.25,7.25,referencia_DOL_FRED,32322.0,272.0,ACS_1year_B20002_total,False,100.0,119.60037002775208
+2019,20,KS,Kansas,estado,7.25,7.25,7.25,referencia_DOL_FRED,35266.0,468.0,ACS_1year_B20002_total,False,100.0,130.49398704902868
+2020,20,KS,Kansas,estado,7.25,7.25,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,100.0,
+2021,20,KS,Kansas,estado,7.25,7.25,7.25,referencia_DOL_FRED,38071.0,720.0,ACS_1year_B20002_total,False,100.0,140.87326549491212
+2022,20,KS,Kansas,estado,7.25,7.25,7.25,referencia_DOL_FRED,40394.0,386.0,ACS_1year_B20002_total,False,100.0,149.46901017576317
+2023,20,KS,Kansas,estado,7.25,7.25,7.25,referencia_DOL_FRED,41146.0,369.0,ACS_1year_B20002_total,False,100.0,152.25161887141536
+2024,20,KS,Kansas,estado,7.25,7.25,7.25,referencia_DOL_FRED,44119.0,820.0,ACS_1year_B20002_total,False,100.0,163.25254394079556
+2025,20,KS,Kansas,estado,7.25,7.25,7.25,referencia_DOL_FRED,44608.0,890.0,ACS_1year_B20002_total,False,100.0,165.06197964847362
+2010,21,KY,Kentucky,estado,7.25,7.25,7.25,referencia_DOL_FRED,25169.0,341.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,21,KY,Kentucky,estado,7.25,7.25,7.25,referencia_DOL_FRED,25782.0,255.0,ACS_1year_B20002_total,False,100.0,102.43553577813978
+2012,21,KY,Kentucky,estado,7.25,7.25,7.25,referencia_DOL_FRED,26430.0,225.0,ACS_1year_B20002_total,False,100.0,105.01013151098573
+2013,21,KY,Kentucky,estado,7.25,7.25,7.25,referencia_DOL_FRED,26858.0,256.0,ACS_1year_B20002_total,False,100.0,106.71063609996425
+2014,21,KY,Kentucky,estado,7.25,7.25,7.25,referencia_DOL_FRED,26828.0,272.0,ACS_1year_B20002_total,False,100.0,106.59144185307322
+2015,21,KY,Kentucky,estado,7.25,7.25,7.25,referencia_DOL_FRED,27807.0,597.0,ACS_1year_B20002_total,False,100.0,110.4811474432834
+2016,21,KY,Kentucky,estado,7.25,7.25,7.25,referencia_DOL_FRED,30070.0,270.0,ACS_1year_B20002_total,False,100.0,119.4723668004291
+2017,21,KY,Kentucky,estado,7.25,7.25,7.25,referencia_DOL_FRED,30663.0,215.0,ACS_1year_B20002_total,False,100.0,121.8284397473082
+2018,21,KY,Kentucky,estado,7.25,7.25,7.25,referencia_DOL_FRED,31227.0,263.0,ACS_1year_B20002_total,False,100.0,124.06929158885931
+2019,21,KY,Kentucky,estado,7.25,7.25,7.25,referencia_DOL_FRED,32189.0,259.0,ACS_1year_B20002_total,False,100.0,127.89145377249791
+2020,21,KY,Kentucky,estado,7.25,7.25,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,100.0,
+2021,21,KY,Kentucky,estado,7.25,7.25,7.25,referencia_DOL_FRED,34928.0,515.0,ACS_1year_B20002_total,False,100.0,138.77388851364773
+2022,21,KY,Kentucky,estado,7.25,7.25,7.25,referencia_DOL_FRED,37851.0,536.0,ACS_1year_B20002_total,False,100.0,150.3873813023958
+2023,21,KY,Kentucky,estado,7.25,7.25,7.25,referencia_DOL_FRED,40293.0,301.0,ACS_1year_B20002_total,False,100.0,160.08979299932457
+2024,21,KY,Kentucky,estado,7.25,7.25,7.25,referencia_DOL_FRED,41577.0,315.0,ACS_1year_B20002_total,False,100.0,165.19130676626008
+2025,21,KY,Kentucky,estado,7.25,7.25,7.25,referencia_DOL_FRED,42255.0,410.0,ACS_1year_B20002_total,False,100.0,167.88509674599706
+2010,22,LA,Louisiana,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,26566.0,318.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,22,LA,Louisiana,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,27029.0,327.0,ACS_1year_B20002_total,False,100.0,101.74282918015508
+2012,22,LA,Louisiana,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,27273.0,320.0,ACS_1year_B20002_total,False,100.0,102.66129639388693
+2013,22,LA,Louisiana,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,29413.0,815.0,ACS_1year_B20002_total,False,100.0,110.71670556350222
+2014,22,LA,Louisiana,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,29486.0,644.0,ACS_1year_B20002_total,False,100.0,110.9914928856433
+2015,22,LA,Louisiana,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,30263.0,291.0,ACS_1year_B20002_total,False,100.0,113.91628397199428
+2016,22,LA,Louisiana,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,30261.0,266.0,ACS_1year_B20002_total,False,100.0,113.9087555522096
+2017,22,LA,Louisiana,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,30544.0,285.0,ACS_1year_B20002_total,False,100.0,114.97402695174283
+2018,22,LA,Louisiana,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,31305.0,331.0,ACS_1year_B20002_total,False,100.0,117.8385906798163
+2019,22,LA,Louisiana,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,32102.0,301.0,ACS_1year_B20002_total,False,100.0,120.83866596401415
+2020,22,LA,Louisiana,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,,,no_publicacion_ACS_estandar,False,100.0,
+2021,22,LA,Louisiana,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,34896.0,784.0,ACS_1year_B20002_total,False,100.0,131.35586840322216
+2022,22,LA,Louisiana,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,37554.0,751.0,ACS_1year_B20002_total,False,100.0,141.36113829707145
+2023,22,LA,Louisiana,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,39494.0,867.0,ACS_1year_B20002_total,False,100.0,148.66370548821803
+2024,22,LA,Louisiana,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,40882.0,376.0,ACS_1year_B20002_total,False,100.0,153.88842881879094
+2025,22,LA,Louisiana,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,41784.0,493.0,ACS_1year_B20002_total,False,100.0,157.28374614168487
+2010,23,ME,Maine,estado,7.5,7.5,7.25,referencia_DOL_FRED,26621.0,428.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,23,ME,Maine,estado,7.5,7.5,7.25,referencia_DOL_FRED,26504.0,499.0,ACS_1year_B20002_total,False,100.0,99.56049735171482
+2012,23,ME,Maine,estado,7.5,7.5,7.25,referencia_DOL_FRED,27160.0,375.0,ACS_1year_B20002_total,False,100.0,102.02471732842493
+2013,23,ME,Maine,estado,7.5,7.5,7.25,referencia_DOL_FRED,27200.0,422.0,ACS_1year_B20002_total,False,100.0,102.17497464407798
+2014,23,ME,Maine,estado,7.5,7.5,7.25,referencia_DOL_FRED,27813.0,1013.0,ACS_1year_B20002_total,False,100.0,104.47766800646106
+2015,23,ME,Maine,estado,7.5,7.5,7.25,referencia_DOL_FRED,29367.0,858.0,ACS_1year_B20002_total,False,100.0,110.31516471958228
+2016,23,ME,Maine,estado,7.5,7.5,7.25,referencia_DOL_FRED,30594.0,406.0,ACS_1year_B20002_total,False,100.0,114.92430787723977
+2017,23,ME,Maine,estado,9.0,9.0,7.25,referencia_DOL_FRED,31552.0,452.0,ACS_1year_B20002_total,False,120.0,118.52297058713046
+2018,23,ME,Maine,estado,10.0,10.0,7.25,referencia_DOL_FRED,32906.0,745.0,ACS_1year_B20002_total,False,133.33333333333334,123.6091807219864
+2019,23,ME,Maine,estado,11.0,11.0,7.25,referencia_DOL_FRED,35231.0,537.0,ACS_1year_B20002_total,False,146.66666666666666,132.34288719432027
+2020,23,ME,Maine,estado,12.0,12.0,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,160.0,
+2021,23,ME,Maine,estado,12.15,12.15,7.25,referencia_DOL_FRED,39725.0,730.0,ACS_1year_B20002_total,False,162.0,149.2242966079411
+2022,23,ME,Maine,estado,12.75,12.75,7.25,referencia_DOL_FRED,41192.0,531.0,ACS_1year_B20002_total,False,170.0,154.73498365951693
+2023,23,ME,Maine,estado,13.8,13.8,7.25,referencia_DOL_FRED,43127.0,1169.0,ACS_1year_B20002_total,False,184.0,162.0036813042335
+2024,23,ME,Maine,estado,14.15,14.15,7.25,referencia_DOL_FRED,46556.0,735.0,ACS_1year_B20002_total,False,188.66666666666666,174.8844896885917
+2025,23,ME,Maine,estado,14.65,14.65,7.25,referencia_DOL_FRED,49340.0,1341.0,ACS_1year_B20002_total,False,195.33333333333334,185.3423988580444
+2010,24,MD,Maryland,estado,7.25,7.25,7.25,referencia_DOL_FRED,38214.0,584.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,24,MD,Maryland,estado,7.25,7.25,7.25,referencia_DOL_FRED,39098.0,708.0,ACS_1year_B20002_total,False,100.0,102.31328832365102
+2012,24,MD,Maryland,estado,7.25,7.25,7.25,referencia_DOL_FRED,39240.0,609.0,ACS_1year_B20002_total,False,100.0,102.68487988695243
+2013,24,MD,Maryland,estado,7.25,7.25,7.25,referencia_DOL_FRED,40130.0,244.0,ACS_1year_B20002_total,False,100.0,105.01386926257392
+2014,24,MD,Maryland,estado,7.25,7.25,7.25,referencia_DOL_FRED,40107.0,301.0,ACS_1year_B20002_total,False,100.0,104.95368189668707
+2015,24,MD,Maryland,estado,8.25,8.25,7.25,referencia_DOL_FRED,40893.0,224.0,ACS_1year_B20002_total,False,113.79310344827586,107.01051970482023
+2016,24,MD,Maryland,estado,8.75,8.75,7.25,referencia_DOL_FRED,41235.0,211.0,ACS_1year_B20002_total,False,120.6896551724138,107.9054796671377
+2017,24,MD,Maryland,estado,9.25,9.25,7.25,referencia_DOL_FRED,42149.0,227.0,ACS_1year_B20002_total,False,127.58620689655173,110.29727325064113
+2018,24,MD,Maryland,estado,10.1,10.1,7.25,referencia_DOL_FRED,43052.0,857.0,ACS_1year_B20002_total,False,139.31034482758622,112.66028157219867
+2019,24,MD,Maryland,estado,10.1,10.1,7.25,referencia_DOL_FRED,45891.0,439.0,ACS_1year_B20002_total,False,139.31034482758622,120.08949599623175
+2020,24,MD,Maryland,estado,11.0,11.0,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,151.72413793103448,
+2021,24,MD,Maryland,estado,11.75,11.75,7.25,referencia_DOL_FRED,50548.0,316.0,ACS_1year_B20002_total,False,162.06896551724137,132.27612916732087
+2022,24,MD,Maryland,estado,12.5,12.5,7.25,referencia_DOL_FRED,52436.0,416.0,ACS_1year_B20002_total,False,172.41379310344828,137.21672685403254
+2023,24,MD,Maryland,estado,13.25,13.25,7.25,referencia_DOL_FRED,54079.0,910.0,ACS_1year_B20002_total,False,182.75862068965517,141.51619825194956
+2024,24,MD,Maryland,estado,15.0,15.0,7.25,referencia_DOL_FRED,57033.0,798.0,ACS_1year_B20002_total,False,206.89655172413794,149.24634950541687
+2025,24,MD,Maryland,estado,15.0,15.0,7.25,referencia_DOL_FRED,60324.0,497.0,ACS_1year_B20002_total,False,206.89655172413794,157.85837651122625
+2010,25,MA,Massachusetts,estado,8.0,8.0,7.25,referencia_DOL_FRED,35547.0,301.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,25,MA,Massachusetts,estado,8.0,8.0,7.25,referencia_DOL_FRED,35508.0,340.0,ACS_1year_B20002_total,False,100.0,99.89028610009284
+2012,25,MA,Massachusetts,estado,8.0,8.0,7.25,referencia_DOL_FRED,36386.0,274.0,ACS_1year_B20002_total,False,100.0,102.3602554364644
+2013,25,MA,Massachusetts,estado,8.0,8.0,7.25,referencia_DOL_FRED,36914.0,298.0,ACS_1year_B20002_total,False,100.0,103.84561285059218
+2014,25,MA,Massachusetts,estado,8.0,8.0,7.25,referencia_DOL_FRED,37702.0,538.0,ACS_1year_B20002_total,False,100.0,106.06239626410105
+2015,25,MA,Massachusetts,estado,9.0,9.0,7.25,referencia_DOL_FRED,38648.0,743.0,ACS_1year_B20002_total,False,112.5,108.72366163107998
+2016,25,MA,Massachusetts,estado,10.0,10.0,7.25,referencia_DOL_FRED,40557.0,221.0,ACS_1year_B20002_total,False,125.0,114.09401637268968
+2017,25,MA,Massachusetts,estado,11.0,11.0,7.25,referencia_DOL_FRED,41700.0,222.0,ACS_1year_B20002_total,False,137.5,117.30947759304583
+2018,25,MA,Massachusetts,estado,11.0,11.0,7.25,referencia_DOL_FRED,42257.0,308.0,ACS_1year_B20002_total,False,137.5,118.8764171378738
+2019,25,MA,Massachusetts,estado,12.0,12.0,7.25,referencia_DOL_FRED,45737.0,495.0,ACS_1year_B20002_total,False,150.0,128.66627282189776
+2020,25,MA,Massachusetts,estado,12.75,12.75,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,159.375,
+2021,25,MA,Massachusetts,estado,13.5,13.5,7.25,referencia_DOL_FRED,50683.0,298.0,ACS_1year_B20002_total,False,168.75,142.58024587166287
+2022,25,MA,Massachusetts,estado,14.25,14.25,7.25,referencia_DOL_FRED,52528.0,487.0,ACS_1year_B20002_total,False,178.125,147.770557290348
+2023,25,MA,Massachusetts,estado,15.0,15.0,7.25,referencia_DOL_FRED,54953.0,857.0,ACS_1year_B20002_total,False,187.5,154.59251132303712
+2024,25,MA,Massachusetts,estado,15.0,15.0,7.25,referencia_DOL_FRED,57238.0,685.0,ACS_1year_B20002_total,False,187.5,161.0206205868287
+2025,25,MA,Massachusetts,estado,15.0,15.0,7.25,referencia_DOL_FRED,60386.0,359.0,ACS_1year_B20002_total,False,187.5,169.87650153318143
+2010,26,MI,Michigan,estado,7.4,7.4,7.25,referencia_DOL_FRED,26162.0,207.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,26,MI,Michigan,estado,7.4,7.4,7.25,referencia_DOL_FRED,26232.0,204.0,ACS_1year_B20002_total,False,100.0,100.2675636419234
+2012,26,MI,Michigan,estado,7.4,7.4,7.25,referencia_DOL_FRED,26733.0,211.0,ACS_1year_B20002_total,False,100.0,102.1825548505466
+2013,26,MI,Michigan,estado,7.4,7.4,7.25,referencia_DOL_FRED,27346.0,205.0,ACS_1year_B20002_total,False,100.0,104.52564788624723
+2014,26,MI,Michigan,estado,8.15,8.15,7.25,referencia_DOL_FRED,28204.0,388.0,ACS_1year_B20002_total,False,110.13513513513513,107.80521366867977
+2015,26,MI,Michigan,estado,8.15,8.15,7.25,referencia_DOL_FRED,29704.0,389.0,ACS_1year_B20002_total,False,110.13513513513513,113.53872028132406
+2016,26,MI,Michigan,estado,8.5,8.5,7.25,referencia_DOL_FRED,30456.0,126.0,ACS_1year_B20002_total,False,114.86486486486486,116.41311826312973
+2017,26,MI,Michigan,estado,8.9,8.9,7.25,referencia_DOL_FRED,31713.0,130.0,ACS_1year_B20002_total,False,120.27027027027026,121.21779680452565
+2018,26,MI,Michigan,estado,9.25,9.25,7.25,referencia_DOL_FRED,32206.0,171.0,ACS_1year_B20002_total,False,125.0,123.10220931121474
+2019,26,MI,Michigan,estado,9.45,9.45,7.25,referencia_DOL_FRED,33328.0,434.0,ACS_1year_B20002_total,False,127.70270270270268,127.39087225747267
+2020,26,MI,Michigan,estado,9.65,9.65,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,130.4054054054054,
+2021,26,MI,Michigan,estado,9.65,9.65,7.25,referencia_DOL_FRED,37258.0,244.0,ACS_1year_B20002_total,False,130.4054054054054,142.41265958260072
+2022,26,MI,Michigan,estado,9.87,9.87,7.25,referencia_DOL_FRED,40610.0,245.0,ACS_1year_B20002_total,False,133.37837837837836,155.22513569298982
+2023,26,MI,Michigan,estado,10.1,10.1,7.25,referencia_DOL_FRED,41662.0,203.0,ACS_1year_B20002_total,False,136.48648648648648,159.24623499732436
+2024,26,MI,Michigan,estado,10.33,10.33,7.25,referencia_DOL_FRED,43195.0,525.0,ACS_1year_B20002_total,False,139.59459459459458,165.10587875544684
+2025,26,MI,Michigan,estado,10.563,10.563,7.25,referencia_DOL_FRED,45641.0,360.0,ACS_1year_B20002_total,False,142.74324324324323,174.4553168717988
+2010,27,MN,Minnesota,estado,7.25,6.16,7.25,referencia_estatal_inferior_piso_federal_FLSA,30939.0,195.0,ACS_1year_B20002_total,True,100.0,100.0
+2011,27,MN,Minnesota,estado,7.25,6.16,7.25,referencia_estatal_inferior_piso_federal_FLSA,31509.0,197.0,ACS_1year_B20002_total,True,100.0,101.84233491709493
+2012,27,MN,Minnesota,estado,7.25,6.16,7.25,referencia_estatal_inferior_piso_federal_FLSA,32084.0,214.0,ACS_1year_B20002_total,True,100.0,103.70083066679595
+2013,27,MN,Minnesota,estado,7.25,6.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,32347.0,186.0,ACS_1year_B20002_total,True,100.0,104.55089046187659
+2014,27,MN,Minnesota,estado,8.0,8.0,7.25,referencia_DOL_FRED,33720.0,533.0,ACS_1year_B20002_total,True,110.34482758620689,108.98865509551052
+2015,27,MN,Minnesota,estado,9.0,9.0,7.25,referencia_DOL_FRED,35147.0,183.0,ACS_1year_B20002_total,True,124.13793103448276,113.60095672129027
+2016,27,MN,Minnesota,estado,9.5,9.5,7.25,referencia_DOL_FRED,36219.0,251.0,ACS_1year_B20002_total,True,131.0344827586207,117.06583923203723
+2017,27,MN,Minnesota,estado,9.5,9.5,7.25,referencia_DOL_FRED,37397.0,298.0,ACS_1year_B20002_total,True,131.0344827586207,120.87333139403341
+2018,27,MN,Minnesota,estado,9.65,9.65,7.25,referencia_DOL_FRED,39068.0,486.0,ACS_1year_B20002_total,True,133.10344827586206,126.27428165099066
+2019,27,MN,Minnesota,estado,9.86,9.86,7.25,referencia_DOL_FRED,40977.0,230.0,ACS_1year_B20002_total,True,136.0,132.44448753999805
+2020,27,MN,Minnesota,estado,10.0,10.0,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,True,137.93103448275863,
+2021,27,MN,Minnesota,estado,10.08,10.08,7.25,referencia_DOL_FRED,43853.0,509.0,ACS_1year_B20002_total,True,139.0344827586207,141.7401984550244
+2022,27,MN,Minnesota,estado,10.33,10.33,7.25,referencia_DOL_FRED,47393.0,393.0,ACS_1year_B20002_total,True,142.48275862068965,153.18206794014029
+2023,27,MN,Minnesota,estado,10.59,10.59,7.25,referencia_DOL_FRED,50279.0,265.0,ACS_1year_B20002_total,True,146.06896551724137,162.5101005203788
+2024,27,MN,Minnesota,estado,10.85,10.85,7.25,referencia_DOL_FRED,51228.0,255.0,ACS_1year_B20002_total,True,149.6551724137931,165.5774265490158
+2025,27,MN,Minnesota,estado,11.13,11.13,7.25,referencia_DOL_FRED,52368.0,417.0,ACS_1year_B20002_total,True,153.51724137931035,169.26209638320566
+2010,28,MS,Mississippi,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,24430.0,511.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,28,MS,Mississippi,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,25069.0,434.0,ACS_1year_B20002_total,False,100.0,102.61563651248466
+2012,28,MS,Mississippi,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,24933.0,489.0,ACS_1year_B20002_total,False,100.0,102.0589439214081
+2013,28,MS,Mississippi,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,25610.0,364.0,ACS_1year_B20002_total,False,100.0,104.83012689316415
+2014,28,MS,Mississippi,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,26631.0,341.0,ACS_1year_B20002_total,False,100.0,109.0094146541138
+2015,28,MS,Mississippi,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,26953.0,348.0,ACS_1year_B20002_total,False,100.0,110.32746623004503
+2016,28,MS,Mississippi,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,27427.0,615.0,ACS_1year_B20002_total,False,100.0,112.26770364306181
+2017,28,MS,Mississippi,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,29818.0,649.0,ACS_1year_B20002_total,False,100.0,122.05485059353254
+2018,28,MS,Mississippi,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,29970.0,708.0,ACS_1year_B20002_total,False,100.0,122.67703643061809
+2019,28,MS,Mississippi,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,29341.0,949.0,ACS_1year_B20002_total,False,100.0,120.10233319688908
+2020,28,MS,Mississippi,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,,,no_publicacion_ACS_estandar,False,100.0,
+2021,28,MS,Mississippi,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,32242.0,399.0,ACS_1year_B20002_total,False,100.0,131.97707736389685
+2022,28,MS,Mississippi,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,35467.0,553.0,ACS_1year_B20002_total,False,100.0,145.178059762587
+2023,28,MS,Mississippi,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,36065.0,538.0,ACS_1year_B20002_total,False,100.0,147.62586983217355
+2024,28,MS,Mississippi,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,39108.0,1059.0,ACS_1year_B20002_total,False,100.0,160.08186655751126
+2025,28,MS,Mississippi,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,38284.0,1045.0,ACS_1year_B20002_total,False,100.0,156.7089643880475
+2010,29,MO,Missouri,estado,7.25,7.25,7.25,referencia_DOL_FRED,26603.0,231.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,29,MO,Missouri,estado,7.25,7.25,7.25,referencia_DOL_FRED,26935.0,269.0,ACS_1year_B20002_total,False,100.0,101.24797955117843
+2012,29,MO,Missouri,estado,7.25,7.25,7.25,referencia_DOL_FRED,26997.0,208.0,ACS_1year_B20002_total,False,100.0,101.48103597338645
+2013,29,MO,Missouri,estado,7.35,7.35,7.25,referencia_DOL_FRED,28053.0,359.0,ACS_1year_B20002_total,False,101.37931034482759,105.45051310002631
+2014,29,MO,Missouri,estado,7.5,7.5,7.25,referencia_DOL_FRED,28875.0,415.0,ACS_1year_B20002_total,False,103.44827586206897,108.54039018155846
+2015,29,MO,Missouri,estado,7.65,7.65,7.25,referencia_DOL_FRED,30139.0,178.0,ACS_1year_B20002_total,False,105.51724137931035,113.29173401496072
+2016,29,MO,Missouri,estado,7.65,7.65,7.25,referencia_DOL_FRED,30800.0,182.0,ACS_1year_B20002_total,False,105.51724137931035,115.77641619366237
+2017,29,MO,Missouri,estado,7.7,7.7,7.25,referencia_DOL_FRED,31514.0,211.0,ACS_1year_B20002_total,False,106.20689655172414,118.46032402360636
+2018,29,MO,Missouri,estado,7.85,7.85,7.25,referencia_DOL_FRED,32225.0,194.0,ACS_1year_B20002_total,False,108.27586206896552,121.13295492989512
+2019,29,MO,Missouri,estado,8.6,8.6,7.25,referencia_DOL_FRED,34558.0,647.0,ACS_1year_B20002_total,False,118.62068965517241,129.90264255910986
+2020,29,MO,Missouri,estado,9.45,9.45,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,130.3448275862069,
+2021,29,MO,Missouri,estado,10.3,10.3,7.25,referencia_DOL_FRED,37083.0,312.0,ACS_1year_B20002_total,False,142.06896551724137,139.39405330225915
+2022,29,MO,Missouri,estado,11.15,11.15,7.25,referencia_DOL_FRED,40267.0,296.0,ACS_1year_B20002_total,False,153.79310344827587,151.36262827500659
+2023,29,MO,Missouri,estado,12.0,12.0,7.25,referencia_DOL_FRED,41609.0,231.0,ACS_1year_B20002_total,False,165.51724137931035,156.40717212344472
+2024,29,MO,Missouri,estado,12.3,12.3,7.25,referencia_DOL_FRED,43094.0,659.0,ACS_1year_B20002_total,False,169.6551724137931,161.989249332782
+2025,29,MO,Missouri,estado,13.75,13.75,7.25,referencia_DOL_FRED,45668.0,419.0,ACS_1year_B20002_total,False,189.6551724137931,171.66484982896665
+2010,30,MT,Montana,estado,7.25,7.25,7.25,referencia_DOL_FRED,23606.0,832.0,ACS_1year_B20002_total,True,100.0,100.0
+2011,30,MT,Montana,estado,7.35,7.35,7.25,referencia_DOL_FRED,23561.0,666.0,ACS_1year_B20002_total,True,101.37931034482759,99.80937049902568
+2012,30,MT,Montana,estado,7.65,7.65,7.25,referencia_DOL_FRED,24954.0,643.0,ACS_1year_B20002_total,True,105.51724137931035,105.71041260696433
+2013,30,MT,Montana,estado,7.8,7.8,7.25,referencia_DOL_FRED,25105.0,527.0,ACS_1year_B20002_total,True,107.58620689655173,106.35008048801153
+2014,30,MT,Montana,estado,7.9,7.9,7.25,referencia_DOL_FRED,25614.0,485.0,ACS_1year_B20002_total,True,108.96551724137932,108.50631195458782
+2015,30,MT,Montana,estado,8.05,8.05,7.25,referencia_DOL_FRED,27317.0,594.0,ACS_1year_B20002_total,True,111.03448275862071,115.72057951368296
+2016,30,MT,Montana,estado,8.05,8.05,7.25,referencia_DOL_FRED,27162.0,707.0,ACS_1year_B20002_total,True,111.03448275862071,115.06396678810472
+2017,30,MT,Montana,estado,8.15,8.15,7.25,referencia_DOL_FRED,28925.0,957.0,ACS_1year_B20002_total,True,112.41379310344827,122.53240701516563
+2018,30,MT,Montana,estado,8.3,8.3,7.25,referencia_DOL_FRED,30175.0,441.0,ACS_1year_B20002_total,True,114.48275862068967,127.8276709311192
+2019,30,MT,Montana,estado,8.5,8.5,7.25,referencia_DOL_FRED,31313.0,474.0,ACS_1year_B20002_total,True,117.24137931034483,132.64847920020333
+2020,30,MT,Montana,estado,8.65,8.65,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,True,119.3103448275862,
+2021,30,MT,Montana,estado,8.75,8.75,7.25,referencia_DOL_FRED,35272.0,612.0,ACS_1year_B20002_total,True,120.6896551724138,149.4196390748115
+2022,30,MT,Montana,estado,9.2,9.2,7.25,referencia_DOL_FRED,37573.0,825.0,ACS_1year_B20002_total,True,126.89655172413792,159.16716089129883
+2023,30,MT,Montana,estado,9.95,9.95,7.25,referencia_DOL_FRED,40418.0,555.0,ACS_1year_B20002_total,True,137.24137931034483,171.21918156400915
+2024,30,MT,Montana,estado,10.3,10.3,7.25,referencia_DOL_FRED,41741.0,547.0,ACS_1year_B20002_total,True,142.06896551724137,176.82368889265442
+2025,30,MT,Montana,estado,10.55,10.55,7.25,referencia_DOL_FRED,42629.0,1811.0,ACS_1year_B20002_total,True,145.51724137931035,180.58544437854783
+2010,31,NE,Nebraska,estado,7.25,7.25,7.25,referencia_DOL_FRED,26475.0,298.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,31,NE,Nebraska,estado,7.25,7.25,7.25,referencia_DOL_FRED,27433.0,415.0,ACS_1year_B20002_total,False,100.0,103.61850802644004
+2012,31,NE,Nebraska,estado,7.25,7.25,7.25,referencia_DOL_FRED,28528.0,565.0,ACS_1year_B20002_total,False,100.0,107.75448536355051
+2013,31,NE,Nebraska,estado,7.25,7.25,7.25,referencia_DOL_FRED,28529.0,615.0,ACS_1year_B20002_total,False,100.0,107.7582625118036
+2014,31,NE,Nebraska,estado,7.25,7.25,7.25,referencia_DOL_FRED,30041.0,377.0,ACS_1year_B20002_total,False,100.0,113.46931067044382
+2015,31,NE,Nebraska,estado,8.0,8.0,7.25,referencia_DOL_FRED,31024.0,249.0,ACS_1year_B20002_total,False,110.34482758620689,117.18224740321058
+2016,31,NE,Nebraska,estado,9.0,9.0,7.25,referencia_DOL_FRED,31448.0,229.0,ACS_1year_B20002_total,False,124.13793103448276,118.78375826251181
+2017,31,NE,Nebraska,estado,9.0,9.0,7.25,referencia_DOL_FRED,33314.0,721.0,ACS_1year_B20002_total,False,124.13793103448276,125.83191690273843
+2018,31,NE,Nebraska,estado,9.0,9.0,7.25,referencia_DOL_FRED,34035.0,793.0,ACS_1year_B20002_total,False,124.13793103448276,128.55524079320114
+2019,31,NE,Nebraska,estado,9.0,9.0,7.25,referencia_DOL_FRED,36077.0,399.0,ACS_1year_B20002_total,False,124.13793103448276,136.2681775259679
+2020,31,NE,Nebraska,estado,9.0,9.0,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,124.13793103448276,
+2021,31,NE,Nebraska,estado,9.0,9.0,7.25,referencia_DOL_FRED,38898.0,842.0,ACS_1year_B20002_total,False,124.13793103448276,146.92351274787535
+2022,31,NE,Nebraska,estado,9.0,9.0,7.25,referencia_DOL_FRED,41403.0,474.0,ACS_1year_B20002_total,False,124.13793103448276,156.38526912181302
+2023,31,NE,Nebraska,estado,10.5,10.5,7.25,referencia_DOL_FRED,42456.0,591.0,ACS_1year_B20002_total,False,144.82758620689654,160.3626062322946
+2024,31,NE,Nebraska,estado,12.0,12.0,7.25,referencia_DOL_FRED,44461.0,1065.0,ACS_1year_B20002_total,False,165.51724137931035,167.93578847969783
+2025,31,NE,Nebraska,estado,13.5,13.5,7.25,referencia_DOL_FRED,47305.0,887.0,ACS_1year_B20002_total,False,186.20689655172413,178.67799811142586
+2010,32,NV,Nevada,estado,7.55,7.55,7.25,referencia_DOL_FRED,29526.0,831.0,ACS_1year_B20002_total,True,100.0,100.0
+2011,32,NV,Nevada,estado,8.25,8.25,7.25,referencia_DOL_FRED,28926.0,818.0,ACS_1year_B20002_total,True,109.27152317880795,97.96789270473481
+2012,32,NV,Nevada,estado,8.25,8.25,7.25,referencia_DOL_FRED,29580.0,621.0,ACS_1year_B20002_total,True,109.27152317880795,100.18288965657386
+2013,32,NV,Nevada,estado,8.25,8.25,7.25,referencia_DOL_FRED,29610.0,559.0,ACS_1year_B20002_total,True,109.27152317880795,100.28449502133712
+2014,32,NV,Nevada,estado,8.25,8.25,7.25,referencia_DOL_FRED,30229.0,230.0,ACS_1year_B20002_total,True,109.27152317880795,102.38095238095238
+2015,32,NV,Nevada,estado,8.25,8.25,7.25,referencia_DOL_FRED,30799.0,241.0,ACS_1year_B20002_total,True,109.27152317880795,104.31145431145431
+2016,32,NV,Nevada,estado,8.25,8.25,7.25,referencia_DOL_FRED,31132.0,263.0,ACS_1year_B20002_total,True,109.27152317880795,105.4392738603265
+2017,32,NV,Nevada,estado,8.25,8.25,7.25,referencia_DOL_FRED,32322.0,265.0,ACS_1year_B20002_total,True,109.27152317880795,109.46961999593579
+2018,32,NV,Nevada,estado,8.25,8.25,7.25,referencia_DOL_FRED,34157.0,693.0,ACS_1year_B20002_total,True,109.27152317880795,115.68448147395516
+2019,32,NV,Nevada,estado,8.25,8.25,7.25,referencia_DOL_FRED,35526.0,343.0,ACS_1year_B20002_total,True,109.27152317880795,120.3210729526519
+2020,32,NV,Nevada,estado,9.0,9.0,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,True,119.20529801324504,
+2021,32,NV,Nevada,estado,9.75,9.75,7.25,referencia_DOL_FRED,37052.0,540.0,ACS_1year_B20002_total,True,129.13907284768212,125.4893991736097
+2022,32,NV,Nevada,estado,9.5,9.5,7.25,referencia_DOL_FRED,40360.0,416.0,ACS_1year_B20002_total,True,125.82781456953643,136.69308406150512
+2023,32,NV,Nevada,estado,9.5,9.5,7.25,referencia_DOL_FRED,41980.0,365.0,ACS_1year_B20002_total,True,125.82781456953643,142.17977375872113
+2024,32,NV,Nevada,estado,12.006,12.006,7.25,referencia_DOL_FRED,43185.0,980.0,ACS_1year_B20002_total,True,159.01986754966887,146.26092257671206
+2025,32,NV,Nevada,estado,12.0,12.0,7.25,referencia_DOL_FRED,46148.0,846.0,ACS_1year_B20002_total,True,158.94039735099338,156.29614576983
+2010,33,NH,New Hampshire,estado,7.25,7.25,7.25,referencia_DOL_FRED,32207.0,433.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,33,NH,New Hampshire,estado,7.25,7.25,7.25,referencia_DOL_FRED,33419.0,832.0,ACS_1year_B20002_total,False,100.0,103.76315707765393
+2012,33,NH,New Hampshire,estado,7.25,7.25,7.25,referencia_DOL_FRED,34119.0,912.0,ACS_1year_B20002_total,False,100.0,105.9365976340547
+2013,33,NH,New Hampshire,estado,7.25,7.25,7.25,referencia_DOL_FRED,33956.0,1181.0,ACS_1year_B20002_total,False,100.0,105.43049647592139
+2014,33,NH,New Hampshire,estado,7.25,7.25,7.25,referencia_DOL_FRED,35231.0,512.0,ACS_1year_B20002_total,False,100.0,109.38926320365138
+2015,33,NH,New Hampshire,estado,7.25,7.25,7.25,referencia_DOL_FRED,36500.0,438.0,ACS_1year_B20002_total,False,100.0,113.32940044089794
+2016,33,NH,New Hampshire,estado,7.25,7.25,7.25,referencia_DOL_FRED,36144.0,490.0,ACS_1year_B20002_total,False,100.0,112.22405067221412
+2017,33,NH,New Hampshire,estado,7.25,7.25,7.25,referencia_DOL_FRED,37858.0,1124.0,ACS_1year_B20002_total,False,100.0,117.54587512031546
+2018,33,NH,New Hampshire,estado,7.25,7.25,7.25,referencia_DOL_FRED,39063.0,1323.0,ACS_1year_B20002_total,False,100.0,121.28729779240538
+2019,33,NH,New Hampshire,estado,7.25,7.25,7.25,referencia_DOL_FRED,40984.0,472.0,ACS_1year_B20002_total,False,100.0,127.25183966218523
+2020,33,NH,New Hampshire,estado,7.25,7.25,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,100.0,
+2021,33,NH,New Hampshire,estado,7.25,7.25,7.25,referencia_DOL_FRED,45677.0,980.0,ACS_1year_B20002_total,False,100.0,141.8232061353122
+2022,33,NH,New Hampshire,estado,7.25,7.25,7.25,referencia_DOL_FRED,49617.0,1069.0,ACS_1year_B20002_total,False,100.0,154.05657155276802
+2023,33,NH,New Hampshire,estado,7.25,7.25,7.25,referencia_DOL_FRED,51450.0,479.0,ACS_1year_B20002_total,False,100.0,159.7478808954575
+2024,33,NH,New Hampshire,estado,7.25,7.25,7.25,referencia_DOL_FRED,52029.0,497.0,ACS_1year_B20002_total,False,100.0,161.545626727109
+2025,33,NH,New Hampshire,estado,7.25,7.25,7.25,referencia_DOL_FRED,55772.0,1037.0,ACS_1year_B20002_total,False,100.0,173.16732387369206
+2010,34,NJ,New Jersey,estado,7.25,7.25,7.25,referencia_DOL_FRED,37230.0,273.0,ACS_1year_B20002_total,True,100.0,100.0
+2011,34,NJ,New Jersey,estado,7.25,7.25,7.25,referencia_DOL_FRED,37819.0,585.0,ACS_1year_B20002_total,True,100.0,101.58205748052646
+2012,34,NJ,New Jersey,estado,7.25,7.25,7.25,referencia_DOL_FRED,38124.0,588.0,ACS_1year_B20002_total,True,100.0,102.40128928283642
+2013,34,NJ,New Jersey,estado,7.25,7.25,7.25,referencia_DOL_FRED,37611.0,506.0,ACS_1year_B20002_total,True,100.0,101.02336825141015
+2014,34,NJ,New Jersey,estado,8.25,8.25,7.25,referencia_DOL_FRED,38893.0,557.0,ACS_1year_B20002_total,True,113.79310344827586,104.46682782702122
+2015,34,NJ,New Jersey,estado,8.38,8.38,7.25,referencia_DOL_FRED,39245.0,664.0,ACS_1year_B20002_total,True,115.58620689655174,105.41230190706419
+2016,34,NJ,New Jersey,estado,8.38,8.38,7.25,referencia_DOL_FRED,40881.0,243.0,ACS_1year_B20002_total,True,115.58620689655174,109.80660757453667
+2017,34,NJ,New Jersey,estado,8.44,8.44,7.25,referencia_DOL_FRED,41556.0,212.0,ACS_1year_B20002_total,True,116.41379310344827,111.61966156325543
+2018,34,NJ,New Jersey,estado,8.6,8.6,7.25,referencia_DOL_FRED,43571.0,840.0,ACS_1year_B20002_total,True,118.62068965517241,117.03196347031964
+2019,34,NJ,New Jersey,estado,10.0,10.0,7.25,referencia_DOL_FRED,45513.0,494.0,ACS_1year_B20002_total,True,137.93103448275863,122.24818694601129
+2020,34,NJ,New Jersey,estado,11.0,11.0,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,True,151.72413793103448,
+2021,34,NJ,New Jersey,estado,12.0,12.0,7.25,referencia_DOL_FRED,50021.0,633.0,ACS_1year_B20002_total,True,165.51724137931035,134.3567015847435
+2022,34,NJ,New Jersey,estado,13.0,13.0,7.25,referencia_DOL_FRED,51884.0,346.0,ACS_1year_B20002_total,True,179.31034482758622,139.36073059360731
+2023,34,NJ,New Jersey,estado,14.13,14.13,7.25,referencia_DOL_FRED,52340.0,243.0,ACS_1year_B20002_total,True,194.89655172413794,140.58554928820843
+2024,34,NJ,New Jersey,estado,15.13,15.13,7.25,referencia_DOL_FRED,55531.0,620.0,ACS_1year_B20002_total,True,208.68965517241378,149.15659414450712
+2025,34,NJ,New Jersey,estado,15.49,15.49,7.25,referencia_DOL_FRED,56221.0,723.0,ACS_1year_B20002_total,True,213.6551724137931,151.00993822186408
+2010,35,NM,New Mexico,estado,7.5,7.5,7.25,referencia_DOL_FRED,25481.0,435.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,35,NM,New Mexico,estado,7.5,7.5,7.25,referencia_DOL_FRED,25277.0,484.0,ACS_1year_B20002_total,False,100.0,99.19940347710059
+2012,35,NM,New Mexico,estado,7.5,7.5,7.25,referencia_DOL_FRED,26026.0,382.0,ACS_1year_B20002_total,False,100.0,102.13884855382442
+2013,35,NM,New Mexico,estado,7.5,7.5,7.25,referencia_DOL_FRED,25964.0,477.0,ACS_1year_B20002_total,False,100.0,101.89553000274715
+2014,35,NM,New Mexico,estado,7.5,7.5,7.25,referencia_DOL_FRED,25736.0,467.0,ACS_1year_B20002_total,False,100.0,101.00074565362426
+2015,35,NM,New Mexico,estado,7.5,7.5,7.25,referencia_DOL_FRED,26244.0,473.0,ACS_1year_B20002_total,False,100.0,102.99438797535419
+2016,35,NM,New Mexico,estado,7.5,7.5,7.25,referencia_DOL_FRED,26949.0,547.0,ACS_1year_B20002_total,False,100.0,105.76115537066835
+2017,35,NM,New Mexico,estado,7.5,7.5,7.25,referencia_DOL_FRED,28062.0,879.0,ACS_1year_B20002_total,False,100.0,110.12911581178133
+2018,35,NM,New Mexico,estado,7.5,7.5,7.25,referencia_DOL_FRED,28883.0,736.0,ACS_1year_B20002_total,False,100.0,113.35112436717554
+2019,35,NM,New Mexico,estado,7.5,7.5,7.25,referencia_DOL_FRED,30276.0,496.0,ACS_1year_B20002_total,False,100.0,118.81794278089556
+2020,35,NM,New Mexico,estado,9.0,9.0,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,120.0,
+2021,35,NM,New Mexico,estado,10.5,10.5,7.25,referencia_DOL_FRED,34133.0,1219.0,ACS_1year_B20002_total,False,140.0,133.95471135355754
+2022,35,NM,New Mexico,estado,11.5,11.5,7.25,referencia_DOL_FRED,36381.0,555.0,ACS_1year_B20002_total,False,153.33333333333334,142.77697107648837
+2023,35,NM,New Mexico,estado,12.0,12.0,7.25,referencia_DOL_FRED,36701.0,650.0,ACS_1year_B20002_total,False,160.0,144.03280875946783
+2024,35,NM,New Mexico,estado,12.0,12.0,7.25,referencia_DOL_FRED,40349.0,723.0,ACS_1year_B20002_total,False,160.0,158.34935834543384
+2025,35,NM,New Mexico,estado,12.0,12.0,7.25,referencia_DOL_FRED,40981.0,615.0,ACS_1year_B20002_total,False,160.0,160.8296377693183
+2010,36,NY,New York,estado,7.25,7.25,7.25,referencia_DOL_FRED,32088.0,105.0,ACS_1year_B20002_total,True,100.0,100.0
+2011,36,NY,New York,estado,7.25,7.25,7.25,referencia_DOL_FRED,32288.0,153.0,ACS_1year_B20002_total,True,100.0,100.6232859636001
+2012,36,NY,New York,estado,7.25,7.25,7.25,referencia_DOL_FRED,33190.0,332.0,ACS_1year_B20002_total,True,100.0,103.43430565943655
+2013,36,NY,New York,estado,7.25,7.25,7.25,referencia_DOL_FRED,33062.0,468.0,ACS_1year_B20002_total,True,100.0,103.03540264273249
+2014,36,NY,New York,estado,8.0,8.0,7.25,referencia_DOL_FRED,34308.0,464.0,ACS_1year_B20002_total,True,110.34482758620689,106.91847419596111
+2015,36,NY,New York,estado,8.75,8.75,7.25,referencia_DOL_FRED,35580.0,174.0,ACS_1year_B20002_total,True,120.6896551724138,110.88257292445775
+2016,36,NY,New York,estado,9.0,9.0,7.25,referencia_DOL_FRED,36263.0,175.0,ACS_1year_B20002_total,True,124.13793103448276,113.01109449015208
+2017,36,NY,New York,estado,9.7,9.7,7.25,referencia_DOL_FRED,37329.0,185.0,ACS_1year_B20002_total,True,133.79310344827584,116.33320867614061
+2018,36,NY,New York,estado,10.4,10.4,7.25,referencia_DOL_FRED,40222.0,136.0,ACS_1year_B20002_total,True,143.44827586206895,125.34904013961605
+2019,36,NY,New York,estado,11.1,11.1,7.25,referencia_DOL_FRED,41492.0,148.0,ACS_1year_B20002_total,True,153.10344827586206,129.3069060084767
+2020,36,NY,New York,estado,11.8,11.8,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,True,162.75862068965517,
+2021,36,NY,New York,estado,12.5,12.5,7.25,referencia_DOL_FRED,43462.0,441.0,ACS_1year_B20002_total,True,172.41379310344828,135.44627274993766
+2022,36,NY,New York,estado,13.2,13.2,7.25,referencia_DOL_FRED,47414.0,376.0,ACS_1year_B20002_total,True,182.06896551724137,147.76240339067564
+2023,36,NY,New York,estado,14.2,14.2,7.25,referencia_DOL_FRED,50072.0,223.0,ACS_1year_B20002_total,True,195.86206896551724,156.04587384692095
+2024,36,NY,New York,estado,16.0,16.0,7.25,referencia_DOL_FRED,51169.0,157.0,ACS_1year_B20002_total,True,220.68965517241378,159.4645973572675
+2025,36,NY,New York,estado,16.5,16.5,7.25,referencia_DOL_FRED,52022.0,204.0,ACS_1year_B20002_total,True,227.58620689655172,162.12291199202193
+2010,37,NC,North Carolina,estado,7.25,7.25,7.25,referencia_DOL_FRED,26398.0,194.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,37,NC,North Carolina,estado,7.25,7.25,7.25,referencia_DOL_FRED,26750.0,257.0,ACS_1year_B20002_total,False,100.0,101.3334343510872
+2012,37,NC,North Carolina,estado,7.25,7.25,7.25,referencia_DOL_FRED,27066.0,184.0,ACS_1year_B20002_total,False,100.0,102.53049473444958
+2013,37,NC,North Carolina,estado,7.25,7.25,7.25,referencia_DOL_FRED,27389.0,179.0,ACS_1year_B20002_total,False,100.0,103.7540722782029
+2014,37,NC,North Carolina,estado,7.25,7.25,7.25,referencia_DOL_FRED,28248.0,296.0,ACS_1year_B20002_total,False,100.0,107.00810667474809
+2015,37,NC,North Carolina,estado,7.25,7.25,7.25,referencia_DOL_FRED,29355.0,348.0,ACS_1year_B20002_total,False,100.0,111.20160618228654
+2016,37,NC,North Carolina,estado,7.25,7.25,7.25,referencia_DOL_FRED,30552.0,168.0,ACS_1year_B20002_total,False,100.0,115.73604060913705
+2017,37,NC,North Carolina,estado,7.25,7.25,7.25,referencia_DOL_FRED,31347.0,177.0,ACS_1year_B20002_total,False,100.0,118.74763239639367
+2018,37,NC,North Carolina,estado,7.25,7.25,7.25,referencia_DOL_FRED,31977.0,173.0,ACS_1year_B20002_total,False,100.0,121.13417683157815
+2019,37,NC,North Carolina,estado,7.25,7.25,7.25,referencia_DOL_FRED,33205.0,491.0,ACS_1year_B20002_total,False,100.0,125.78604439730283
+2020,37,NC,North Carolina,estado,7.25,7.25,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,100.0,
+2021,37,NC,North Carolina,estado,7.25,7.25,7.25,referencia_DOL_FRED,37218.0,262.0,ACS_1year_B20002_total,False,100.0,140.98795363285097
+2022,37,NC,North Carolina,estado,7.25,7.25,7.25,referencia_DOL_FRED,40679.0,272.0,ACS_1year_B20002_total,False,100.0,154.0987953632851
+2023,37,NC,North Carolina,estado,7.25,7.25,7.25,referencia_DOL_FRED,41975.0,193.0,ACS_1year_B20002_total,False,100.0,159.00825820137888
+2024,37,NC,North Carolina,estado,7.25,7.25,7.25,referencia_DOL_FRED,43948.0,574.0,ACS_1year_B20002_total,False,100.0,166.48230926585347
+2025,37,NC,North Carolina,estado,7.25,7.25,7.25,referencia_DOL_FRED,46098.0,375.0,ACS_1year_B20002_total,False,100.0,174.62686567164178
+2010,38,ND,North Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,27142.0,476.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,38,ND,North Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,28728.0,927.0,ACS_1year_B20002_total,False,100.0,105.84334242133963
+2012,38,ND,North Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,31090.0,409.0,ACS_1year_B20002_total,False,100.0,114.54572249649989
+2013,38,ND,North Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,31286.0,414.0,ACS_1year_B20002_total,False,100.0,115.26785056370201
+2014,38,ND,North Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,32022.0,436.0,ACS_1year_B20002_total,False,100.0,117.97951514258345
+2015,38,ND,North Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,34336.0,1501.0,ACS_1year_B20002_total,False,100.0,126.50504752781667
+2016,38,ND,North Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,35039.0,1167.0,ACS_1year_B20002_total,False,100.0,129.09512931987325
+2017,38,ND,North Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,35999.0,575.0,ACS_1year_B20002_total,False,100.0,132.63208311841427
+2018,38,ND,North Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,37409.0,1116.0,ACS_1year_B20002_total,False,100.0,137.82698401002136
+2019,38,ND,North Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,37398.0,1321.0,ACS_1year_B20002_total,False,100.0,137.7864564144131
+2020,38,ND,North Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,100.0,
+2021,38,ND,North Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,39438.0,1407.0,ACS_1year_B20002_total,False,100.0,145.30248323631272
+2022,38,ND,North Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,42807.0,948.0,ACS_1year_B20002_total,False,100.0,157.71498047306758
+2023,38,ND,North Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,46063.0,844.0,ACS_1year_B20002_total,False,100.0,169.71114877311916
+2024,38,ND,North Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,47520.0,1190.0,ACS_1year_B20002_total,False,100.0,175.07921302777982
+2025,38,ND,North Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,50225.0,602.0,ACS_1year_B20002_total,False,100.0,185.0453172205438
+2010,39,OH,Ohio,estado,7.3,7.3,7.25,referencia_DOL_FRED,27109.0,184.0,ACS_1year_B20002_total,True,100.0,100.0
+2011,39,OH,Ohio,estado,7.4,7.4,7.25,referencia_DOL_FRED,27935.0,259.0,ACS_1year_B20002_total,True,101.36986301369863,103.04695857464311
+2012,39,OH,Ohio,estado,7.7,7.7,7.25,referencia_DOL_FRED,28480.0,329.0,ACS_1year_B20002_total,True,105.47945205479452,105.05736102401417
+2013,39,OH,Ohio,estado,7.85,7.85,7.25,referencia_DOL_FRED,29220.0,346.0,ACS_1year_B20002_total,True,107.53424657534246,107.78708178095836
+2014,39,OH,Ohio,estado,7.95,7.95,7.25,referencia_DOL_FRED,30134.0,141.0,ACS_1year_B20002_total,True,108.9041095890411,111.15865579696779
+2015,39,OH,Ohio,estado,8.1,8.1,7.25,referencia_DOL_FRED,30635.0,127.0,ACS_1year_B20002_total,True,110.95890410958904,113.00675052565569
+2016,39,OH,Ohio,estado,8.1,8.1,7.25,referencia_DOL_FRED,31289.0,146.0,ACS_1year_B20002_total,True,110.95890410958904,115.41923346490096
+2017,39,OH,Ohio,estado,8.15,8.15,7.25,referencia_DOL_FRED,31982.0,158.0,ACS_1year_B20002_total,True,111.64383561643835,117.97558006566085
+2018,39,OH,Ohio,estado,8.3,8.3,7.25,referencia_DOL_FRED,33647.0,340.0,ACS_1year_B20002_total,True,113.69863013698632,124.11745176878527
+2019,39,OH,Ohio,estado,8.55,8.55,7.25,referencia_DOL_FRED,34852.0,405.0,ACS_1year_B20002_total,True,117.1232876712329,128.56247002840385
+2020,39,OH,Ohio,estado,8.7,8.7,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,True,119.1780821917808,
+2021,39,OH,Ohio,estado,8.8,8.8,7.25,referencia_DOL_FRED,38214.0,409.0,ACS_1year_B20002_total,True,120.54794520547946,140.96425541333136
+2022,39,OH,Ohio,estado,9.3,9.3,7.25,referencia_DOL_FRED,41140.0,188.0,ACS_1year_B20002_total,True,127.39726027397262,151.75771883876203
+2023,39,OH,Ohio,estado,10.1,10.1,7.25,referencia_DOL_FRED,42343.0,223.0,ACS_1year_B20002_total,True,138.35616438356163,156.1953594747132
+2024,39,OH,Ohio,estado,10.45,10.45,7.25,referencia_DOL_FRED,45067.0,430.0,ACS_1year_B20002_total,True,143.15068493150685,166.2436829097348
+2025,39,OH,Ohio,estado,10.7,10.7,7.25,referencia_DOL_FRED,46230.0,344.0,ACS_1year_B20002_total,True,146.57534246575344,170.5337710723376
+2010,40,OK,Oklahoma,estado,7.25,7.25,7.25,referencia_DOL_FRED,25275.0,299.0,ACS_1year_B20002_total,True,100.0,100.0
+2011,40,OK,Oklahoma,estado,7.25,7.25,7.25,referencia_DOL_FRED,25974.0,285.0,ACS_1year_B20002_total,True,100.0,102.76557863501483
+2012,40,OK,Oklahoma,estado,7.25,7.25,7.25,referencia_DOL_FRED,26870.0,240.0,ACS_1year_B20002_total,True,100.0,106.31058358061325
+2013,40,OK,Oklahoma,estado,7.25,7.25,7.25,referencia_DOL_FRED,27416.0,267.0,ACS_1year_B20002_total,True,100.0,108.4708209693373
+2014,40,OK,Oklahoma,estado,7.25,7.25,7.25,referencia_DOL_FRED,28548.0,476.0,ACS_1year_B20002_total,True,100.0,112.94955489614243
+2015,40,OK,Oklahoma,estado,7.25,7.25,7.25,referencia_DOL_FRED,29108.0,395.0,ACS_1year_B20002_total,True,100.0,115.16518298714145
+2016,40,OK,Oklahoma,estado,7.25,7.25,7.25,referencia_DOL_FRED,30262.0,182.0,ACS_1year_B20002_total,True,100.0,119.73095944609298
+2017,40,OK,Oklahoma,estado,7.25,7.25,7.25,referencia_DOL_FRED,30479.0,236.0,ACS_1year_B20002_total,True,100.0,120.58951533135509
+2018,40,OK,Oklahoma,estado,7.25,7.25,7.25,referencia_DOL_FRED,31043.0,212.0,ACS_1year_B20002_total,True,100.0,122.82096933728981
+2019,40,OK,Oklahoma,estado,7.25,7.25,7.25,referencia_DOL_FRED,32323.0,239.0,ACS_1year_B20002_total,True,100.0,127.88526211671612
+2020,40,OK,Oklahoma,estado,7.25,7.25,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,True,100.0,
+2021,40,OK,Oklahoma,estado,7.25,7.25,7.25,referencia_DOL_FRED,34460.0,566.0,ACS_1year_B20002_total,True,100.0,136.3402571711177
+2022,40,OK,Oklahoma,estado,7.25,7.25,7.25,referencia_DOL_FRED,36988.0,325.0,ACS_1year_B20002_total,True,100.0,146.34223541048468
+2023,40,OK,Oklahoma,estado,7.25,7.25,7.25,referencia_DOL_FRED,39057.0,518.0,ACS_1year_B20002_total,True,100.0,154.52818991097922
+2024,40,OK,Oklahoma,estado,7.25,7.25,7.25,referencia_DOL_FRED,40862.0,295.0,ACS_1year_B20002_total,True,100.0,161.6696340257171
+2025,40,OK,Oklahoma,estado,7.25,7.25,7.25,referencia_DOL_FRED,41462.0,276.0,ACS_1year_B20002_total,True,100.0,164.04352126607318
+2010,41,OR,Oregon,estado,8.4,8.4,7.25,referencia_DOL_FRED,25719.0,307.0,ACS_1year_B20002_total,True,100.0,100.0
+2011,41,OR,Oregon,estado,8.5,8.5,7.25,referencia_DOL_FRED,25851.0,400.0,ACS_1year_B20002_total,True,101.19047619047619,100.51323923947277
+2012,41,OR,Oregon,estado,8.8,8.8,7.25,referencia_DOL_FRED,26782.0,274.0,ACS_1year_B20002_total,True,104.76190476190477,104.13313114817839
+2013,41,OR,Oregon,estado,8.95,8.95,7.25,referencia_DOL_FRED,26845.0,348.0,ACS_1year_B20002_total,True,106.54761904761902,104.37808623974493
+2014,41,OR,Oregon,estado,9.1,9.1,7.25,referencia_DOL_FRED,27367.0,350.0,ACS_1year_B20002_total,True,108.33333333333333,106.40771414129632
+2015,41,OR,Oregon,estado,9.25,9.25,7.25,referencia_DOL_FRED,28933.0,500.0,ACS_1year_B20002_total,True,110.11904761904762,112.49659784595046
+2016,41,OR,Oregon,estado,9.75,9.75,7.25,referencia_DOL_FRED,30897.0,230.0,ACS_1year_B20002_total,True,116.07142857142857,120.13297562113613
+2017,41,OR,Oregon,estado,10.25,10.25,7.25,referencia_DOL_FRED,32137.0,307.0,ACS_1year_B20002_total,True,122.02380952380952,124.95431393133481
+2018,41,OR,Oregon,estado,10.75,10.75,7.25,referencia_DOL_FRED,34358.0,814.0,ACS_1year_B20002_total,True,127.97619047619047,133.5899529530697
+2019,41,OR,Oregon,estado,11.25,11.25,7.25,referencia_DOL_FRED,35643.0,367.0,ACS_1year_B20002_total,True,133.92857142857142,138.58625918581595
+2020,41,OR,Oregon,estado,12.0,12.0,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,True,142.85714285714286,
+2021,41,OR,Oregon,estado,12.75,12.75,7.25,referencia_DOL_FRED,40063.0,405.0,ACS_1year_B20002_total,True,151.78571428571428,155.7719973560403
+2022,41,OR,Oregon,estado,13.5,13.5,7.25,referencia_DOL_FRED,41996.0,455.0,ACS_1year_B20002_total,True,160.7142857142857,163.28784167347098
+2023,41,OR,Oregon,estado,13.5,13.5,7.25,referencia_DOL_FRED,45295.0,535.0,ACS_1year_B20002_total,True,160.7142857142857,176.11493448423346
+2024,41,OR,Oregon,estado,15.95,15.95,7.25,referencia_DOL_FRED,47358.0,474.0,ACS_1year_B20002_total,True,189.88095238095238,184.13624168902368
+2025,41,OR,Oregon,estado,15.95,15.95,7.25,referencia_DOL_FRED,50006.0,622.0,ACS_1year_B20002_total,True,189.88095238095238,194.43213188693184
+2010,42,PA,Pennsylvania,estado,7.25,7.25,7.25,referencia_DOL_FRED,29294.0,300.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,42,PA,Pennsylvania,estado,7.25,7.25,7.25,referencia_DOL_FRED,30115.0,158.0,ACS_1year_B20002_total,False,100.0,102.8026216972759
+2012,42,PA,Pennsylvania,estado,7.25,7.25,7.25,referencia_DOL_FRED,30690.0,136.0,ACS_1year_B20002_total,False,100.0,104.76548098586741
+2013,42,PA,Pennsylvania,estado,7.25,7.25,7.25,referencia_DOL_FRED,31129.0,129.0,ACS_1year_B20002_total,False,100.0,106.26408138185293
+2014,42,PA,Pennsylvania,estado,7.25,7.25,7.25,referencia_DOL_FRED,31524.0,129.0,ACS_1year_B20002_total,False,100.0,107.61248037140712
+2015,42,PA,Pennsylvania,estado,7.25,7.25,7.25,referencia_DOL_FRED,31911.0,116.0,ACS_1year_B20002_total,False,100.0,108.9335700143374
+2016,42,PA,Pennsylvania,estado,7.25,7.25,7.25,referencia_DOL_FRED,32465.0,233.0,ACS_1year_B20002_total,False,100.0,110.82474226804123
+2017,42,PA,Pennsylvania,estado,7.25,7.25,7.25,referencia_DOL_FRED,35000.0,304.0,ACS_1year_B20002_total,False,100.0,119.47839147948385
+2018,42,PA,Pennsylvania,estado,7.25,7.25,7.25,referencia_DOL_FRED,35688.0,216.0,ACS_1year_B20002_total,False,100.0,121.82699528913771
+2019,42,PA,Pennsylvania,estado,7.25,7.25,7.25,referencia_DOL_FRED,37000.0,211.0,ACS_1year_B20002_total,False,100.0,126.30572813545436
+2020,42,PA,Pennsylvania,estado,7.25,7.25,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,100.0,
+2021,42,PA,Pennsylvania,estado,7.25,7.25,7.25,referencia_DOL_FRED,40983.0,201.0,ACS_1year_B20002_total,False,100.0,139.90236908581963
+2022,42,PA,Pennsylvania,estado,7.25,7.25,7.25,referencia_DOL_FRED,43371.0,352.0,ACS_1year_B20002_total,False,100.0,148.0542090530484
+2023,42,PA,Pennsylvania,estado,7.25,7.25,7.25,referencia_DOL_FRED,45073.0,320.0,ACS_1year_B20002_total,False,100.0,153.8642725472793
+2024,42,PA,Pennsylvania,estado,7.25,7.25,7.25,referencia_DOL_FRED,46804.0,302.0,ACS_1year_B20002_total,False,100.0,159.77333242302177
+2025,42,PA,Pennsylvania,estado,7.25,7.25,7.25,referencia_DOL_FRED,49830.0,474.0,ACS_1year_B20002_total,False,100.0,170.10309278350516
+2010,44,RI,Rhode Island,estado,7.4,7.4,7.25,referencia_DOL_FRED,30606.0,478.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,44,RI,Rhode Island,estado,7.4,7.4,7.25,referencia_DOL_FRED,31858.0,653.0,ACS_1year_B20002_total,False,100.0,104.09070116970528
+2012,44,RI,Rhode Island,estado,7.4,7.4,7.25,referencia_DOL_FRED,31135.0,516.0,ACS_1year_B20002_total,False,100.0,101.72841926419656
+2013,44,RI,Rhode Island,estado,7.75,7.75,7.25,referencia_DOL_FRED,31832.0,544.0,ACS_1year_B20002_total,False,104.72972972972973,104.00575050643664
+2014,44,RI,Rhode Island,estado,8.0,8.0,7.25,referencia_DOL_FRED,31319.0,436.0,ACS_1year_B20002_total,False,108.1081081081081,102.32960857348232
+2015,44,RI,Rhode Island,estado,9.0,9.0,7.25,referencia_DOL_FRED,34890.0,1189.0,ACS_1year_B20002_total,False,121.62162162162161,113.99725544010978
+2016,44,RI,Rhode Island,estado,9.6,9.6,7.25,referencia_DOL_FRED,35343.0,733.0,ACS_1year_B20002_total,False,129.7297297297297,115.4773573809057
+2017,44,RI,Rhode Island,estado,9.6,9.6,7.25,referencia_DOL_FRED,36278.0,838.0,ACS_1year_B20002_total,False,129.7297297297297,118.53231392537411
+2018,44,RI,Rhode Island,estado,10.1,10.1,7.25,referencia_DOL_FRED,38122.0,1450.0,ACS_1year_B20002_total,False,136.48648648648648,124.55727635104228
+2019,44,RI,Rhode Island,estado,10.5,10.5,7.25,referencia_DOL_FRED,39145.0,1342.0,ACS_1year_B20002_total,False,141.89189189189187,127.899758217343
+2020,44,RI,Rhode Island,estado,10.5,10.5,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,141.89189189189187,
+2021,44,RI,Rhode Island,estado,11.5,11.5,7.25,referencia_DOL_FRED,41891.0,813.0,ACS_1year_B20002_total,False,155.4054054054054,136.87185519179246
+2022,44,RI,Rhode Island,estado,12.25,12.25,7.25,referencia_DOL_FRED,47266.0,1458.0,ACS_1year_B20002_total,False,165.54054054054052,154.4337711559825
+2023,44,RI,Rhode Island,estado,13.0,13.0,7.25,referencia_DOL_FRED,49953.0,1159.0,ACS_1year_B20002_total,False,175.67567567567568,163.21309547147618
+2024,44,RI,Rhode Island,estado,14.0,14.0,7.25,referencia_DOL_FRED,49492.0,2105.0,ACS_1year_B20002_total,False,189.1891891891892,161.70685486505914
+2025,44,RI,Rhode Island,estado,15.0,15.0,7.25,referencia_DOL_FRED,51091.0,877.0,ACS_1year_B20002_total,False,202.70270270270268,166.93132065608052
+2010,45,SC,South Carolina,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,25558.0,270.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,45,SC,South Carolina,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,26019.0,327.0,ACS_1year_B20002_total,False,100.0,101.80374051177714
+2012,45,SC,South Carolina,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,26566.0,291.0,ACS_1year_B20002_total,False,100.0,103.94397057672744
+2013,45,SC,South Carolina,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,26559.0,312.0,ACS_1year_B20002_total,False,100.0,103.91658189216683
+2014,45,SC,South Carolina,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,26752.0,299.0,ACS_1year_B20002_total,False,100.0,104.67172705219501
+2015,45,SC,South Carolina,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,27657.0,586.0,ACS_1year_B20002_total,False,100.0,108.21269269895923
+2016,45,SC,South Carolina,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,29640.0,573.0,ACS_1year_B20002_total,False,100.0,115.97151576805697
+2017,45,SC,South Carolina,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,30021.0,324.0,ACS_1year_B20002_total,False,100.0,117.4622427419986
+2018,45,SC,South Carolina,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,30860.0,252.0,ACS_1year_B20002_total,False,100.0,120.74497222004852
+2019,45,SC,South Carolina,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,32373.0,320.0,ACS_1year_B20002_total,False,100.0,126.66484075436263
+2020,45,SC,South Carolina,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,,,no_publicacion_ACS_estandar,False,100.0,
+2021,45,SC,South Carolina,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,35987.0,395.0,ACS_1year_B20002_total,False,100.0,140.80522732608185
+2022,45,SC,South Carolina,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,38153.0,531.0,ACS_1year_B20002_total,False,100.0,149.2800688629783
+2023,45,SC,South Carolina,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,40812.0,291.0,ACS_1year_B20002_total,False,100.0,159.68385632678613
+2024,45,SC,South Carolina,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,42275.0,394.0,ACS_1year_B20002_total,False,100.0,165.40809139995304
+2025,45,SC,South Carolina,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,42503.0,831.0,ACS_1year_B20002_total,False,100.0,166.30017998278424
+2010,46,SD,South Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,25706.0,520.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,46,SD,South Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,26652.0,476.0,ACS_1year_B20002_total,False,100.0,103.68007469073368
+2012,46,SD,South Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,27212.0,456.0,ACS_1year_B20002_total,False,100.0,105.85855442309189
+2013,46,SD,South Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,26887.0,406.0,ACS_1year_B20002_total,False,100.0,104.59425814984829
+2014,46,SD,South Dakota,estado,7.25,7.25,7.25,referencia_DOL_FRED,29003.0,998.0,ACS_1year_B20002_total,False,100.0,112.82579942425893
+2015,46,SD,South Dakota,estado,8.5,8.5,7.25,referencia_DOL_FRED,30002.0,618.0,ACS_1year_B20002_total,False,117.24137931034483,116.7120516610908
+2016,46,SD,South Dakota,estado,8.55,8.55,7.25,referencia_DOL_FRED,31032.0,338.0,ACS_1year_B20002_total,False,117.93103448275863,120.7188983116782
+2017,46,SD,South Dakota,estado,8.65,8.65,7.25,referencia_DOL_FRED,31333.0,371.0,ACS_1year_B20002_total,False,119.3103448275862,121.88983116782074
+2018,46,SD,South Dakota,estado,8.85,8.85,7.25,referencia_DOL_FRED,31981.0,423.0,ACS_1year_B20002_total,False,122.06896551724138,124.41064342954952
+2019,46,SD,South Dakota,estado,9.1,9.1,7.25,referencia_DOL_FRED,32908.0,1132.0,ACS_1year_B20002_total,False,125.51724137931035,128.01680541507818
+2020,46,SD,South Dakota,estado,9.3,9.3,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,128.27586206896552,
+2021,46,SD,South Dakota,estado,9.45,9.45,7.25,referencia_DOL_FRED,37149.0,700.0,ACS_1year_B20002_total,False,130.3448275862069,144.5148992453124
+2022,46,SD,South Dakota,estado,9.95,9.95,7.25,referencia_DOL_FRED,40978.0,491.0,ACS_1year_B20002_total,False,137.24137931034483,159.4102544153116
+2023,46,SD,South Dakota,estado,10.8,10.8,7.25,referencia_DOL_FRED,41959.0,463.0,ACS_1year_B20002_total,False,148.9655172413793,163.22648408931767
+2024,46,SD,South Dakota,estado,11.2,11.2,7.25,referencia_DOL_FRED,45579.0,847.0,ACS_1year_B20002_total,False,154.48275862068965,177.3087995020618
+2025,46,SD,South Dakota,estado,11.5,11.5,7.25,referencia_DOL_FRED,46644.0,1096.0,ACS_1year_B20002_total,False,158.6206896551724,181.45180113592158
+2010,47,TN,Tennessee,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,25936.0,248.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,47,TN,Tennessee,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,26281.0,296.0,ACS_1year_B20002_total,False,100.0,101.33019740900679
+2012,47,TN,Tennessee,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,26884.0,199.0,ACS_1year_B20002_total,False,100.0,103.65515114127082
+2013,47,TN,Tennessee,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,27084.0,254.0,ACS_1year_B20002_total,False,100.0,104.42628007402838
+2014,47,TN,Tennessee,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,26976.0,241.0,ACS_1year_B20002_total,False,100.0,104.00987045033929
+2015,47,TN,Tennessee,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,28489.0,453.0,ACS_1year_B20002_total,False,100.0,109.84346082665022
+2016,47,TN,Tennessee,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,30164.0,190.0,ACS_1year_B20002_total,False,100.0,116.30166563849475
+2017,47,TN,Tennessee,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,30994.0,197.0,ACS_1year_B20002_total,False,100.0,119.50185070943861
+2018,47,TN,Tennessee,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,31597.0,212.0,ACS_1year_B20002_total,False,100.0,121.82680444170265
+2019,47,TN,Tennessee,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,32604.0,519.0,ACS_1year_B20002_total,False,100.0,125.70943861813696
+2020,47,TN,Tennessee,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,,,no_publicacion_ACS_estandar,False,100.0,
+2021,47,TN,Tennessee,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,36663.0,326.0,ACS_1year_B20002_total,False,100.0,141.35950030845157
+2022,47,TN,Tennessee,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,40190.0,279.0,ACS_1year_B20002_total,False,100.0,154.95835903763108
+2023,47,TN,Tennessee,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,41556.0,260.0,ACS_1year_B20002_total,False,100.0,160.2251696483652
+2024,47,TN,Tennessee,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,43255.0,720.0,ACS_1year_B20002_total,False,100.0,166.77590993214065
+2025,47,TN,Tennessee,estado,7.25,,7.25,sin_ley_estatal_piso_federal_FLSA,44975.0,672.0,ACS_1year_B20002_total,False,100.0,173.40761875385564
+2010,48,TX,Texas,estado,7.25,7.25,7.25,referencia_DOL_FRED,27034.0,152.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,48,TX,Texas,estado,7.25,7.25,7.25,referencia_DOL_FRED,28015.0,258.0,ACS_1year_B20002_total,False,100.0,103.62876377894503
+2012,48,TX,Texas,estado,7.25,7.25,7.25,referencia_DOL_FRED,28691.0,266.0,ACS_1year_B20002_total,False,100.0,106.12931863579196
+2013,48,TX,Texas,estado,7.25,7.25,7.25,referencia_DOL_FRED,29586.0,310.0,ACS_1year_B20002_total,False,100.0,109.4399644891618
+2014,48,TX,Texas,estado,7.25,7.25,7.25,referencia_DOL_FRED,30284.0,112.0,ACS_1year_B20002_total,False,100.0,112.02189835022564
+2015,48,TX,Texas,estado,7.25,7.25,7.25,referencia_DOL_FRED,31038.0,116.0,ACS_1year_B20002_total,False,100.0,114.81097876747799
+2016,48,TX,Texas,estado,7.25,7.25,7.25,referencia_DOL_FRED,31288.0,107.0,ACS_1year_B20002_total,False,100.0,115.73574017903381
+2017,48,TX,Texas,estado,7.25,7.25,7.25,referencia_DOL_FRED,32264.0,118.0,ACS_1year_B20002_total,False,100.0,119.34600872974772
+2018,48,TX,Texas,estado,7.25,7.25,7.25,referencia_DOL_FRED,33526.0,296.0,ACS_1year_B20002_total,False,100.0,124.01420433528149
+2019,48,TX,Texas,estado,7.25,7.25,7.25,referencia_DOL_FRED,35329.0,199.0,ACS_1year_B20002_total,False,100.0,130.68358363542205
+2020,48,TX,Texas,estado,7.25,7.25,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,100.0,
+2021,48,TX,Texas,estado,7.25,7.25,7.25,referencia_DOL_FRED,38059.0,349.0,ACS_1year_B20002_total,False,100.0,140.7819782496116
+2022,48,TX,Texas,estado,7.25,7.25,7.25,referencia_DOL_FRED,41277.0,153.0,ACS_1year_B20002_total,False,100.0,152.6855071391581
+2023,48,TX,Texas,estado,7.25,7.25,7.25,referencia_DOL_FRED,42329.0,148.0,ACS_1year_B20002_total,False,100.0,156.57690315898498
+2024,48,TX,Texas,estado,7.25,7.25,7.25,referencia_DOL_FRED,45035.0,317.0,ACS_1year_B20002_total,False,100.0,166.58652067766516
+2025,48,TX,Texas,estado,7.25,7.25,7.25,referencia_DOL_FRED,46284.0,257.0,ACS_1year_B20002_total,False,100.0,171.20662868979804
+2010,49,UT,Utah,estado,7.25,7.25,7.25,referencia_DOL_FRED,25958.0,303.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,49,UT,Utah,estado,7.25,7.25,7.25,referencia_DOL_FRED,25897.0,412.0,ACS_1year_B20002_total,False,100.0,99.76500500808999
+2012,49,UT,Utah,estado,7.25,7.25,7.25,referencia_DOL_FRED,26426.0,392.0,ACS_1year_B20002_total,False,100.0,101.80291239694891
+2013,49,UT,Utah,estado,7.25,7.25,7.25,referencia_DOL_FRED,27005.0,345.0,ACS_1year_B20002_total,False,100.0,104.03343863163572
+2014,49,UT,Utah,estado,7.25,7.25,7.25,referencia_DOL_FRED,27449.0,468.0,ACS_1year_B20002_total,False,100.0,105.74389398258725
+2015,49,UT,Utah,estado,7.25,7.25,7.25,referencia_DOL_FRED,29188.0,765.0,ACS_1year_B20002_total,False,100.0,112.44317744048078
+2016,49,UT,Utah,estado,7.25,7.25,7.25,referencia_DOL_FRED,30209.0,271.0,ACS_1year_B20002_total,False,100.0,116.376454272286
+2017,49,UT,Utah,estado,7.25,7.25,7.25,referencia_DOL_FRED,31046.0,244.0,ACS_1year_B20002_total,False,100.0,119.60089375144464
+2018,49,UT,Utah,estado,7.25,7.25,7.25,referencia_DOL_FRED,32263.0,342.0,ACS_1year_B20002_total,False,100.0,124.28923645889513
+2019,49,UT,Utah,estado,7.25,7.25,7.25,referencia_DOL_FRED,33396.0,871.0,ACS_1year_B20002_total,False,100.0,128.6539795053548
+2020,49,UT,Utah,estado,7.25,7.25,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,100.0,
+2021,49,UT,Utah,estado,7.25,7.25,7.25,referencia_DOL_FRED,37325.0,495.0,ACS_1year_B20002_total,False,100.0,143.7899684105093
+2022,49,UT,Utah,estado,7.25,7.25,7.25,referencia_DOL_FRED,40959.0,366.0,ACS_1year_B20002_total,False,100.0,157.7895061252793
+2023,49,UT,Utah,estado,7.25,7.25,7.25,referencia_DOL_FRED,42385.0,580.0,ACS_1year_B20002_total,False,100.0,163.28299560829032
+2024,49,UT,Utah,estado,7.25,7.25,7.25,referencia_DOL_FRED,44769.0,852.0,ACS_1year_B20002_total,False,100.0,172.46706217736343
+2025,49,UT,Utah,estado,7.25,7.25,7.25,referencia_DOL_FRED,46772.0,591.0,ACS_1year_B20002_total,False,100.0,180.18337314122815
+2010,50,VT,Vermont,estado,8.06,8.06,7.25,referencia_DOL_FRED,27111.0,636.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,50,VT,Vermont,estado,8.15,8.15,7.25,referencia_DOL_FRED,28625.0,814.0,ACS_1year_B20002_total,False,101.11662531017369,105.58444911659474
+2012,50,VT,Vermont,estado,8.46,8.46,7.25,referencia_DOL_FRED,28629.0,913.0,ACS_1year_B20002_total,False,104.96277915632756,105.59920327542326
+2013,50,VT,Vermont,estado,8.6,8.6,7.25,referencia_DOL_FRED,29528.0,1353.0,ACS_1year_B20002_total,False,106.69975186104217,108.91520047213308
+2014,50,VT,Vermont,estado,8.73,8.73,7.25,referencia_DOL_FRED,30277.0,434.0,ACS_1year_B20002_total,False,108.31265508684862,111.67791671277341
+2015,50,VT,Vermont,estado,9.15,9.15,7.25,referencia_DOL_FRED,31002.0,449.0,ACS_1year_B20002_total,False,113.52357320099254,114.35210800044263
+2016,50,VT,Vermont,estado,9.6,9.6,7.25,referencia_DOL_FRED,32028.0,551.0,ACS_1year_B20002_total,False,119.10669975186103,118.13654973995796
+2017,50,VT,Vermont,estado,10.0,10.0,7.25,referencia_DOL_FRED,31457.0,616.0,ACS_1year_B20002_total,False,124.06947890818857,116.03039356718675
+2018,50,VT,Vermont,estado,10.5,10.5,7.25,referencia_DOL_FRED,32719.0,1099.0,ACS_1year_B20002_total,False,130.272952853598,120.68533067758474
+2019,50,VT,Vermont,estado,10.78,10.78,7.25,referencia_DOL_FRED,35474.0,865.0,ACS_1year_B20002_total,False,133.74689826302728,130.84725757072775
+2020,50,VT,Vermont,estado,10.96,10.96,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,135.98014888337468,
+2021,50,VT,Vermont,estado,11.75,11.75,7.25,referencia_DOL_FRED,40249.0,563.0,ACS_1year_B20002_total,False,145.78163771712158,148.46003467227325
+2022,50,VT,Vermont,estado,12.55,12.55,7.25,referencia_DOL_FRED,42147.0,690.0,ACS_1year_B20002_total,False,155.70719602977667,155.46088303640587
+2023,50,VT,Vermont,estado,13.18,13.18,7.25,referencia_DOL_FRED,46413.0,1052.0,ACS_1year_B20002_total,False,163.52357320099256,171.19619342702225
+2024,50,VT,Vermont,estado,13.67,13.67,7.25,referencia_DOL_FRED,46970.0,1062.0,ACS_1year_B20002_total,False,169.60297766749378,173.25071004389363
+2025,50,VT,Vermont,estado,14.01,14.01,7.25,referencia_DOL_FRED,50380.0,825.0,ACS_1year_B20002_total,False,173.8213399503722,185.82863044520676
+2010,51,VA,Virginia,estado,7.25,7.25,7.25,referencia_DOL_FRED,32527.0,538.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,51,VA,Virginia,estado,7.25,7.25,7.25,referencia_DOL_FRED,32993.0,381.0,ACS_1year_B20002_total,False,100.0,101.4326559473668
+2012,51,VA,Virginia,estado,7.25,7.25,7.25,referencia_DOL_FRED,33392.0,501.0,ACS_1year_B20002_total,False,100.0,102.65932917268731
+2013,51,VA,Virginia,estado,7.25,7.25,7.25,referencia_DOL_FRED,33742.0,717.0,ACS_1year_B20002_total,False,100.0,103.73535831770529
+2014,51,VA,Virginia,estado,7.25,7.25,7.25,referencia_DOL_FRED,35108.0,245.0,ACS_1year_B20002_total,False,100.0,107.93494635226119
+2015,51,VA,Virginia,estado,7.25,7.25,7.25,referencia_DOL_FRED,35296.0,299.0,ACS_1year_B20002_total,False,100.0,108.51292772158514
+2016,51,VA,Virginia,estado,7.25,7.25,7.25,referencia_DOL_FRED,36282.0,250.0,ACS_1year_B20002_total,False,100.0,111.5442555415501
+2017,51,VA,Virginia,estado,7.25,7.25,7.25,referencia_DOL_FRED,37483.0,497.0,ACS_1year_B20002_total,False,100.0,115.23657269345466
+2018,51,VA,Virginia,estado,7.25,7.25,7.25,referencia_DOL_FRED,39324.0,545.0,ACS_1year_B20002_total,False,100.0,120.89648599624927
+2019,51,VA,Virginia,estado,7.25,7.25,7.25,referencia_DOL_FRED,40405.0,236.0,ACS_1year_B20002_total,False,100.0,124.21987886986196
+2020,51,VA,Virginia,estado,7.25,7.25,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,100.0,
+2021,51,VA,Virginia,estado,9.5,9.5,7.25,referencia_DOL_FRED,43963.0,520.0,ACS_1year_B20002_total,False,131.0344827586207,135.15848372121621
+2022,51,VA,Virginia,estado,11.0,11.0,7.25,referencia_DOL_FRED,48178.0,528.0,ACS_1year_B20002_total,False,151.72413793103448,148.11694899621853
+2023,51,VA,Virginia,estado,12.0,12.0,7.25,referencia_DOL_FRED,50383.0,274.0,ACS_1year_B20002_total,False,165.51724137931035,154.89593260983185
+2024,51,VA,Virginia,estado,12.0,12.0,7.25,referencia_DOL_FRED,51322.0,234.0,ACS_1year_B20002_total,False,165.51724137931035,157.7827650874658
+2025,51,VA,Virginia,estado,12.41,12.41,7.25,referencia_DOL_FRED,54131.0,901.0,ACS_1year_B20002_total,False,171.17241379310346,166.41866756848157
+2010,53,WA,Washington,estado,8.55,8.55,7.25,referencia_DOL_FRED,31370.0,200.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,53,WA,Washington,estado,8.67,8.67,7.25,referencia_DOL_FRED,31885.0,247.0,ACS_1year_B20002_total,False,101.40350877192982,101.64169588779089
+2012,53,WA,Washington,estado,9.04,9.04,7.25,referencia_DOL_FRED,31989.0,210.0,ACS_1year_B20002_total,False,105.73099415204676,101.97322282435448
+2013,53,WA,Washington,estado,9.19,9.19,7.25,referencia_DOL_FRED,32348.0,210.0,ACS_1year_B20002_total,False,107.48538011695905,103.11762830729997
+2014,53,WA,Washington,estado,9.32,9.32,7.25,referencia_DOL_FRED,33176.0,602.0,ACS_1year_B20002_total,False,109.00584795321636,105.75709276378706
+2015,53,WA,Washington,estado,9.47,9.47,7.25,referencia_DOL_FRED,35414.0,257.0,ACS_1year_B20002_total,False,110.76023391812866,112.89129741791521
+2016,53,WA,Washington,estado,9.47,9.47,7.25,referencia_DOL_FRED,36353.0,278.0,ACS_1year_B20002_total,False,110.76023391812866,115.88460312400383
+2017,53,WA,Washington,estado,11.0,11.0,7.25,referencia_DOL_FRED,38437.0,609.0,ACS_1year_B20002_total,False,128.6549707602339,122.52789289129741
+2018,53,WA,Washington,estado,11.5,11.5,7.25,referencia_DOL_FRED,40286.0,277.0,ACS_1year_B20002_total,False,134.50292397660817,128.4220592923175
+2019,53,WA,Washington,estado,12.0,12.0,7.25,referencia_DOL_FRED,41735.0,268.0,ACS_1year_B20002_total,False,140.35087719298244,133.0411220911699
+2020,53,WA,Washington,estado,13.5,13.5,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,157.89473684210526,
+2021,53,WA,Washington,estado,13.69,13.69,7.25,referencia_DOL_FRED,46951.0,410.0,ACS_1year_B20002_total,False,160.11695906432746,149.6684730634364
+2022,53,WA,Washington,estado,14.49,14.49,7.25,referencia_DOL_FRED,51640.0,400.0,ACS_1year_B20002_total,False,169.4736842105263,164.615875039847
+2023,53,WA,Washington,estado,15.74,15.74,7.25,referencia_DOL_FRED,52533.0,797.0,ACS_1year_B20002_total,False,184.09356725146196,167.46254383168633
+2024,53,WA,Washington,estado,16.28,16.28,7.25,referencia_DOL_FRED,56325.0,604.0,ACS_1year_B20002_total,False,190.40935672514618,179.5505259802359
+2025,53,WA,Washington,estado,16.66,16.66,7.25,referencia_DOL_FRED,58392.0,1142.0,ACS_1year_B20002_total,False,194.85380116959064,186.13962384443735
+2010,54,WV,West Virginia,estado,7.25,7.25,7.25,referencia_DOL_FRED,25475.0,467.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,54,WV,West Virginia,estado,7.25,7.25,7.25,referencia_DOL_FRED,25116.0,448.0,ACS_1year_B20002_total,False,100.0,98.59077526987242
+2012,54,WV,West Virginia,estado,7.25,7.25,7.25,referencia_DOL_FRED,26441.0,371.0,ACS_1year_B20002_total,False,100.0,103.79195289499509
+2013,54,WV,West Virginia,estado,7.25,7.25,7.25,referencia_DOL_FRED,26647.0,472.0,ACS_1year_B20002_total,False,100.0,104.60058881256134
+2014,54,WV,West Virginia,estado,7.25,7.25,7.25,referencia_DOL_FRED,27023.0,400.0,ACS_1year_B20002_total,False,100.0,106.0765456329735
+2015,54,WV,West Virginia,estado,8.0,8.0,7.25,referencia_DOL_FRED,27527.0,696.0,ACS_1year_B20002_total,False,110.34482758620689,108.0549558390579
+2016,54,WV,West Virginia,estado,8.75,8.75,7.25,referencia_DOL_FRED,27617.0,1034.0,ACS_1year_B20002_total,False,120.6896551724138,108.40824337585869
+2017,54,WV,West Virginia,estado,8.75,8.75,7.25,referencia_DOL_FRED,28937.0,1237.0,ACS_1year_B20002_total,False,120.6896551724138,113.58979391560354
+2018,54,WV,West Virginia,estado,8.75,8.75,7.25,referencia_DOL_FRED,30046.0,484.0,ACS_1year_B20002_total,False,120.6896551724138,117.94308145240431
+2019,54,WV,West Virginia,estado,8.75,8.75,7.25,referencia_DOL_FRED,30970.0,438.0,ACS_1year_B20002_total,False,120.6896551724138,121.57016683022572
+2020,54,WV,West Virginia,estado,8.75,8.75,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,120.6896551724138,
+2021,54,WV,West Virginia,estado,8.75,8.75,7.25,referencia_DOL_FRED,33739.0,1177.0,ACS_1year_B20002_total,False,120.6896551724138,132.4396467124632
+2022,54,WV,West Virginia,estado,8.75,8.75,7.25,referencia_DOL_FRED,37256.0,611.0,ACS_1year_B20002_total,False,120.6896551724138,146.24533856722277
+2023,54,WV,West Virginia,estado,8.75,8.75,7.25,referencia_DOL_FRED,38726.0,1450.0,ACS_1year_B20002_total,False,120.6896551724138,152.01570166830226
+2024,54,WV,West Virginia,estado,8.75,8.75,7.25,referencia_DOL_FRED,40545.0,596.0,ACS_1year_B20002_total,False,120.6896551724138,159.1560353287537
+2025,54,WV,West Virginia,estado,8.75,8.75,7.25,referencia_DOL_FRED,41392.0,668.0,ACS_1year_B20002_total,False,120.6896551724138,162.48086359175662
+2010,55,WI,Wisconsin,estado,7.25,7.25,7.25,referencia_DOL_FRED,28181.0,358.0,ACS_1year_B20002_total,False,100.0,100.0
+2011,55,WI,Wisconsin,estado,7.25,7.25,7.25,referencia_DOL_FRED,29003.0,415.0,ACS_1year_B20002_total,False,100.0,102.91685887654803
+2012,55,WI,Wisconsin,estado,7.25,7.25,7.25,referencia_DOL_FRED,30039.0,243.0,ACS_1year_B20002_total,False,100.0,106.59309463823143
+2013,55,WI,Wisconsin,estado,7.25,7.25,7.25,referencia_DOL_FRED,30089.0,171.0,ACS_1year_B20002_total,False,100.0,106.77051914410418
+2014,55,WI,Wisconsin,estado,7.25,7.25,7.25,referencia_DOL_FRED,30618.0,181.0,ACS_1year_B20002_total,False,100.0,108.64767041623789
+2015,55,WI,Wisconsin,estado,7.25,7.25,7.25,referencia_DOL_FRED,31474.0,149.0,ACS_1year_B20002_total,False,100.0,111.68517795677938
+2016,55,WI,Wisconsin,estado,7.25,7.25,7.25,referencia_DOL_FRED,32038.0,162.0,ACS_1year_B20002_total,False,100.0,113.68652638302402
+2017,55,WI,Wisconsin,estado,7.25,7.25,7.25,referencia_DOL_FRED,34841.0,504.0,ACS_1year_B20002_total,False,100.0,123.63294418225045
+2018,55,WI,Wisconsin,estado,7.25,7.25,7.25,referencia_DOL_FRED,35704.0,231.0,ACS_1year_B20002_total,False,100.0,126.69529115361414
+2019,55,WI,Wisconsin,estado,7.25,7.25,7.25,referencia_DOL_FRED,37044.0,272.0,ACS_1year_B20002_total,False,100.0,131.45026791100386
+2020,55,WI,Wisconsin,estado,7.25,7.25,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,False,100.0,
+2021,55,WI,Wisconsin,estado,7.25,7.25,7.25,referencia_DOL_FRED,40678.0,206.0,ACS_1year_B20002_total,False,100.0,144.3454809978354
+2022,55,WI,Wisconsin,estado,7.25,7.25,7.25,referencia_DOL_FRED,42873.0,394.0,ACS_1year_B20002_total,False,100.0,152.1344168056492
+2023,55,WI,Wisconsin,estado,7.25,7.25,7.25,referencia_DOL_FRED,45737.0,324.0,ACS_1year_B20002_total,False,100.0,162.2972925020404
+2024,55,WI,Wisconsin,estado,7.25,7.25,7.25,referencia_DOL_FRED,47337.0,346.0,ACS_1year_B20002_total,False,100.0,167.97487668996843
+2025,55,WI,Wisconsin,estado,7.25,7.25,7.25,referencia_DOL_FRED,49396.0,703.0,ACS_1year_B20002_total,False,100.0,175.2812178418083
+2010,56,WY,Wyoming,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,28739.0,1697.0,ACS_1year_B20002_total,True,100.0,100.0
+2011,56,WY,Wyoming,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,30855.0,774.0,ACS_1year_B20002_total,True,100.0,107.36281707783847
+2012,56,WY,Wyoming,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,29473.0,1701.0,ACS_1year_B20002_total,True,100.0,102.55402066877762
+2013,56,WY,Wyoming,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,30833.0,576.0,ACS_1year_B20002_total,True,100.0,107.28626604961899
+2014,56,WY,Wyoming,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,30822.0,561.0,ACS_1year_B20002_total,True,100.0,107.24799053550923
+2015,56,WY,Wyoming,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,31524.0,492.0,ACS_1year_B20002_total,True,100.0,109.69066425414941
+2016,56,WY,Wyoming,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,31526.0,816.0,ACS_1year_B20002_total,True,100.0,109.697623438533
+2017,56,WY,Wyoming,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,32885.0,1514.0,ACS_1year_B20002_total,True,100.0,114.42638922718257
+2018,56,WY,Wyoming,estado,7.25,5.15,7.25,referencia_estatal_inferior_piso_federal_FLSA,32481.0,1680.0,ACS_1year_B20002_total,True,100.0,113.02063398169734
+2019,56,WY,Wyoming,estado,7.25,7.25,7.25,referencia_DOL_FRED,34780.0,1539.0,ACS_1year_B20002_total,True,100.0,121.02021643063433
+2020,56,WY,Wyoming,estado,7.25,7.25,7.25,referencia_DOL_FRED,,,no_publicacion_ACS_estandar,True,100.0,
+2021,56,WY,Wyoming,estado,7.25,7.25,7.25,referencia_DOL_FRED,35613.0,1269.0,ACS_1year_B20002_total,True,100.0,123.91871672639967
+2022,56,WY,Wyoming,estado,7.25,7.25,7.25,referencia_DOL_FRED,39954.0,1338.0,ACS_1year_B20002_total,True,100.0,139.0236264309823
+2023,56,WY,Wyoming,estado,7.25,7.25,7.25,referencia_DOL_FRED,41409.0,831.0,ACS_1year_B20002_total,True,100.0,144.0864330700442
+2024,56,WY,Wyoming,estado,7.25,,7.25,serie_estatal_sin_dato_piso_federal_FLSA,42185.0,1577.0,ACS_1year_B20002_total,True,100.0,146.7865966108772
+2025,56,WY,Wyoming,estado,7.25,,7.25,serie_estatal_sin_dato_piso_federal_FLSA,46229.0,2030.0,ACS_1year_B20002_total,True,100.0,160.8580674344967

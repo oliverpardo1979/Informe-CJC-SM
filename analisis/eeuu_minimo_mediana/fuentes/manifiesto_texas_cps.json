@@ -1,0 +1,9 @@
+{
+  "url_descarga": "https://github.com/Economic/data/releases/latest/download/epi_swa_data_library.zip",
+  "fuente": "Economic Policy Institute, State of Working America Data Library; Current Population Survey",
+  "version": "2026.9.22",
+  "fecha_descarga": "2026-11-06",
+  "sha256_csv": "b0197d312a035d51b9209b5cbfee0fad8b347bdb9f0f509af4adb40038e1c5a9",
+  "seleccion": "Texas, state 48, year, Overall, Median nominal hourly wage, 2010–2025",
+  "nota": "Tabulados de EPI, no microdatos recalculados por el CJC. Incluye asalariados públicos y privados; no es ingreso de todos los ocupados."
+}
