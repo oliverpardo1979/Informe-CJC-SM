@@ -44,29 +44,42 @@ for r in source:
         row.update({f'{label}_media_pesos': mean, f'{label}_suma_ponderadores': sw,
                     f'{label}_suma_ponderada_p6500': sx, f'{label}_n_muestra': n,
                     f'{label}_smlmv_sobre_media_pct': sm/mean*100})
+        previous_mean = output[-1][f'{label}_media_pesos'] if output else None
+        row[f'{label}_aumento_nominal_pct'] = (
+            (mean/previous_mean-1)*100 if previous_mean is not None else None)
     output.append(row)
 with (ROOT/'data/smlmv_salario_medio_geih.csv').open('w', encoding='utf-8', newline='') as f:
     writer = csv.DictWriter(f, fieldnames=list(output[0]))
     writer.writeheader()
     writer.writerows(output)
 table = [r'\begin{table}[H]', r'\centering\small',
+         r'\setlength{\tabcolsep}{4pt}',
          r'\caption{Salario mínimo y salario medio mensual, enero--agosto de 2021--2026}',
-         r'\label{tab:minimo-media}', r'\begin{tabular}{lrrrr}', r'\toprule',
-         r'& SMLMV & Aumento & \multicolumn{2}{c}{Salario medio GEIH}\\',
-         r'\cmidrule(lr){4-5}',
-         r'Año & (pesos) & nominal (\%) & Todos & Jornada $\geq40$ h\\',
-         r'& & & \multicolumn{2}{c}{(millones de pesos corrientes)}\\', r'\midrule']
+         r'\label{tab:minimo-media}', r'\begin{tabular}{lrrrrrr}', r'\toprule',
+         r'& \multicolumn{2}{c}{SMLMV} & \multicolumn{2}{c}{Salario medio GEIH} & \multicolumn{2}{c}{Aumento del salario medio}\\',
+         r'\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}',
+         r'Año & Monto & Aumento & Todos & Jornada $\geq40$ h & Todos & Jornada $\geq40$ h\\',
+         r'& (millones) & nominal (\%) & \multicolumn{2}{c}{(millones)} & \multicolumn{2}{c}{(nominal anual, \%)}\\',
+         r'\midrule']
 for r in output:
-    table.append(f"{r['anio']} & {fmt(r['smlmv_pesos'],0)} & {fmt(r['aumento_nominal_pct'])} & "
-                 f"{fmt(r['todos_media_pesos']/1e6)} & {fmt(r['40h_media_pesos']/1e6)}"+r' \\')
+    increases = [fmt(r[f'{label}_aumento_nominal_pct'])
+                 if r[f'{label}_aumento_nominal_pct'] is not None else r'\textemdash'
+                 for label in ('todos', '40h')]
+    table.append(f"{r['anio']} & {fmt(r['smlmv_pesos']/1e6)} & {fmt(r['aumento_nominal_pct'])} & "
+                 f"{fmt(r['todos_media_pesos']/1e6)} & {fmt(r['40h_media_pesos']/1e6)} & "
+                 f"{increases[0]} & {increases[1]}"+r' \\')
 table += [r'\bottomrule', r'\end{tabular}',
-          r'\fuente{Fuente: normativa salarial \citep{decreto1785,salarioHistorico,decreto2613,decreto2024,decreto2025,decreto1469} y tabulados del CJC con GEIH \citep{geihTabulados}. Enero--agosto de entrevistas en todos los años, con salario referido al mes anterior. Medias de P6500 para asalariados de 15 años o más, ponderadas por FEX\_C18, con salario válido positivo y exclusión de códigos 98/99. Se incluyen formales e informales y salarios inferiores al mínimo. La nota técnica documenta la identificación del marco de 2021 y las diferencias de no respuesta.}',
+          r'\fuente{Fuente: normativa salarial \citep{decreto1785,salarioHistorico,decreto2613,decreto2024,decreto2025,decreto1469} y tabulados del CJC con GEIH \citep{geihTabulados}. Montos en millones de pesos corrientes, con dos decimales. Enero--agosto de entrevistas en todos los años, con salario referido al mes anterior. Las variaciones del salario medio comparan los mismos meses de años consecutivos y se calculan antes de redondear. Para 2021 no se dispone de una media comparable de 2020. Medias de P6500 para asalariados de 15 años o más, ponderadas por FEX\_C18, con salario válido positivo y exclusión de códigos 98/99. Se incluyen formales e informales y salarios inferiores al mínimo. La nota técnica documenta la identificación del marco de 2021 y las diferencias de no respuesta.}',
           r'\end{table}']
 (ROOT/'Paper/sections/CuadroSalariosMedios.tex').write_text('\n'.join(table)+'\n', encoding='utf-8')
 provenance = {'fuentes': [{'archivo': str(x.relative_to(ROOT)),
                           'sha256': hashlib.sha256(x.read_bytes()).hexdigest()}
                          for x in [SOURCE, MONTHLY]],
               'formula': 'sum(P6500 * FEX_C18) / sum(FEX_C18)',
+              'formula_aumento_nominal_pct': '(media_anio / media_anio_anterior - 1) * 100',
+              'base_variacion': 'Mismos filtros y enero-agosto de entrevistas en ambos años. Medias sin redondear.',
+              'variacion_2021': 'No disponible: los tabulados no incluyen una media comparable de 2020.',
+              'presentacion_montos': 'SMLMV y ambas medias en millones de pesos corrientes con dos decimales.',
               'ventana': 'enero-agosto de entrevistas en todos los años',
               'verificacion': 'Medias, numeradores, denominadores y muestras reconciliados con meses.',
               'reestimacion_microdatos_por_integrador': False,
@@ -77,4 +90,8 @@ provenance = {'fuentes': [{'archivo': str(x.relative_to(ROOT)),
     json.dumps(provenance, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
 for r in output:
     print(r['anio'], fmt(r['todos_media_pesos']), fmt(r['40h_media_pesos']),
-          'mínimo/media (%)', fmt(r['todos_smlmv_sobre_media_pct']))
+          'mínimo/media (%)', fmt(r['todos_smlmv_sobre_media_pct']),
+          'aumento medio nominal (%)',
+          *(fmt(r[f'{label}_aumento_nominal_pct'])
+            if r[f'{label}_aumento_nominal_pct'] is not None else 'ND'
+            for label in ('todos', '40h')))

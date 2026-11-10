@@ -10,6 +10,10 @@
     }
   ],
   "formula": "sum(P6500 * FEX_C18) / sum(FEX_C18)",
+  "formula_aumento_nominal_pct": "(media_anio / media_anio_anterior - 1) * 100",
+  "base_variacion": "Mismos filtros y enero-agosto de entrevistas en ambos años. Medias sin redondear.",
+  "variacion_2021": "No disponible: los tabulados no incluyen una media comparable de 2020.",
+  "presentacion_montos": "SMLMV y ambas medias en millones de pesos corrientes con dos decimales.",
   "ventana": "enero-agosto de entrevistas en todos los años",
   "verificacion": "Medias, numeradores, denominadores y muestras reconciliados con meses.",
   "reestimacion_microdatos_por_integrador": false,
