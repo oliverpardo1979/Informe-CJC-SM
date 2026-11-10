@@ -52,7 +52,7 @@ Se aplicó Meta Skill Review Oliver con una revisión sustantiva single-pass y u
 
 ## Actualización de empleo del 9 de noviembre de 2026
 
-El resumen utiliza aproximadamente 26 mil empleos formales menos creados por un aumento real de 1% del mínimo. El cuerpo y la nota técnica presentan además 20 mil empleos de mayor destrucción y 46 mil menos en el saldo neto. La referencia académica es Flórez, Hermida y Morales (2022), Borradores de Economía 1213, DOI 10.32468/be.1213. La conversión a empleos se atribuye al cuadro 1 del Blog BanRep del 10 de octubre de 2022. Los valores sin redondear y la procedencia están en `data/empleo_florez_2022.csv` y `data/empleo_florez_2022_fuentes.json`.
+El resumen utiliza aproximadamente 26 mil empleos formales menos creados y 20 mil adicionales destruidos al año por cada punto porcentual adicional de aumento real del mínimo. El cuerpo y la nota técnica presentan también el efecto neto de 46 mil empleos formales menos. La referencia académica es Flórez, Hermida y Morales (2022), Borradores de Economía 1213, DOI 10.32468/be.1213. La conversión a empleos se atribuye al cuadro 1 del Blog BanRep del 10 de octubre de 2022. Los valores sin redondear y la procedencia están en `data/empleo_florez_2022.csv` y `data/empleo_florez_2022_fuentes.json`.
 
 Se retiraron del informe y la nota técnica las estimaciones de Chaparro y el reescalamiento de Antioquia a Colombia. El código, los datos y el cuadro anteriores se conservan exclusivamente como archivos históricos del cálculo retirado. `scripts/extrapolar_chaparro.py` no integra los resultados vigentes y `Paper/sections/CuadroChaparro.tex` no se incluye en ningún documento. Los registros de auditoría anteriores describen versiones previas.
 
