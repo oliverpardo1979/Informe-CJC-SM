@@ -41,25 +41,15 @@ Año & nominal & Promedio & Diciembre & Por hora & Por persona\\
 \fuente{Fuente: DANE \citep{ipc,productividad} y normativa salarial \citep{decreto1785,salarioHistorico,decreto2613,decreto2024,decreto2025}. Cálculos del Centro Javeriano de Competitividad.}
 \end{table}
 
-\subsection{Reescalamiento ilustrativo de los resultados de Antioquia}
+\subsection{Resultados nacionales sobre flujos de empleo}
 
-La tabla C.1 de \citet{chaparro} reporta efectos anuales de un aumento real de 1\% del salario mínimo. La fila C presenta una menor creación de 44.557 puestos, mayor destrucción de 5.015 y reducción del saldo neto de 49.572. Se conserva la interpretación y el ámbito regional de sus autores, sin reproducir el modelo. La muestra incluye empresas privadas con más de un trabajador y más de un periodo observado, entre enero de 2022 y febrero de 2026.
+El estudio de \citet{florez2022} utiliza registros PILA de empresas formales de Colombia entre 2009 y 2019. Su tabla 1 presenta los efectos del costo de cumplimiento del mínimo sobre los flujos laborales. El cuadro 1 de \citet{banrepFlujos2022} divulga la conversión de esos resultados a un aumento real de 1\% del salario mínimo y a números de empleos. De su fila C se toman 25.713,6 empleos menos creados, 20.414,6 empleos adicionales destruidos y una reducción del saldo neto de 46.128,2. Son magnitudes estimadas; la suma de los dos primeros componentes coincide con el tercero. No se aplica un factor de expansión regional ni se actualiza el tamaño del empleo al de 2026.
 
-La escala nacional se aproxima con trabajadores dependientes afiliados a cajas de compensación, registrados por la SSF en marzo de 2025. Se elige ese mes porque coincide con la referencia regional previa al aumento de 2026 descrita en el estudio. Se suman las 42 cajas para el total nacional y Comfama más Comfenalco Antioquia para la referencia regional. Cada caja aparece una vez en el archivo del mes. Los totales son 9.704.786 y 1.755.360, respectivamente. Se excluyen de la variable utilizada independientes, pensionados y personas a cargo \citep{ssfAfiliados}.
+\input{Paper/sections/CuadroFlorez}
 
-La fórmula del ejercicio es
-\[
-\widehat{E}_{\mathrm{Col}}^{\mathrm{ilustrativo}}=
-\widehat{E}_{\mathrm{Ant}}\times
-\frac{9\,704\,786}{1\,755\,360}.
-\]
-El factor sin redondear es 5,5286585. Se aplica por separado a los tres componentes de la fila C. El Cuadro \ref{tab:chaparro-escala} publica los resultados nacionales redondeados al millar, mientras los archivos de cálculo conservan la precisión original. La suma de menor creación y mayor destrucción coincide con la reducción del saldo neto.
+Los coeficientes anuales suman los efectos de los cuatro trimestres. La cuantificación conserva el periodo y la población de la fuente, sin replicar el modelo econométrico. Se distinguen creación y destrucción de empleos de contratación y separación de trabajadores: una firma puede reemplazar a un trabajador sin variar el número de puestos. Por ello, no se suman las contrataciones y separaciones a los efectos de creación y destrucción. Tampoco se multiplica el efecto marginal por el aumento de 2026 para atribuirle una pérdida observada.
 
-\input{Paper/sections/CuadroChaparro}
-
-La razón de afiliados es una aproximación a la escala y no reproduce el universo econométrico. Incluye trabajadores del sector público y de empleadores con un solo trabajador, excluidos del modelo regional. La afiliación por caja puede diferir de la ubicación territorial del puesto de trabajo. Además, una cifra de marzo de 2025 reescala un efecto estimado con información de varios años. El ejercicio supone que esas diferencias de cobertura y periodo no alteran la proporción nacional-regional relevante y que la respuesta por afiliado y la exposición al mínimo son comparables.
-
-Diferencias en informalidad, distribución salarial, sectores y tamaños de empresa pueden modificar el efecto fuera de Antioquia. Los errores estándar regionales no capturan esa incertidumbre de transferencia, por lo que no se presenta un intervalo de confianza nacional. Tampoco se aplica el efecto a todos los ocupados del país ni se multiplica por 23\% nominal o por la ganancia real de 2026. Trasladar un resultado marginal a un choque grande requiere supuestos adicionales de linealidad y ausencia de cambios de comportamiento. El cálculo es ilustrativo y no estima pérdidas observadas de 2026 ni anticipa el resultado del ajuste de 2027.
+Los valores publicados, el redondeo y la procedencia quedan en \href{https://github.com/oliverpardo1979/Informe-CJC-SM/blob/main/data/empleo_florez_2022.csv}{el archivo de resultados}. El resumen ejecutivo utiliza 26 mil empleos menos creados, redondeados al millar, y conserva la referencia a un año.
 
 \subsection{Distribución salarial por edad}
 

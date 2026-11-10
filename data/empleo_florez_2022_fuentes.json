@@ -1,0 +1,17 @@
+{
+  "estudio": "Flórez, Hermida y Morales (2022)",
+  "periodo": "2009–2019",
+  "poblacion": "Empresas formales de Colombia, registros PILA",
+  "choque": "Aumento real de 1% del salario mínimo",
+  "horizonte": "Un año",
+  "source_original": "https://investiga.banrep.gov.co/es/be-1213",
+  "doi": "10.32468/be.1213",
+  "table_original": "Tabla 1, página 20 (página 21 del PDF): coeficientes del costo de cumplimiento",
+  "source_counts": "https://www.banrep.gov.co/es/node/58235/printable/print",
+  "table_counts": "Cuadro 1, fila C; magnitud de menor creación, mayor destrucción y reducción neta",
+  "original_sha256": "0cbac09e609d1164beba58a9d5157500c8f1abd0c77fd62c36e7f70808dfcd30",
+  "fecha_consulta": "2026-11-09",
+  "interpretacion": "Magnitudes positivas de efectos adversos. No representan pérdidas observadas en 2026 ni una actualización de escala del CJC.",
+  "alcance_verificacion": "Transcripción contrastada con la fuente; no replicación del modelo econométrico.",
+  "source_counts_sha256": "fe06018d425e1c475783d0a0d1f24629de23af79a83aec99e284f637feb64e67"
+}

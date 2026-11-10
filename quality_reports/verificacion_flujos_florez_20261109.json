@@ -1,0 +1,26 @@
+{
+  "fecha": "2026-11-09",
+  "fuente": "https://www.banrep.gov.co/es/node/58235/printable/print",
+  "verificaciones": [
+    {
+      "concepto": "menor_creacion",
+      "csv": 25713.6,
+      "fuente": 25713.6,
+      "resultado": "PASS"
+    },
+    {
+      "concepto": "mayor_destruccion",
+      "csv": 20414.6,
+      "fuente": 20414.6,
+      "resultado": "PASS"
+    },
+    {
+      "concepto": "reduccion_saldo_neto",
+      "csv": 46128.2,
+      "fuente": 46128.2,
+      "resultado": "PASS"
+    }
+  ],
+  "alcance": "Transcripción, suma de componentes y redondeo. No replica la regresión original.",
+  "suma_componentes": "PASS"
+}

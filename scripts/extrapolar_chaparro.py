@@ -1,4 +1,6 @@
-"""Reescalamiento ilustrativo del resultado de Antioquia mediante afiliación a CCF.
+"""ARCHIVO HISTÓRICO: ejercicio retirado del informe el 9 de noviembre de 2026.
+
+Reescalamiento ilustrativo del resultado de Antioquia mediante afiliación a CCF.
 No estima un efecto causal nacional ni reproduce el modelo econométrico regional.
 Ejecutar desde cualquier directorio. Solo usa la biblioteca estándar.
 """

@@ -86,9 +86,10 @@ def verify():
             doi = field(entry, "doi")
             if doi:
                 assert "https://doi.org/" + doi in uris, (name, key, "DOI ausente en PDF")
-        assert "cite.chaparro" in destinations
+        assert "cite.florez2022" in destinations
+        assert "cite.banrepFlujos2022" in destinations
         text = "\n".join(page.extract_text() for page in pdf.pages)
-        assert "Patiño et al. (2026" in text, (name, "Llamada autor–año ausente")
+        assert "Flórez et al. (2022" in text, (name, "Llamada autor–año ausente")
         log = (ROOT / (name + ".log")).read_text(encoding="utf-8")
         assert not re.search(r"Citation .* undefined|There were undefined citations|Overfull", log)
         blg = (ROOT / (name + ".blg")).read_text(encoding="utf-8")
