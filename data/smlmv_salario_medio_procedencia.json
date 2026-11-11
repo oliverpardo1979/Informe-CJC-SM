@@ -7,13 +7,23 @@
     {
       "archivo": "data\\salario_medio_geih\\salario_medio_mensual_2021_2026.csv",
       "sha256": "3d39a7862993c26fa2d6edd0f2725f8d915a3dbb60dcf9705382ee9277b0d603"
+    },
+    {
+      "archivo": "data\\ipc_enero_agosto_2021_2026.csv",
+      "sha256": "894471878171a27a2224b9a96b5866506938d7fcaa1d9b176186f6220e88982b"
     }
   ],
   "formula": "sum(P6500 * FEX_C18) / sum(FEX_C18)",
   "formula_aumento_nominal_pct": "(media_anio / media_anio_anterior - 1) * 100",
   "base_variacion": "Mismos filtros y enero-agosto de entrevistas en ambos años. Medias sin redondear.",
   "variacion_2021": "No disponible: los tabulados no incluyen una media comparable de 2020.",
-  "presentacion_montos": "SMLMV y ambas medias en millones de pesos corrientes con dos decimales.",
+  "ipc_fuente": {
+    "url": "https://www.dane.gov.co/files/operaciones/IPC/sep2026/anex-IPC-Indices-sep2026.xlsx",
+    "hoja_y_celdas": "IndicesIPC!T10:Y17",
+    "sha256_xlsx": "56f8e5e6e9d235d411e487b2284beba1be8eaeee69b7b9516bfa8ea8443c0676"
+  },
+  "formula_salario_real": "salario_nominal * IPC_promedio_enero_agosto_2026 / IPC_promedio_enero_agosto_anio",
+  "presentacion_montos": "Millones de pesos a precios promedio de enero a agosto de 2026, con dos decimales. Razón mínimo/media en porcentaje con un decimal.",
   "ventana": "enero-agosto de entrevistas en todos los años",
   "verificacion": "Medias, numeradores, denominadores y muestras reconciliados con meses.",
   "reestimacion_microdatos_por_integrador": false,

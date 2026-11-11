@@ -10,6 +10,8 @@ import math
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'data/salario_medio_geih/salario_medio_comparable_2021_2026.csv'
 MONTHLY = SOURCE.with_name('salario_medio_mensual_2021_2026.csv')
+IPC = ROOT / 'data/ipc_enero_agosto_2021_2026.csv'
+MONTHS = ('enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto')
 
 def read(path):
     with path.open(encoding='utf-8-sig', newline='') as f:
@@ -19,7 +21,10 @@ def fmt(value, decimals=2):
     return f'{value:,.{decimals}f}'.replace(',', '_').replace('.', ',').replace('_', '.')
 
 source, monthly = read(SOURCE), read(MONTHLY)
+ipc_mean = {int(r['anio']): math.fsum(float(r[month]) for month in MONTHS) / len(MONTHS)
+            for r in read(IPC)}
 assert [int(r['anio']) for r in source] == list(range(2021, 2027))
+assert set(ipc_mean) == set(range(2021, 2027))
 output = []
 for r in source:
     assert r['meses_cubiertos'] == '01|02|03|04|05|06|07|08'
@@ -47,39 +52,41 @@ for r in source:
         previous_mean = output[-1][f'{label}_media_pesos'] if output else None
         row[f'{label}_aumento_nominal_pct'] = (
             (mean/previous_mean-1)*100 if previous_mean is not None else None)
+    price_factor = ipc_mean[2026] / ipc_mean[year]
+    row.update(ipc_promedio_enero_agosto=ipc_mean[year],
+               smlmv_real_pesos_2026=sm * price_factor,
+               salario_medio_real_pesos_2026=row['todos_media_pesos'] * price_factor)
     output.append(row)
 with (ROOT/'data/smlmv_salario_medio_geih.csv').open('w', encoding='utf-8', newline='') as f:
     writer = csv.DictWriter(f, fieldnames=list(output[0]))
     writer.writeheader()
     writer.writerows(output)
 table = [r'\begin{table}[H]', r'\centering\small',
-         r'\setlength{\tabcolsep}{4pt}',
-         r'\caption{Salario mínimo y salario medio mensual, enero--agosto de 2021--2026}',
-         r'\label{tab:minimo-media}', r'\begin{tabular}{lrrrrrr}', r'\toprule',
-         r'& \multicolumn{2}{c}{SMLMV} & \multicolumn{2}{c}{Salario medio GEIH} & \multicolumn{2}{c}{Aumento del salario medio}\\',
-         r'\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}',
-         r'Año & Monto & Aumento & Todos & Jornada $\geq40$ h & Todos & Jornada $\geq40$ h\\',
-         r'& (millones) & nominal (\%) & \multicolumn{2}{c}{(millones)} & \multicolumn{2}{c}{(nominal anual, \%)}\\',
+         r'\caption{Salario mínimo real y salario medio real, enero--agosto de 2021--2026}',
+         r'\label{tab:minimo-media}', r'\begin{tabular}{lrrr}', r'\toprule',
+         r'Año & Salario mínimo real & Salario medio real & Mínimo como \% del salario medio\\',
+         r'& \multicolumn{2}{c}{(millones de pesos de 2026)} & \\',
          r'\midrule']
 for r in output:
-    increases = [fmt(r[f'{label}_aumento_nominal_pct'])
-                 if r[f'{label}_aumento_nominal_pct'] is not None else r'\textemdash'
-                 for label in ('todos', '40h')]
-    table.append(f"{r['anio']} & {fmt(r['smlmv_pesos']/1e6)} & {fmt(r['aumento_nominal_pct'])} & "
-                 f"{fmt(r['todos_media_pesos']/1e6)} & {fmt(r['40h_media_pesos']/1e6)} & "
-                 f"{increases[0]} & {increases[1]}"+r' \\')
+    table.append(f"{r['anio']} & {fmt(r['smlmv_real_pesos_2026']/1e6)} & "
+                 f"{fmt(r['salario_medio_real_pesos_2026']/1e6)} & "
+                 f"{fmt(r['todos_smlmv_sobre_media_pct'], 1)}"+r' \\')
 table += [r'\bottomrule', r'\end{tabular}',
-          r'\fuente{Fuente: normativa salarial \citep{decreto1785,salarioHistorico,decreto2613,decreto2024,decreto2025,decreto1469} y tabulados del CJC con GEIH \citep{geihTabulados}. Montos en millones de pesos corrientes, con dos decimales. Enero--agosto de entrevistas en todos los años, con salario referido al mes anterior. Las variaciones del salario medio comparan los mismos meses de años consecutivos y se calculan antes de redondear. Para 2021 no se dispone de una media comparable de 2020. Medias de P6500 para asalariados de 15 años o más, ponderadas por FEX\_C18, con salario válido positivo y exclusión de códigos 98/99. Se incluyen formales e informales y salarios inferiores al mínimo. La nota técnica documenta la identificación del marco de 2021 y las diferencias de no respuesta.}',
+          r'\fuente{Fuentes: normativa salarial \citep{decreto1785,salarioHistorico,decreto2613,decreto2024,decreto2025,decreto1469}, tabulados del CJC con GEIH \citep{geihTabulados} e IPC del DANE \citep{ipcEmpalme2026}. Los montos se expresan a precios promedio de enero a agosto de 2026. El salario medio corresponde a asalariados de 15 años o más con salario válido positivo, ponderado por FEX\_C18. Se incluyen todas las jornadas, asalariados formales e informales y salarios inferiores al mínimo. El porcentaje se calcula antes de redondear los montos.}',
           r'\end{table}']
 (ROOT/'Paper/sections/CuadroSalariosMedios.tex').write_text('\n'.join(table)+'\n', encoding='utf-8')
 provenance = {'fuentes': [{'archivo': str(x.relative_to(ROOT)),
                           'sha256': hashlib.sha256(x.read_bytes()).hexdigest()}
-                         for x in [SOURCE, MONTHLY]],
+                         for x in [SOURCE, MONTHLY, IPC]],
               'formula': 'sum(P6500 * FEX_C18) / sum(FEX_C18)',
               'formula_aumento_nominal_pct': '(media_anio / media_anio_anterior - 1) * 100',
               'base_variacion': 'Mismos filtros y enero-agosto de entrevistas en ambos años. Medias sin redondear.',
               'variacion_2021': 'No disponible: los tabulados no incluyen una media comparable de 2020.',
-              'presentacion_montos': 'SMLMV y ambas medias en millones de pesos corrientes con dos decimales.',
+              'ipc_fuente': {'url': 'https://www.dane.gov.co/files/operaciones/IPC/sep2026/anex-IPC-Indices-sep2026.xlsx',
+                             'hoja_y_celdas': 'IndicesIPC!T10:Y17',
+                             'sha256_xlsx': '56f8e5e6e9d235d411e487b2284beba1be8eaeee69b7b9516bfa8ea8443c0676'},
+              'formula_salario_real': 'salario_nominal * IPC_promedio_enero_agosto_2026 / IPC_promedio_enero_agosto_anio',
+              'presentacion_montos': 'Millones de pesos a precios promedio de enero a agosto de 2026, con dos decimales. Razón mínimo/media en porcentaje con un decimal.',
               'ventana': 'enero-agosto de entrevistas en todos los años',
               'verificacion': 'Medias, numeradores, denominadores y muestras reconciliados con meses.',
               'reestimacion_microdatos_por_integrador': False,
