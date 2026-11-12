@@ -33,6 +33,8 @@ Usar el mismo marco, universo y ventana temporal mejora la comparación, pero no
 
 ## Precisión y agregación
 
+`salario_mediano_enero_agosto_2021_2026.csv` contiene una mediana nominal de P6500 por año para la misma muestra de la media de todas las jornadas. Se agrupan los registros de enero a agosto de cada año y se selecciona el primer salario cuyo FEX_C18 acumulado alcanza al menos el 50 % del peso total. El archivo está en pesos corrientes.
+
 Los CSV utilizan coma como separador y punto decimal, con UTF-8 BOM. No se redondean cifras para presentación: se exporta la representación completa de los resultados float64. La precisión está limitada por los valores numéricos guardados en los archivos Stata; no equivale a precisión decimal infinita. Las sumas utilizan `math.fsum` para reducir errores de acumulación. La media del periodo se calcula agrupando registros y ponderadores; **no** como promedio simple de las medias mensuales. Dividir todos los ponderadores por ocho dejaría inalterada la media, pero aquí se conserva el denominador solicitado sin esa división.
 
 ## Respaldo y reproducción

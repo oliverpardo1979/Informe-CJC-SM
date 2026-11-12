@@ -15,6 +15,19 @@ OUT=ROOT/'data/salario_medio_geih'
 OUT.mkdir(parents=True,exist_ok=True)
 SM={2021:908526,2022:1000000,2023:1160000,2024:1300000,2025:1423500,2026:1750905}
 principal=[];anual=[];monthly=[];audit=[];metaout=[];frame_audit=[]
+medianas=[]
+
+def mediana_ponderada(df):
+    ingresos = df.ingreso.to_numpy(dtype=np.float64)
+    pesos = df.peso.to_numpy(dtype=np.float64)
+    orden = np.argsort(ingresos, kind='stable')
+    mitad = math.fsum(pesos) / 2
+    indice = np.searchsorted(np.cumsum(pesos[orden]), mitad, side='left')
+    mediana = float(ingresos[orden[indice]])
+    assert math.fsum(pesos[ingresos < mediana]) < mitad
+    assert math.fsum(pesos[ingresos <= mediana]) >= mitad
+    return mediana
+
 def tabulate(df,y,pop,months):
     if pop=='jornada_40h_mas':
         df=df[np.isfinite(df.horas)&df.horas.between(40,168)]
@@ -73,8 +86,10 @@ for y in range(2021,2027):
             'p6500_min':float(sub.ingreso.min()),'p6500_max':float(sub.ingreso.max()),
             'p6500_valores_hasta_1000':json.dumps(sub.loc[sub.ingreso<=1000,'ingreso'].value_counts().sort_index().to_dict()),
             'horas_98':int((sub.horas==98).sum()),'horas_99':int((sub.horas==99).sum())})
+    enero_agosto = valid[valid.mes.between(1,8)]
+    medianas.append({'anio': y, 'mediana_ponderada_p6500_pesos_nominales': mediana_ponderada(enero_agosto)})
     for pop in ['todos_asalariados','jornada_40h_mas']:
-        principal.append(tabulate(valid[valid.mes.between(1,8)],y,pop,list(range(1,9))))
+        principal.append(tabulate(enero_agosto,y,pop,list(range(1,9))))
         if y<2026:anual.append(tabulate(valid,y,pop,months))
         for month in months:
             monthly.append(tabulate(valid[valid.mes==month],y,pop,[month]))
@@ -89,6 +104,7 @@ def save(name,rows):
     with (OUT/name).open('w',newline='',encoding='utf-8-sig') as f:
         w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
 save('salario_medio_enero_agosto_2021_2026.csv',principal)
+save('salario_mediano_enero_agosto_2021_2026.csv',medianas)
 save('salario_medio_anual_2021_2025.csv',anual)
 save('salario_medio_mensual_2021_2026.csv',monthly)
 save('auditoria_filtros.csv',audit)
