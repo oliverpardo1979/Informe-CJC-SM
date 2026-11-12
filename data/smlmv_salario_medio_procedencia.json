@@ -9,6 +9,10 @@
       "sha256": "3d39a7862993c26fa2d6edd0f2725f8d915a3dbb60dcf9705382ee9277b0d603"
     },
     {
+      "archivo": "data\\salario_medio_geih\\salario_mediano_enero_agosto_2021_2026.csv",
+      "sha256": "1413b6b5990501512890a1e2232e1ae6a1d32df6102abc1a4a82fc793a975d12"
+    },
+    {
       "archivo": "data\\ipc_enero_agosto_2021_2026.csv",
       "sha256": "894471878171a27a2224b9a96b5866506938d7fcaa1d9b176186f6220e88982b"
     }

@@ -10,6 +10,7 @@ import math
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'data/salario_medio_geih/salario_medio_comparable_2021_2026.csv'
 MONTHLY = SOURCE.with_name('salario_medio_mensual_2021_2026.csv')
+MEDIAN = SOURCE.with_name('salario_mediano_enero_agosto_2021_2026.csv')
 IPC = ROOT / 'data/ipc_enero_agosto_2021_2026.csv'
 MONTHS = ('enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto')
 
@@ -21,6 +22,11 @@ def fmt(value, decimals=2):
     return f'{value:,.{decimals}f}'.replace(',', '_').replace('.', ',').replace('_', '.')
 
 source, monthly = read(SOURCE), read(MONTHLY)
+median_rows = read(MEDIAN)
+assert [int(r['anio']) for r in median_rows] == list(range(2021, 2027))
+medians = {int(r['anio']): float(r['mediana_ponderada_p6500_pesos_nominales'])
+           for r in median_rows}
+assert all(math.isfinite(value) and value > 0 for value in medians.values())
 ipc_mean = {int(r['anio']): math.fsum(float(r[month]) for month in MONTHS) / len(MONTHS)
             for r in read(IPC)}
 assert [int(r['anio']) for r in source] == list(range(2021, 2027))
@@ -55,29 +61,32 @@ for r in source:
     price_factor = ipc_mean[2026] / ipc_mean[year]
     row.update(ipc_promedio_enero_agosto=ipc_mean[year],
                smlmv_real_pesos_2026=sm * price_factor,
-               salario_medio_real_pesos_2026=row['todos_media_pesos'] * price_factor)
+               salario_medio_real_pesos_2026=row['todos_media_pesos'] * price_factor,
+               salario_mediano_nominal_pesos=medians[year],
+               salario_mediano_real_pesos_2026=medians[year] * price_factor)
     output.append(row)
 with (ROOT/'data/smlmv_salario_medio_geih.csv').open('w', encoding='utf-8', newline='') as f:
     writer = csv.DictWriter(f, fieldnames=list(output[0]))
     writer.writeheader()
     writer.writerows(output)
 table = [r'\begin{table}[H]', r'\centering\small',
-         r'\caption{Salario mínimo real y salario medio real, enero--agosto de 2021--2026}',
-         r'\label{tab:minimo-media}', r'\begin{tabular}{lrrr}', r'\toprule',
-         r'Año & Salario mínimo real & Salario medio real & Mínimo como \% del salario medio\\',
-         r'& \multicolumn{2}{c}{(millones de pesos de 2026)} & \\',
+         r'\caption{Salario mínimo, medio y mediano en términos reales, 2021--2026}',
+         r'\label{tab:minimo-media}', r'\begin{tabular}{lrrrr}', r'\toprule',
+         r'Año & Salario mínimo & Salario medio & Salario mediano & Mínimo como \% del medio\\',
+         r'& \multicolumn{3}{c}{(millones de pesos de 2026)} & \\',
          r'\midrule']
 for r in output:
     table.append(f"{r['anio']} & {fmt(r['smlmv_real_pesos_2026']/1e6)} & "
                  f"{fmt(r['salario_medio_real_pesos_2026']/1e6)} & "
+                 f"{fmt(r['salario_mediano_real_pesos_2026']/1e6)} & "
                  f"{fmt(r['todos_smlmv_sobre_media_pct'], 1)}"+r' \\')
 table += [r'\bottomrule', r'\end{tabular}',
-          r'\fuente{Fuentes: normativa salarial \citep{decreto1785,salarioHistorico,decreto2613,decreto2024,decreto2025,decreto1469}, tabulados del CJC con GEIH \citep{geihTabulados} e IPC del DANE \citep{ipcEmpalme2026}. Los montos se expresan a precios promedio de enero a agosto de 2026. El salario medio corresponde a asalariados de 15 años o más con salario válido positivo, ponderado por FEX\_C18. Se incluyen todas las jornadas, asalariados formales e informales y salarios inferiores al mínimo. El porcentaje se calcula antes de redondear los montos.}',
+          r'\fuente{Fuentes: normativa salarial \citep{decreto1785,salarioHistorico,decreto2613,decreto2024,decreto2025,decreto1469}, tabulados del CJC con GEIH \citep{geihTabulados} e IPC del DANE \citep{ipcEmpalme2026}. Los montos se expresan a precios promedio de enero a agosto de 2026. La media y la mediana se calculan con FEX\_C18 para asalariados de 15 años o más con salario válido positivo, entrevistados entre enero y agosto de cada año. Se incluyen todas las jornadas, asalariados formales e informales y salarios inferiores al mínimo. El porcentaje se calcula antes de redondear los montos.}',
           r'\end{table}']
 (ROOT/'Paper/sections/CuadroSalariosMedios.tex').write_text('\n'.join(table)+'\n', encoding='utf-8')
 provenance = {'fuentes': [{'archivo': str(x.relative_to(ROOT)),
                           'sha256': hashlib.sha256(x.read_bytes()).hexdigest()}
-                         for x in [SOURCE, MONTHLY, IPC]],
+                         for x in [SOURCE, MONTHLY, MEDIAN, IPC]],
               'formula': 'sum(P6500 * FEX_C18) / sum(FEX_C18)',
               'formula_aumento_nominal_pct': '(media_anio / media_anio_anterior - 1) * 100',
               'base_variacion': 'Mismos filtros y enero-agosto de entrevistas en ambos años. Medias sin redondear.',
