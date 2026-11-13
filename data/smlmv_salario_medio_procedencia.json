@@ -27,7 +27,8 @@
     "sha256_xlsx": "56f8e5e6e9d235d411e487b2284beba1be8eaeee69b7b9516bfa8ea8443c0676"
   },
   "formula_salario_real": "salario_nominal * IPC_promedio_enero_agosto_2026 / IPC_promedio_enero_agosto_anio",
-  "presentacion_montos": "Millones de pesos a precios promedio de enero a agosto de 2026, con dos decimales. Razón mínimo/media en porcentaje con un decimal.",
+  "formula_smlmv_sobre_mediana_pct": "100 * smlmv_pesos / salario_mediano_nominal_pesos",
+  "presentacion_montos": "Millones de pesos a precios promedio de enero a agosto de 2026, con dos decimales. Razones mínimo/media y mínimo/mediana en porcentaje con un decimal.",
   "ventana": "enero-agosto de entrevistas en todos los años",
   "verificacion": "Medias, numeradores, denominadores y muestras reconciliados con meses.",
   "reestimacion_microdatos_por_integrador": false,
